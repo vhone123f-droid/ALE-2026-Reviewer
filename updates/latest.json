@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "appMinVersion": "2.0.0",
+  "bankVersion": "2.0.0",
+  "bankUrl": "../question-bank-v2.0.0.json",
+  "released": "2026-09-28",
+  "questionCount": 300,
+  "releaseNotes": [
+    "300-question launch bank",
+    "50 questions per subject",
+    "Added calculations and scenario/application items",
+    "Option-by-option explanations"
+  ],
+  "verifiedAgainst": [
+    "PRC Board of Agriculture Resolution No. 04 (s. 2024) Enhanced Tables of Specifications",
+    "PRC 2026 Schedule of Licensure Examinations"
+  ]
+}
