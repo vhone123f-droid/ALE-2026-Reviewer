@@ -10,14 +10,29 @@
 .stat{font-size:29px;font-weight:900}.muted,.meta{font-size:13px;color:var(--muted)}.pill{display:inline-flex;align-items:center;padding:5px 9px;margin:3px 4px 3px 0;border-radius:999px;border:1px solid var(--line);background:var(--bg);font-size:12px}.section{display:flex;align-items:center;justify-content:space-between;margin:18px 0 9px}.section h2{font-size:17px;margin:0}.subject{cursor:pointer}.subject h3{font-size:16px;margin:0 0 4px}.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:9px}.progress i{display:block;height:100%;background:var(--brand2);width:0}select,input[type=text]{width:100%;padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text)}label{display:block;margin:2px 0 5px;color:var(--muted);font-size:12px}
 .hidden{display:none!important}#quizView{padding-bottom:90px}.qtop{display:flex;gap:8px;justify-content:space-between;align-items:center;margin-bottom:10px}.question{font-size:19px;line-height:1.35;font-weight:800;margin:10px 0 16px}.option{width:100%;display:flex;gap:10px;text-align:left;margin:8px 0;padding:13px;border:1px solid var(--line);border-radius:13px;background:var(--card);color:var(--text)}.option .letter{min-width:23px;font-weight:900}.option.selected{outline:2px solid var(--brand2)}.option.correct{border-color:var(--good);background:color-mix(in srgb,var(--good) 10%,var(--card))}.option.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 10%,var(--card))}.explain{border-top:1px solid var(--line);margin-top:15px;padding-top:12px}.why{padding:9px 0;border-bottom:1px dashed var(--line)}.why:last-child{border:0}.good{color:var(--good);font-weight:800}.bad{color:var(--bad);font-weight:800}
 .sticky{position:fixed;left:0;right:0;bottom:0;z-index:9;padding:10px;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line)}.sticky>div{display:flex;gap:8px;max-width:900px;margin:auto}.sticky .btn{flex:1}.result{font-size:48px;font-weight:950;margin:0}.barrow{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px dashed var(--line)}.notice{padding:10px;border-radius:12px;background:color-mix(in srgb,var(--amber) 10%,var(--card));border:1px solid color-mix(in srgb,var(--amber) 35%,var(--line));font-size:12px}.status-dot{display:inline-block;width:9px;height:9px;border-radius:99px;background:var(--muted);margin-right:6px}.status-dot.ok{background:var(--brand2)}.status-dot.bad{background:var(--bad)}details{margin-top:10px}summary{cursor:pointer;font-weight:750}.tabs{display:flex;gap:7px;overflow:auto}.tabs .btn{white-space:nowrap}hr{border:0;border-top:1px solid var(--line)}
+
+/* Visual Learner Mode */
+.visual-panel{margin-top:14px;padding:14px;border:1px solid color-mix(in srgb,var(--brand2) 38%,var(--line));border-radius:16px;background:color-mix(in srgb,var(--brand2) 5%,var(--card))}
+.visual-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
+.visual-head b{font-size:15px}.visual-tag{font-size:11px;padding:4px 8px;border-radius:999px;background:color-mix(in srgb,var(--brand2) 12%,var(--card));border:1px solid color-mix(in srgb,var(--brand2) 35%,var(--line))}
+.visual-flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:7px;align-items:stretch;margin:9px 0}
+.visual-node{min-width:0;padding:11px;border-radius:13px;border:1px solid var(--line);background:var(--card);text-align:center}
+.visual-node .vicon{font-size:23px;display:block;margin-bottom:4px}.visual-node small{display:block;color:var(--muted);font-weight:750;margin-bottom:3px}.visual-node strong{display:block;line-height:1.3}
+.visual-arrow{display:flex;align-items:center;justify-content:center;color:var(--brand2);font-size:22px;font-weight:900}
+.visual-formula{margin:10px 0;padding:11px;border-radius:13px;background:var(--bg);border:1px dashed color-mix(in srgb,var(--brand2) 55%,var(--line));font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.5}
+.visual-steps{display:grid;gap:7px;margin:10px 0}.visual-step{display:grid;grid-template-columns:30px 1fr;gap:8px;align-items:start}.visual-step span:first-child{width:28px;height:28px;border-radius:999px;display:grid;place-items:center;background:var(--brand);color:#fff;font-weight:900}[data-theme="dark"] .visual-step span:first-child{color:#06240f}
+.visual-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:10px}.visual-choice{padding:9px;border:1px solid var(--line);border-radius:12px;background:var(--card)}.visual-choice.correct-v{border-color:var(--good);background:color-mix(in srgb,var(--good) 8%,var(--card))}.visual-choice.wrong-v{border-color:color-mix(in srgb,var(--bad) 45%,var(--line));opacity:.88}.visual-choice .vc-title{font-weight:850;margin-bottom:3px}.visual-choice .vc-why{font-size:12px;color:var(--muted);line-height:1.35}
+.visual-memory{margin-top:10px;padding:10px;border-left:4px solid var(--brand2);background:var(--bg);border-radius:0 10px 10px 0}
+#visualBtn.active{background:color-mix(in srgb,var(--brand2) 13%,var(--card));border-color:color-mix(in srgb,var(--brand2) 55%,var(--line))}
+@media(max-width:650px){.visual-flow{grid-template-columns:1fr}.visual-arrow{transform:rotate(90deg);height:18px}.visual-choices{grid-template-columns:1fr}}
 </style></head><body>
-<header><div class="wrap top"><div><h1>🌾 ALE 2026 Reviewer V2</h1><div class="sub" id="headerBank">Bank v2.0.0 • 300 questions</div></div><div style="display:flex;gap:6px"><button class="btn small" onclick="showUpdates()">↻ Updates</button><button class="btn small" id="themeBtn">◐</button></div></div></header>
+<header><div class="wrap top"><div><h1>🌾 ALE 2026 Reviewer V2</h1><div class="sub" id="headerBank">Bank v2.0.0 • 300 questions</div></div><div style="display:flex;gap:6px"><button class="btn small" id="visualBtn" onclick="toggleVisualMode()">👁 Visual</button><button class="btn small" onclick="showUpdates()">↻ Updates</button><button class="btn small" id="themeBtn">◐</button></div></div></header>
 <main class="wrap">
 <section id="homeView">
-<div class="hero"><div class="card"><div class="muted">2026 Agriculturists Licensure Examination</div><div style="font-size:23px;font-weight:900;margin:5px 0">300-question high-yield reviewer</div><div class="muted">50 questions in each official subject, with explanations for the correct answer and every distractor. Built for active recall, calculations, scenarios, and TOS-aligned concepts.</div><div style="margin-top:10px"><span class="pill">300 questions</span><span class="pill">Weak-area mode</span><span class="pill">Bookmarks</span><span class="pill">Auto-update capable</span><span class="pill">Offline fallback</span></div></div><div class="card"><div class="muted">Exam starts</div><div class="stat" id="daysLeft">—</div><div class="muted">days until Dec 1, 2026</div><hr><div class="muted">Answered</div><div class="stat" id="answeredStat">0 / 300</div></div></div>
+<div class="hero"><div class="card"><div class="muted">2026 Agriculturists Licensure Examination</div><div style="font-size:23px;font-weight:900;margin:5px 0">300-question high-yield reviewer</div><div class="muted">50 questions in each official subject, with explanations for the correct answer and every distractor. Built for active recall, calculations, scenarios, and TOS-aligned concepts.</div><div style="margin-top:10px"><span class="pill">300 questions</span><span class="pill">👁 Visual learner mode</span><span class="pill">Weak-area mode</span><span class="pill">Bookmarks</span><span class="pill">Auto-update capable</span><span class="pill">Offline fallback</span></div></div><div class="card"><div class="muted">Exam starts</div><div class="stat" id="daysLeft">—</div><div class="muted">days until Dec 1, 2026</div><hr><div class="muted">Answered</div><div class="stat" id="answeredStat">0 / 300</div></div></div>
 <div class="card"><div class="section" style="margin-top:0"><h2>Start reviewing</h2><span class="pill" id="bankPill">v2.0.0</span></div><div class="grid"><div><label>Practice mode</label><select id="modeSelect"><option value="mixed">Mixed random</option><option value="unseen">Unseen questions</option><option value="mistakes">Wrong answers</option><option value="weak">Weak areas</option><option value="bookmarks">Bookmarks</option></select></div><div><label>Number of questions</label><select id="countSelect"><option>10</option><option>30</option><option selected>60</option><option>100</option><option>150</option><option>300</option></select></div></div><button class="btn primary" style="width:100%;margin-top:10px" onclick="startGeneral()">Start Session</button></div>
 <div class="section"><h2>Subjects</h2><div class="muted">50 each</div></div><div class="grid" id="subjectGrid"></div>
-<div class="section"><h2>Exam-focused strategy</h2></div><div class="card"><b>Use the rationales, not just the score.</b><p class="muted">For every wrong item, explain aloud why the correct choice is correct and why your choice fails. Re-run <b>Wrong answers</b> and <b>Weak areas</b> until you can solve them without recognizing the wording.</p><div class="notice">“High-yield” means aligned with official competencies and heavily testable concepts—not a claim that an exact item will appear. This app does not use leaked examination questions.</div></div>
+<div class="section"><h2>Exam-focused strategy</h2></div><div class="card"><b>Use the rationales, not just the score.</b><p class="muted">For every wrong item, explain aloud why the correct choice is correct and why your choice fails. Re-run <b>Wrong answers</b> and <b>Weak areas</b> until you can solve them without recognizing the wording.</p><p class="muted"><b>Visual learner mode:</b> after checking an answer, the app converts the rationale into a concept map or calculation flow and a color-coded option comparison. Tap <b>👁 Visual</b> in the header to keep these visual interpretations expanded automatically.</p><div class="notice">“High-yield” means aligned with official competencies and heavily testable concepts—not a claim that an exact item will appear. This app does not use leaked examination questions.</div></div>
 </section>
 <section id="quizView" class="hidden"><div class="qtop"><button class="btn small" onclick="exitQuiz()">← Home</button><div class="muted" id="qCounter"></div><button class="btn small" id="bookmarkBtn" onclick="toggleBookmark()">☆ Save</button></div><div class="progress"><i id="quizProgress"></i></div><div class="card" style="margin-top:12px"><div><span class="pill" id="subjectPill"></span><span class="pill" id="topicPill"></span><span class="pill" id="difficultyPill"></span></div><div class="question" id="questionText"></div><div id="optionsBox"></div><div id="explainBox" class="explain hidden"></div></div></section>
 <section id="resultView" class="hidden"><div class="card" style="text-align:center;margin-top:13px"><div class="muted">Session score</div><div class="result" id="resultPct"></div><div id="resultText"></div><div style="display:flex;gap:8px;margin-top:14px"><button class="btn" style="flex:1" onclick="goHome()">Home</button><button class="btn primary" style="flex:1" onclick="repeatSession()">Try Again</button></div></div><div class="section"><h2>Breakdown</h2></div><div class="card" id="breakdown"></div></section>
@@ -46,7 +61,85 @@ function startGeneral(){let mode=document.getElementById('modeSelect').value,n=+
 function startSession(){idx=0;sessionAnswers=[];selected=null;checked=false;hideAll();document.getElementById('quizView').classList.remove('hidden');document.getElementById('stickyActions').classList.remove('hidden');renderQuestion()}
 function renderQuestion(){const q=session[idx],id=qid(q);selected=null;checked=false;document.getElementById('qCounter').textContent=`${idx+1} / ${session.length}`;document.getElementById('quizProgress').style.width=(idx/session.length*100)+'%';document.getElementById('subjectPill').textContent=q.subject;document.getElementById('topicPill').textContent=q.topic||'Review';document.getElementById('difficultyPill').textContent=q.difficulty||q.priority||'High-yield';document.getElementById('questionText').textContent=q.question;let box=document.getElementById('optionsBox');box.innerHTML='';q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='option';b.innerHTML=`<span class="letter">${String.fromCharCode(65+i)}.</span><span>${o}</span>`;b.onclick=()=>selectOption(i,b);box.appendChild(b)});document.getElementById('explainBox').classList.add('hidden');document.getElementById('checkBtn').classList.remove('hidden');document.getElementById('nextBtn').classList.add('hidden');document.getElementById('bookmarkBtn').textContent=(progress.bookmarks||[]).includes(id)?'★ Saved':'☆ Save';window.scrollTo({top:0,behavior:'smooth'})}
 function selectOption(i,b){if(checked)return;selected=i;document.querySelectorAll('.option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')}
-function checkAnswer(){if(selected===null){alert('Choose an answer first.');return}checked=true;const q=session[idx],id=qid(q),ok=selected===q.answer;progress.answered[id]=ok;progress.wrong=progress.wrong||[];if(!ok){if(!progress.wrong.includes(id))progress.wrong.push(id)}else progress.wrong=progress.wrong.filter(x=>x!==id);sessionAnswers.push({id,correct:ok,subject:q.subject});document.querySelectorAll('.option').forEach((b,i)=>{if(i===q.answer)b.classList.add('correct');else if(i===selected)b.classList.add('wrong');b.disabled=true});let e=document.getElementById('explainBox');e.innerHTML=`<div class="${ok?'good':'bad'}">${ok?'✓ Correct':'✗ Incorrect'} — Answer: ${String.fromCharCode(65+q.answer)}. ${q.options[q.answer]}</div><p>${q.explanation}</p><b>Why each choice is right or wrong</b>`+q.optionExplanations.map((x,i)=>`<div class="why"><b>${String.fromCharCode(65+i)}.</b> ${x}</div>`).join('');e.classList.remove('hidden');document.getElementById('checkBtn').classList.add('hidden');document.getElementById('nextBtn').classList.remove('hidden');save()}
+
+let visualMode = localStorage.getItem('aleVisualMode') !== 'off';
+function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function subjectVisualIcon(subject){
+  return ({
+    'Crop Science':'🌱',
+    'Crop Protection':'🛡️',
+    'Soil Science':'🟫',
+    'Animal Science':'🐄',
+    'Agricultural Economics & Marketing':'📈',
+    'Agricultural Extension & Communication':'🗣️'
+  })[subject]||'🧠'
+}
+function shortText(s,n=150){s=String(s||'').trim();return s.length>n?s.slice(0,n-1).trim()+'…':s}
+function sentenceSteps(text){
+  return String(text||'').split(/(?<=[.!?])\s+/).map(x=>x.trim()).filter(Boolean).slice(0,4)
+}
+function updateVisualButton(){
+  const b=document.getElementById('visualBtn');
+  if(!b)return;
+  b.classList.toggle('active',visualMode);
+  b.textContent=visualMode?'👁 Visual ON':'👁 Visual';
+}
+function toggleVisualMode(){
+  visualMode=!visualMode;
+  localStorage.setItem('aleVisualMode',visualMode?'on':'off');
+  updateVisualButton();
+  const d=document.getElementById('visualDetails');
+  if(d)d.open=visualMode;
+}
+function visualInterpretation(q){
+  const correct=q.options[q.answer];
+  const isCalc=(q.difficulty||'').toLowerCase()==='calculation'||/[=×÷%]|\bcalculate\b|\bapproximately\b|\bper hectare\b/i.test(q.explanation||'');
+  const icon=subjectVisualIcon(q.subject);
+  const steps=sentenceSteps(q.explanation);
+  let core='';
+  if(isCalc){
+    const formulaish=steps.find(x=>/[=×÷]|\/|\bdivided\b|\bmultipl/i.test(x))||q.explanation;
+    core=`<div class="visual-flow">
+      <div class="visual-node"><span class="vicon">🔢</span><small>GIVEN</small><strong>${escapeHtml(shortText(q.question,125))}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">🧮</span><small>RULE / WORKING</small><strong>${escapeHtml(shortText(formulaish,125))}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">✅</span><small>RESULT</small><strong>${escapeHtml(correct)}</strong></div>
+    </div>
+    <div class="visual-formula">${escapeHtml(q.explanation)}</div>`;
+  }else if(['application','analysis'].includes(String(q.difficulty||'').toLowerCase())){
+    core=`<div class="visual-flow">
+      <div class="visual-node"><span class="vicon">🔎</span><small>KEY CLUE</small><strong>${escapeHtml(q.topic||'Situation')}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">🧠</span><small>PRINCIPLE</small><strong>${escapeHtml(shortText(q.explanation,145))}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">✅</span><small>BEST ANSWER</small><strong>${escapeHtml(correct)}</strong></div>
+    </div>`;
+  }else{
+    core=`<div class="visual-flow">
+      <div class="visual-node"><span class="vicon">${icon}</span><small>TOPIC</small><strong>${escapeHtml(q.topic||q.subject)}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">💡</span><small>CORE IDEA</small><strong>${escapeHtml(shortText(q.explanation,145))}</strong></div>
+      <div class="visual-arrow">→</div>
+      <div class="visual-node"><span class="vicon">✅</span><small>REMEMBER</small><strong>${escapeHtml(correct)}</strong></div>
+    </div>`;
+  }
+  const stepHtml=steps.length>1?`<div class="visual-steps">${steps.map((x,i)=>`<div class="visual-step"><span>${i+1}</span><div>${escapeHtml(x)}</div></div>`).join('')}</div>`:'';
+  const choices=q.options.map((o,i)=>`<div class="visual-choice ${i===q.answer?'correct-v':'wrong-v'}"><div class="vc-title">${i===q.answer?'✅':'✕'} ${String.fromCharCode(65+i)}. ${escapeHtml(o)}</div><div class="vc-why">${escapeHtml(q.optionExplanations[i]||'')}</div></div>`).join('');
+  return `<details id="visualDetails" ${visualMode?'open':''}>
+    <summary>👁 Visual interpretation</summary>
+    <div class="visual-panel">
+      <div class="visual-head"><b>${icon} See the pattern</b><span class="visual-tag">${isCalc?'Calculation map':escapeHtml(q.difficulty||'Concept map')}</span></div>
+      ${core}
+      ${stepHtml}
+      <div style="font-weight:850;margin-top:11px">Color-coded choice map</div>
+      <div class="visual-choices">${choices}</div>
+      <div class="visual-memory"><b>🧷 Memory anchor:</b> ${escapeHtml(q.topic||q.subject)} → <b>${escapeHtml(correct)}</b></div>
+    </div>
+  </details>`;
+}
+
+function checkAnswer(){if(selected===null){alert('Choose an answer first.');return}checked=true;const q=session[idx],id=qid(q),ok=selected===q.answer;progress.answered[id]=ok;progress.wrong=progress.wrong||[];if(!ok){if(!progress.wrong.includes(id))progress.wrong.push(id)}else progress.wrong=progress.wrong.filter(x=>x!==id);sessionAnswers.push({id,correct:ok,subject:q.subject});document.querySelectorAll('.option').forEach((b,i)=>{if(i===q.answer)b.classList.add('correct');else if(i===selected)b.classList.add('wrong');b.disabled=true});let e=document.getElementById('explainBox');e.innerHTML=`<div class="${ok?'good':'bad'}">${ok?'✓ Correct':'✗ Incorrect'} — Answer: ${String.fromCharCode(65+q.answer)}. ${q.options[q.answer]}</div><p>${q.explanation}</p><b>Why each choice is right or wrong</b>`+q.optionExplanations.map((x,i)=>`<div class="why"><b>${String.fromCharCode(65+i)}.</b> ${x}</div>`).join('')+visualInterpretation(q);e.classList.remove('hidden');document.getElementById('checkBtn').classList.add('hidden');document.getElementById('nextBtn').classList.remove('hidden');save()}
 function nextQuestion(){if(idx<session.length-1){idx++;renderQuestion()}else finish()}
 function finish(){hideAll();document.getElementById('resultView').classList.remove('hidden');let c=sessionAnswers.filter(x=>x.correct).length,p=Math.round(c/sessionAnswers.length*100);document.getElementById('resultPct').textContent=p+'%';document.getElementById('resultText').textContent=`${c} correct out of ${sessionAnswers.length}`;document.getElementById('breakdown').innerHTML=SUBJECTS.map(s=>{let a=sessionAnswers.filter(x=>x.subject===s);if(!a.length)return'';let cc=a.filter(x=>x.correct).length;return`<div class="barrow"><b>${s}</b><span>${cc}/${a.length} (${Math.round(cc/a.length*100)}%)</span></div>`}).join('');window.scrollTo(0,0)}
 function toggleBookmark(){const id=qid(session[idx]);progress.bookmarks=progress.bookmarks||[];progress.bookmarks=progress.bookmarks.includes(id)?progress.bookmarks.filter(x=>x!==id):[...progress.bookmarks,id];document.getElementById('bookmarkBtn').textContent=progress.bookmarks.includes(id)?'★ Saved':'☆ Save';save()}
@@ -60,6 +153,6 @@ async function checkForUpdates(silent=true){let feed=localStorage.getItem(FEED_K
 async function importPack(ev){const file=ev.target.files?.[0];if(!file)return;try{const b=JSON.parse(await file.text());if(!validateBank(b))throw new Error('This is not a valid ALE V2 question bank');if(!newer(b.bankVersion,activeBankVersion)&&b.bankVersion!==activeBankVersion){if(!confirm(`This pack is v${b.bankVersion}, while your active bank is v${activeBankVersion}. Install anyway?`))return}localStorage.setItem(BANK_KEY,JSON.stringify(b));QUESTIONS=b.questions;activeBankVersion=b.bankVersion;setUpdateStatus(`Imported bank v${activeBankVersion} with ${QUESTIONS.length} questions.`,'ok');document.getElementById('updateVersion').textContent='v'+activeBankVersion;updateHome()}catch(e){setUpdateStatus('Import failed: '+e.message,'bad')}finally{ev.target.value=''}}
 function exportProgress(){const blob=new Blob([JSON.stringify({exported:new Date().toISOString(),appVersion:APP_VERSION,bankVersion:activeBankVersion,progress},null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='ALE_2026_progress.json';a.click();URL.revokeObjectURL(a.href)}
 function resetProgress(){if(confirm('Reset all answers, wrong-answer history, and bookmarks on this device?')){progress={answered:{},bookmarks:[],wrong:[],subjectStats:{}};save();setUpdateStatus('Progress reset. Question bank was not removed.','ok')}}
-document.getElementById('themeBtn').onclick=()=>{let d=document.documentElement.dataset.theme==='dark';document.documentElement.dataset.theme=d?'':'dark';localStorage.setItem('aleTheme',d?'light':'dark')};if(localStorage.getItem('aleTheme')==='dark')document.documentElement.dataset.theme='dark';
+document.getElementById('themeBtn').onclick=()=>{let d=document.documentElement.dataset.theme==='dark';document.documentElement.dataset.theme=d?'':'dark';localStorage.setItem('aleTheme',d?'light':'dark')};if(localStorage.getItem('aleTheme')==='dark')document.documentElement.dataset.theme='dark';updateVisualButton();
 loadStoredBank();updateHome();if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./sw.js').catch(()=>{});if(location.protocol.startsWith('http'))setTimeout(()=>checkForUpdates(true),900);
 </script></body></html>
