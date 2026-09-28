@@ -25,6 +25,13 @@
 .visual-memory{margin-top:10px;padding:10px;border-left:4px solid var(--brand2);background:var(--bg);border-radius:0 10px 10px 0}
 #visualBtn.active{background:color-mix(in srgb,var(--brand2) 13%,var(--card));border-color:color-mix(in srgb,var(--brand2) 55%,var(--line))}
 @media(max-width:650px){.visual-flow{grid-template-columns:1fr}.visual-arrow{transform:rotate(90deg);height:18px}.visual-choices{grid-template-columns:1fr}}
+
+/* Post-answer visual explanation images */
+.explain-visual{margin:14px 0;padding:12px;border:1px solid color-mix(in srgb,var(--brand2) 35%,var(--line));border-radius:15px;background:color-mix(in srgb,var(--brand2) 4%,var(--card))}
+.explain-visual-title{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:9px;font-weight:850}
+.explain-visual img{display:block;width:100%;max-height:520px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:12px}
+.explain-visual-cap{font-size:12px;color:var(--muted);margin-top:7px;line-height:1.4}
+.explain-visual-tip{margin-top:8px;padding:9px 10px;border-left:4px solid var(--brand2);background:var(--bg);border-radius:0 10px 10px 0;font-size:13px}
 </style></head><body>
 <header><div class="wrap top"><div><h1>🌾 ALE 2026 Reviewer V2</h1><div class="sub" id="headerBank">Bank v2.0.0 • 300 questions</div></div><div style="display:flex;gap:6px"><button class="btn small" id="visualBtn" onclick="toggleVisualMode()">👁 Visual</button><button class="btn small" onclick="showUpdates()">↻ Updates</button><button class="btn small" id="themeBtn">◐</button></div></div></header>
 <main class="wrap">
@@ -91,6 +98,158 @@ function toggleVisualMode(){
   const d=document.getElementById('visualDetails');
   if(d)d.open=visualMode;
 }
+
+function explanationVisual(q){
+  const text=((q.subject||'')+' '+(q.topic||'')+' '+(q.question||'')+' '+(q.explanation||'')).toLowerCase();
+  let v=null;
+
+  // Crop Science
+  if(q.subject==='Crop Science'){
+    if(/c3|c4|photosynth|calvin|kranz/.test(text)) v={
+      file:'assets/explain_crop_photosynthesis.svg',
+      title:'Photosynthesis pathway visual',
+      cap:'Use this diagram to distinguish C3 and C4 carbon fixation and remember why C4 plants reduce photorespiration.',
+      tip:'Memory cue: C3 = first stable product has 3 carbons; C4 = first stable product has 4 carbons and CO₂ is concentrated before the Calvin cycle.'
+    };
+    else if(/germinat|imbibition|radicle|plumule|seed/.test(text)) v={
+      file:'assets/explain_crop_germination.svg',
+      title:'Seed germination sequence',
+      cap:'The picture shows the usual sequence from water uptake to radicle emergence and seedling establishment.',
+      tip:'Memory cue: imbibition first; radicle usually emerges before the plumule.'
+    };
+    else if(/leaf|node|internode|stem|root|flower|plant part|morpholog/.test(text)) v={
+      file:'assets/explain_crop_plant_parts.svg',
+      title:'Plant morphology visual',
+      cap:'Relate the named structure to its actual position on the plant.',
+      tip:'For identification, first locate whether the structure belongs to the root system, stem axis, leaf, or reproductive part.'
+    };
+  }
+
+  // Crop Protection
+  if(q.subject==='Crop Protection'){
+    if(/coxa|trochanter|femur|tibia|tars|insect leg/.test(text)) v={
+      file:'assets/explain_cp_insect_leg.svg',
+      title:'Insect leg anatomy',
+      cap:'A generalized insect leg showing the sequence of major segments from the thorax outward.',
+      tip:'Memory cue: Coxa → Trochanter → Femur → Tibia → Tarsus → Pretarsus.'
+    };
+    else if(/metamorph|larva|pupa|nymph|egg.*adult/.test(text)) v={
+      file:'assets/explain_cp_metamorphosis.svg',
+      title:'Insect metamorphosis visual',
+      cap:'Compare complete metamorphosis with incomplete metamorphosis.',
+      tip:'Complete: egg → larva → pupa → adult. Incomplete: egg → nymph → adult.'
+    };
+    else if(/disease triangle|susceptible host|pathogen|conducive environment/.test(text)) v={
+      file:'assets/explain_cp_disease_triangle.svg',
+      title:'Plant disease triangle',
+      cap:'Disease development depends on the interaction of host, pathogen, and environment.',
+      tip:'Remove or weaken any one side of the triangle and disease development can be reduced.'
+    };
+    else if(/aphid|beetle|grasshopper|caterpillar|mealybug|insect/.test(text)) v={
+      file:'assets/explain_cp_insect_forms.svg',
+      title:'Common insect body forms',
+      cap:'Simple silhouettes help connect insect names with characteristic body shapes.',
+      tip:'Start identification with body shape, wing form, mouthpart clues, and type of metamorphosis.'
+    };
+  }
+
+  // Soil Science
+  if(q.subject==='Soil Science'){
+    if(/granular|blocky|platy|prismatic|columnar|single-grain|massive|soil structure/.test(text)) v={
+      file:'assets/explain_soil_structure.svg',
+      title:'Soil structure comparison',
+      cap:'Compare the shapes of common soil peds and structureless conditions.',
+      tip:'Granular = crumbs; platy = horizontal plates; blocky = blocks; prismatic/columnar = vertical units.'
+    };
+    else if(/sand|silt|clay|texture/.test(text)) v={
+      file:'assets/explain_soil_texture.svg',
+      title:'Soil texture visual',
+      cap:'A simplified texture guide showing how sand, silt, and clay differ in feel and proportion.',
+      tip:'Sand feels coarse; silt feels smooth; clay is sticky and plastic when wet.'
+    };
+    else if(/soil profile|horizon|a horizon|b horizon|c horizon|topsoil/.test(text)) v={
+      file:'assets/explain_soil_profile.svg',
+      title:'Soil profile horizons',
+      cap:'Use the vertical profile to connect horizon names with their relative position.',
+      tip:'Typical sequence from surface downward: O/A → E (if present) → B → C → R.'
+    };
+  }
+
+  // Animal Science
+  if(q.subject==='Animal Science'){
+    if(/hog|swine|pig|jowl|ham|loin|rump|shoulder/.test(text)) v={
+      file:'assets/explain_animal_hog_parts.svg',
+      title:'Hog external parts',
+      cap:'A labeled side view of common hog body regions used in identification and judging.',
+      tip:'Group the body mentally into head, forequarter, topline/middle, underline, and hindquarter.'
+    };
+    else if(/rumen|reticulum|omasum|abomasum|ruminant/.test(text)) v={
+      file:'assets/explain_animal_ruminant.svg',
+      title:'Ruminant digestive system',
+      cap:'See the four stomach compartments and their sequence within the digestive tract.',
+      tip:'Memory cue: Rumen → Reticulum → Omasum → Abomasum.'
+    };
+    else if(/reproduct|ovulation|corpus luteum|progesterone|lh|estrus/.test(text)) v={
+      file:'assets/explain_animal_reproduction.svg',
+      title:'Basic reproductive hormone flow',
+      cap:'A simplified visual linking major reproductive structures and hormones.',
+      tip:'GnRH stimulates LH/FSH; LH supports ovulation and corpus luteum function; the corpus luteum secretes progesterone.'
+    };
+  }
+
+  // Agricultural Economics & Marketing
+  if(q.subject==='Agricultural Economics & Marketing'){
+    if(/supply|demand|equilibrium|price floor|price ceiling/.test(text)) v={
+      file:'assets/explain_econ_supply_demand.svg',
+      title:'Supply and demand graph',
+      cap:'The intersection of supply and demand identifies equilibrium price and quantity.',
+      tip:'Demand slopes downward; supply slopes upward. A change in own price moves along a curve; other determinants shift the curve.'
+    };
+    else if(/break-even|fixed cost|variable cost|contribution margin/.test(text)) v={
+      file:'assets/explain_econ_breakeven.svg',
+      title:'Break-even visual',
+      cap:'Break-even occurs where total revenue equals total cost.',
+      tip:'Below break-even quantity = loss; above break-even quantity = profit, assuming the same price and cost relationships.'
+    };
+    else if(/marketing channel|producer|wholesaler|retailer|consumer|marketing margin/.test(text)) v={
+      file:'assets/explain_econ_marketing_flow.svg',
+      title:'Agricultural marketing flow',
+      cap:'Visualize how products and value move from producers through intermediaries to consumers.',
+      tip:'Marketing margins reflect the price spread between stages and include marketing costs and returns.'
+    };
+  }
+
+  // Extension & Communication
+  if(q.subject==='Agricultural Extension & Communication'){
+    if(/sender|receiver|message|channel|feedback|noise|communication process/.test(text)) v={
+      file:'assets/explain_extension_communication.svg',
+      title:'Communication process',
+      cap:'A simple sender-message-channel-receiver model with feedback and noise.',
+      tip:'Feedback closes the loop; noise can interfere anywhere in the process.'
+    };
+    else if(/innovator|early adopter|early majority|late majority|laggard|adopter categor/.test(text)) v={
+      file:'assets/explain_extension_adopters.svg',
+      title:'Adopter categories',
+      cap:'The bell-shaped distribution shows the usual sequence of adopter groups.',
+      tip:'Order: Innovators → Early adopters → Early majority → Late majority → Laggards.'
+    };
+    else if(/program planning|needs assessment|objective|monitoring|evaluation|logic model/.test(text)) v={
+      file:'assets/explain_extension_program_cycle.svg',
+      title:'Extension program cycle',
+      cap:'A visual sequence connecting needs assessment, planning, implementation, monitoring, and evaluation.',
+      tip:'Start with situation/needs analysis; use monitoring during implementation; use evaluation to judge results and improve the next cycle.'
+    };
+  }
+
+  if(!v) return '';
+  return `<div class="explain-visual">
+    <div class="explain-visual-title"><span>🖼 Visual explanation</span><span class="visual-tag">${escapeHtml(q.subject)}</span></div>
+    <img src="${v.file}" alt="${escapeHtml(v.title)}">
+    <div class="explain-visual-cap"><b>${escapeHtml(v.title)}.</b> ${escapeHtml(v.cap)}</div>
+    <div class="explain-visual-tip"><b>Visual memory cue:</b> ${escapeHtml(v.tip)}</div>
+  </div>`;
+}
+
 function visualInterpretation(q){
   const correct=q.options[q.answer];
   const isCalc=(q.difficulty||'').toLowerCase()==='calculation'||/[=×÷%]|\bcalculate\b|\bapproximately\b|\bper hectare\b/i.test(q.explanation||'');
@@ -132,6 +291,7 @@ function visualInterpretation(q){
       <div class="visual-head"><b>${icon} See the pattern</b><span class="visual-tag">${isCalc?'Calculation map':escapeHtml(q.difficulty||'Concept map')}</span></div>
       ${core}
       ${stepHtml}
+      ${explanationVisual(q)}
       <div style="font-weight:850;margin-top:11px">Color-coded choice map</div>
       <div class="visual-choices">${choices}</div>
       <div class="visual-memory"><b>🧷 Memory anchor:</b> ${escapeHtml(q.topic||q.subject)} → <b>${escapeHtml(correct)}</b></div>
