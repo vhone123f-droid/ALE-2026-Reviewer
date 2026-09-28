@@ -1,0 +1,40 @@
+ALE 2026 OFFICIAL-TOS FALLBACK SUMMARY
+
+Source of authority:
+Professional Regulatory Board of Agriculture Resolution No. 04, Series of 2024,
+"Adoption and Issuance of the Enhanced Tables of Specification for the Subjects
+in the Licensure Examination for Agriculturists." It applies beginning with the
+November 2024 Agriculturists Licensure Examination and onward.
+
+The six examination subjects are weighted approximately equally:
+1. Crop Science — 16.7%
+2. Soil Science — 16.7%
+3. Crop Protection — 16.7%
+4. Animal Science — 16.67%
+5. Agricultural Economics and Marketing — 16.7%
+6. Agricultural Extension and Communication — 16.7%
+
+The enhanced TOS uses Revised Bloom's Taxonomy and includes substantial
+Applying and Analyzing items, so the reviewer should emphasize scenarios,
+calculations, diagnosis, interpretation, and decisions, not only recall.
+
+Examples explicitly visible in the official TOS include:
+- Crop Protection: plant pathogens, disease cycle and epidemiology, arthropod
+  and vertebrate pests, natural enemies, pest management, biotechnology,
+  GM/Bt technology and resistance management, SMART agriculture, artificial
+  intelligence in crop protection, and urban-farming pest management.
+- Soil Science: soil genesis and development, mineral vs organic soils,
+  soil profile, and management/interpretation of soil properties.
+- Animal Science: animals and their environment and economic utility plus
+  production, nutrition, breeding/reproduction, health, management and related
+  animal-agriculture competencies.
+- Agricultural Economics and Marketing: production functions, costs,
+  diminishing returns, demand, supply, elasticity, price/output determination,
+  consumer behavior, farm/business analysis and agricultural marketing.
+- Agricultural Extension and Communication: Philippine extension context,
+  extension approaches and methods, roles of extension workers, technology
+  attributes, communication processes/models/strategies, diffusion/adoption,
+  program planning and M&E, and adult learning/andragogy.
+
+This fallback is only used if an official URL cannot be downloaded during a
+scheduled workflow. The automation should prefer the live official documents.

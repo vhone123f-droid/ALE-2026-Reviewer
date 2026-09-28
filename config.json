@@ -1,0 +1,40 @@
+{
+  "examName": "2026 Agriculturists Licensure Examination",
+  "examDate": "2026-12-01",
+  "stopAutomaticUpdatesAfter": "2026-11-30",
+  "questionsPerSubject": 2,
+  "maxQuestions": 600,
+  "candidateMultiplier": 2,
+  "subjects": [
+    "Crop Science",
+    "Crop Protection",
+    "Soil Science",
+    "Animal Science",
+    "Agricultural Economics & Marketing",
+    "Agricultural Extension & Communication"
+  ],
+  "officialSources": [
+    {
+      "name": "PRC Board of Agriculture Resolution No. 04 (s. 2024) — Enhanced Tables of Specifications",
+      "url": "https://www.prc.gov.ph/sites/default/files/2024-04%20published%20with%20annexes_Agriculture_0.pdf",
+      "required": true
+    },
+    {
+      "name": "PRC 2026 Schedule of Licensure Examinations",
+      "url": "https://www.prc.gov.ph/2026-schedule-examination",
+      "required": false
+    }
+  ],
+  "qualityRules": [
+    "Questions must be original practice questions, never claimed to be leaked or actual PRC questions.",
+    "Stay within the official PRC Agriculturists Licensure Examination TOS.",
+    "Prefer application, analysis, computation, diagnosis, and scenario questions over trivia.",
+    "Exactly four plausible options; only one best answer.",
+    "Give a concise main explanation and a separate explanation for each option.",
+    "Do not use 'all of the above' or 'none of the above'.",
+    "Avoid obscure numerical facts unless they are directly supported by official source material.",
+    "Philippine laws, programs, dates, rates, or current policies must be source-supported.",
+    "Do not duplicate or lightly paraphrase an existing question.",
+    "If a fact is uncertain or contested, do not create a question from it."
+  ]
+}

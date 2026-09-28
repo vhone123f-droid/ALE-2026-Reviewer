@@ -1,0 +1,161 @@
+name: ALE reviewer auto-update and Pages deploy
+
+on:
+  push:
+    branches: ["main"]
+
+  schedule:
+    # Every Sunday at 9:17 AM Philippine time.
+    # Minute 17 avoids GitHub's busiest top-of-hour scheduling window.
+    - cron: "17 9 * * 0"
+      timezone: "Asia/Manila"
+
+  workflow_dispatch:
+    inputs:
+      questions_per_subject:
+        description: "New questions per subject for this run"
+        required: false
+        default: "2"
+        type: choice
+        options:
+          - "1"
+          - "2"
+          - "3"
+          - "5"
+      force_after_exam:
+        description: "Allow generation after the configured stop date"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "ale-pages-and-question-update"
+  cancel-in-progress: false
+
+jobs:
+  # Scheduled/manual run: generate -> commit -> deploy the same fresh workspace.
+  update_and_deploy:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: automation/requirements.txt
+
+      - name: Install updater dependencies
+        run: python -m pip install -r automation/requirements.txt
+
+      - name: Check OpenAI API secret
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::OPENAI_API_KEY repository secret is missing."
+            echo "Add it in Settings > Secrets and variables > Actions > New repository secret."
+            exit 1
+          fi
+
+      - name: Generate and validate new question-bank version
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          QUESTIONS_PER_SUBJECT: ${{ github.event.inputs.questions_per_subject }}
+        run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.force_after_exam }}" = "true" ]; then
+            EXTRA="--force-after-exam"
+          fi
+          python automation/generate_update.py $EXTRA
+
+      - name: Commit bank update if one was created
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add question-bank-v*.json updates/latest.json automation/source-state.json
+          if [ -f updates/history.json ]; then git add updates/history.json; fi
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No bank change to commit."
+          else
+            VERSION=$(python -c "import json; print(json.load(open('updates/latest.json'))['bankVersion'])")
+            COUNT=$(python -c "import json; print(json.load(open('updates/latest.json'))['questionCount'])")
+            git commit -m "Auto-update ALE question bank to v${VERSION} (${COUNT} questions)"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build static Pages directory
+        run: |
+          rm -rf _site
+          mkdir -p _site/updates
+          cp index.html manifest.json sw.js icon-192.png icon-512.png _site/
+          cp question-bank-v*.json _site/
+          cp updates/latest.json _site/updates/
+          if [ -f updates/history.json ]; then cp updates/history.json _site/updates/; fi
+          if [ -f updates/IMPORT_THIS_IF_NEEDED.json ]; then cp updates/IMPORT_THIS_IF_NEEDED.json _site/updates/; fi
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Normal human push: deploy only. Do NOT generate questions on every edit.
+  deploy_on_push:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Build static Pages directory
+        run: |
+          rm -rf _site
+          mkdir -p _site/updates
+          cp index.html manifest.json sw.js icon-192.png icon-512.png _site/
+          cp question-bank-v*.json _site/
+          cp updates/latest.json _site/updates/
+          if [ -f updates/history.json ]; then cp updates/history.json _site/updates/; fi
+          if [ -f updates/IMPORT_THIS_IF_NEEDED.json ]; then cp updates/IMPORT_THIS_IF_NEEDED.json _site/updates/; fi
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
