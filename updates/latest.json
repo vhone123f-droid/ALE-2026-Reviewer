@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "appMinVersion": "2.0.0",
-  "bankVersion": "2.0.0",
-  "bankUrl": "../question-bank-v2.0.0.json",
-  "released": "2026-09-28",
-  "questionCount": 300,
+  "bankVersion": "2.1.1",
+  "bankUrl": "../question-bank-v2.1.1.json",
+  "released": "2026-09-29",
+  "questionCount": 360,
   "releaseNotes": [
-    "300-question launch bank",
-    "50 questions per subject",
-    "Added calculations and scenario/application items",
-    "Option-by-option explanations"
+    "Added post-answer visualSpec metadata to all 360 questions",
+    "One permanent visual renderer now handles diagrams, calculations, comparisons, definitions, and concept maps",
+    "Fixed duplicate progress-ID collisions by using subject-qualified question IDs",
+    "Future weekly question banks can add visuals without replacing index.html"
   ],
   "verifiedAgainst": [
-    "PRC Board of Agriculture Resolution No. 04 (s. 2024) Enhanced Tables of Specifications",
-    "PRC 2026 Schedule of Licensure Examinations"
+    "Existing ALE 2026 reviewer question bank",
+    "PRC TOS-aligned reviewer structure used in previous versions"
   ]
 }
