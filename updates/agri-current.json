@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-06",
+  "title": "Current Agriculture Trends & Government Programs",
+  "disclaimer": "These notes are prioritized because they connect directly to the PRC Agriculturists Licensure Examination TOS (for example: current Philippine agriculture, current government programs, agricultural development policies/programs, local extension policies, current IPM trends, SMART agriculture, and AI). They are high-yield study notes, not leaked or guaranteed exam questions.",
+  "updateCadence": "Weekly",
+  "items": [
+    {
+      "id": "tos-current-programs",
+      "kind": "Exam Scope",
+      "title": "Why current agriculture programs and innovations matter for ALE 2026",
+      "date": "2026-10-06",
+      "subjects": [
+        "Crop Science",
+        "Crop Protection",
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "The enhanced PRC TOS explicitly includes current Philippine agriculture, current government programs for food security and sustainability, present agricultural innovations, government policies/programs affecting farmer income, agricultural development policies/programs, local extension policies, current IPM trends, SMART agriculture, and AI in crop protection.",
+      "keyFacts": [
+        "Crop Science includes current Philippine agriculture, current government programs, and present agricultural innovations.",
+        "Crop Protection includes current/emerging IPM trends, SMART agriculture, and AI.",
+        "Agricultural Economics & Marketing includes government policies/programs aimed at farmer income and agricultural development.",
+        "Extension includes local policies and legal mandates related to agricultural extension."
+      ],
+      "examAngle": "Expect application or comparison questions: identify the purpose of a program, connect a policy to a farm/economic problem, or select the innovation that best addresses a production or sustainability challenge.",
+      "sourceLabel": "PRC Board of Agriculture Resolution No. 04 (s. 2024), Enhanced TOS",
+      "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2024-04%20published%20with%20annexes_Agriculture_0.pdf"
+    },
+    {
+      "id": "psat-tasat-2026",
+      "kind": "Government Program",
+      "title": "PSAT and TASAT: results-based agriculture transformation",
+      "date": "2026-05-15",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication",
+        "Crop Science"
+      ],
+      "summary": "The Philippine Sustainable Agriculture Transformation (PSAT) Program was launched in 2026 with World Bank financing, complemented by the Technical Assistance for Sustainable Agriculture Transformation (TASAT). The thrust is modernization, productivity, food security, value-chain strengthening, climate resilience, and results-based implementation.",
+      "keyFacts": [
+        "PSAT uses a Program-for-Results approach, linking financing to measurable outcomes.",
+        "The program emphasizes productivity, food supply, value chains, rural incomes, and climate resilience.",
+        "TASAT complements financing with technical assistance and capacity building."
+      ],
+      "examAngle": "Link the program to modernization, value-chain development, measurable outcomes, climate resilience, and institutional capacity building.",
+      "sourceLabel": "Department of Agriculture, 15 May 2026",
+      "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/"
+    },
+    {
+      "id": "rcef-2031",
+      "kind": "Government Program",
+      "title": "RCEF extended to 2031 with expanded rice modernization support",
+      "date": "2024-12-09",
+      "subjects": [
+        "Crop Science",
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "Republic Act No. 12078 extended the Rice Competitiveness Enhancement Fund (RCEF) through 2031 and increased annual funding. RCEF continues to support rice competitiveness through seed, mechanization, credit, training/extension and related productivity interventions.",
+      "keyFacts": [
+        "RCEF was extended through 2031.",
+        "Annual allocation was increased to ₱30 billion.",
+        "Core support areas include quality seeds, mechanization, training/extension and other rice-industry modernization measures."
+      ],
+      "examAngle": "Know the logic of competitiveness funds: raise farm productivity, lower unit costs, improve technology adoption, and strengthen farmer capacity rather than simply guaranteeing a market price.",
+      "sourceLabel": "Department of Agriculture, RCEF / RA 12078",
+      "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/"
+    },
+    {
+      "id": "amia-cra",
+      "kind": "Government Program",
+      "title": "AMIA: climate-resilient agriculture as a DA flagship",
+      "date": "2026-10-06",
+      "subjects": [
+        "Crop Science",
+        "Soil Science",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "The Adaptation and Mitigation Initiative in Agriculture (AMIA) is the DA flagship program for climate adaptation and mitigation in agriculture. It promotes climate-resilient agriculture practices, risk management, community capacity and resilient livelihoods.",
+      "keyFacts": [
+        "AMIA addresses both climate adaptation and mitigation.",
+        "Climate-resilient agriculture aims to sustain productivity, food security and farmer/fisherfolk incomes under climate stress.",
+        "Implementation combines technologies, climate-risk information, local participation and support services."
+      ],
+      "examAngle": "Distinguish adaptation from mitigation and choose climate-resilient practices appropriate to drought, flooding, heat, water stress or other climate risks.",
+      "sourceLabel": "DA Adaptation and Mitigation Initiative in Agriculture",
+      "sourceUrl": "https://www.da.gov.ph/foundation/adaptation-and-mitigation-initiative-in-agriculture-amia/"
+    },
+    {
+      "id": "apa-climate-info",
+      "kind": "Government Program",
+      "title": "APA Project: localized climate information + climate-resilient practices",
+      "date": "2026-09-08",
+      "subjects": [
+        "Crop Science",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "The Adapting Philippine Agriculture to Climate Change (APA) Project promotes localized Climate Information Services and climate-resilient agriculture practices, with attention to vulnerable rural communities and agri-enterprise development.",
+      "keyFacts": [
+        "The project runs from 2024 to 2031.",
+        "It combines Climate Information Services with adoption of climate-resilient agriculture practices.",
+        "The program links climate adaptation with livelihood and enterprise development."
+      ],
+      "examAngle": "Expect scenarios asking which extension or farm-management intervention best converts climate information into practical farmer decisions.",
+      "sourceLabel": "DA Adapting Philippine Agriculture to Climate Change Project",
+      "sourceUrl": "https://apa.da.gov.ph/"
+    },
+    {
+      "id": "f2c2-aceds-2026",
+      "kind": "Government Program",
+      "title": "F2C2 and ACEDS: clustering farmers into market-ready enterprises",
+      "date": "2026-09-28",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "DA is strengthening farmer and fisherfolk clustering, consolidation and cooperative enterprise development through the F2C2 Program and ACEDS. The current emphasis is on stronger organizations that can meet market volume, quality and delivery requirements and become investment-ready.",
+      "keyFacts": [
+        "Clustering and consolidation address scale, coordination and bargaining constraints of small producers.",
+        "Strong farmer organizations can aggregate volume, standardize quality and negotiate with larger buyers.",
+        "Enterprise development links extension, organization-building and market access."
+      ],
+      "examAngle": "Relate clustering to economies of scale, transaction costs, bargaining power, collective marketing and extension facilitation.",
+      "sourceLabel": "Department of Agriculture, 28 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-convenes-stakeholders-for-healthy-clusters-strong-cooperatives-investible-agri-fisheries-enterprises/"
+    },
+    {
+      "id": "ai-satellite-agri-2026",
+      "kind": "Current Trend",
+      "title": "Satellite data, geospatial tools and AI in agriculture",
+      "date": "2026-09-15",
+      "subjects": [
+        "Crop Protection",
+        "Crop Science",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "DA and PhilSA formalized collaboration to use satellite imagery, geospatial information and AI for agriculture, fisheries, disaster response and climate-resilient planning.",
+      "keyFacts": [
+        "Potential applications include crop-condition monitoring, flood/drought mapping and irrigation planning.",
+        "Remote sensing can support yield forecasting and rapid agricultural damage assessment.",
+        "This directly reinforces the PRC TOS emphasis on SMART agriculture and AI in crop protection."
+      ],
+      "examAngle": "Know what remote sensing and AI are good for: large-area monitoring, early detection, mapping and decision support—not replacing field validation or sound pest-management principles.",
+      "sourceLabel": "Department of Agriculture, 15 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-philsa-harness-space-technology-to-boost-food-security/"
+    },
+    {
+      "id": "q2-2026-production-trends",
+      "kind": "Current Trend",
+      "title": "Q2 2026 production trend: crops down, livestock/poultry/fisheries up",
+      "date": "2026-08-06",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science",
+        "Animal Science"
+      ],
+      "summary": "PSA reported contrasting sector trends in April–June 2026: crop volume declined year-on-year, while livestock, poultry and fisheries volumes increased.",
+      "keyFacts": [
+        "Crop production volume: 20.84 million metric tons, down 5.5% year-on-year.",
+        "Livestock production volume: up 3.8%; hog production was up 5.6%.",
+        "Poultry production volume: up 6.3%; chicken egg production was up 13.2%.",
+        "Fisheries production volume: up 2.0%.",
+        "At constant 2018 prices, total agriculture and fisheries value of production increased 2.9% year-on-year."
+      ],
+      "examAngle": "Practice interpreting production growth versus value growth. A rise in value does not automatically mean physical output increased by the same rate.",
+      "sourceLabel": "Philippine Statistics Authority, Q2 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/agriculture-fisheries-volume?vcode=0"
+    },
+    {
+      "id": "paffp-2026",
+      "kind": "Government Program",
+      "title": "PAFFP 2026: targeted assistance for farmers and fisherfolk",
+      "date": "2026-04-15",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "The 2026 Presidential Assistance for Farmers and Fisherfolk Program (PAFFP) provides targeted assistance to eligible registered farmers and fisherfolk facing high production and input costs.",
+      "keyFacts": [
+        "The 2026 rollout was funded at ₱10 billion.",
+        "DA announced assistance of ₱2,325 each for more than 4.17 million beneficiaries.",
+        "Eligibility uses sector registries such as RSBSA and BoatR."
+      ],
+      "examAngle": "Connect targeted assistance to input-cost shocks, farmer welfare, registry-based targeting, and the difference between short-run income support and long-run productivity investment.",
+      "sourceLabel": "Department of Agriculture, 15 April 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/"
+    },
+    {
+      "id": "climate-smart-hvc-2026",
+      "kind": "Current Trend",
+      "title": "Climate-smart protected cultivation for high-value vegetables",
+      "date": "2026-02-06",
+      "subjects": [
+        "Crop Science",
+        "Soil Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "DA earmarked support in 2026 for climate-resilient production of high-value vegetables using protected cultivation and water-management technologies to reduce weather-driven supply disruption.",
+      "keyFacts": [
+        "Interventions include basic greenhouses, drip irrigation and water-impounding systems.",
+        "The target problem is unstable production and recurring price spikes caused by extreme weather.",
+        "Protected cultivation can improve production continuity but still requires sound crop, water, pest and nutrient management."
+      ],
+      "examAngle": "Integrate production and economics: reducing weather risk can stabilize supply, improve scheduling and reduce extreme price volatility.",
+      "sourceLabel": "Department of Agriculture, 6 February 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/"
+    },
+    {
+      "id": "kadiwa-2026",
+      "kind": "Government Program",
+      "title": "KADIWA: direct market linkage for producers and consumers",
+      "date": "2026-07-22",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "KADIWA remains a government-supported direct marketing platform linking farmers, fisherfolk and producer groups with consumers and institutional markets. The marketing logic is shorter channels, market access and lower intermediation costs.",
+      "keyFacts": [
+        "KADIWA provides organized market outlets for agricultural producers.",
+        "Shorter marketing channels can reduce some transaction and intermediation costs.",
+        "The program also illustrates collective marketing and institutional market linkage."
+      ],
+      "examAngle": "Connect KADIWA to marketing channels, price spreads, direct marketing, market access and farmer organizations—not to a claim that all middlemen are inherently unnecessary.",
+      "sourceLabel": "Department of Agriculture, 22 July 2026",
+      "sourceUrl": "https://www.da.gov.ph/benteng-bigas-drives-kadiwa-sales-past-php4-billion/"
+    }
+  ]
+}
