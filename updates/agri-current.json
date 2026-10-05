@@ -45,7 +45,10 @@
       ],
       "examAngle": "Link the program to modernization, value-chain development, measurable outcomes, climate resilience, and institutional capacity building.",
       "sourceLabel": "Department of Agriculture, 15 May 2026",
-      "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/"
+      "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/05/Philippines-World-Bank-UK-launch-1B-agriculture-transformation-scaled.jpg",
+      "imageAlt": "Department of Agriculture event launching the Philippine Sustainable Agriculture Transformation program with development partners.",
+      "photoCredit": "Official Department of Agriculture event photo; DA article credits Darrel Gultia, OSEC Comms."
     },
     {
       "id": "rcef-2031",
@@ -65,7 +68,10 @@
       ],
       "examAngle": "Know the logic of competitiveness funds: raise farm productivity, lower unit costs, improve technology adoption, and strengthen farmer capacity rather than simply guaranteeing a market price.",
       "sourceLabel": "Department of Agriculture, RCEF / RA 12078",
-      "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/"
+      "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2024/12/rtl_11-scaled.jpg",
+      "imageAlt": "Signing event connected with the law extending and expanding the Rice Competitiveness Enhancement Fund.",
+      "photoCredit": "Official Department of Agriculture article photo."
     },
     {
       "id": "amia-cra",
@@ -184,7 +190,10 @@
       ],
       "examAngle": "Connect targeted assistance to input-cost shocks, farmer welfare, registry-based targeting, and the difference between short-run income support and long-run productivity investment.",
       "sourceLabel": "Department of Agriculture, 15 April 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/"
+      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/03/fuel-subsidy-for-farmers-and-fisherfolk.jpg",
+      "imageAlt": "Department of Agriculture assistance activity for farmers and fisherfolk.",
+      "photoCredit": "Official Department of Agriculture article image."
     },
     {
       "id": "climate-smart-hvc-2026",
@@ -204,7 +213,10 @@
       ],
       "examAngle": "Integrate production and economics: reducing weather risk can stabilize supply, improve scheduling and reduce extreme price volatility.",
       "sourceLabel": "Department of Agriculture, 6 February 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/"
+      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/01/sili.jpg",
+      "imageAlt": "High-value crop production featured by the Department of Agriculture in its climate-smart crop support article.",
+      "photoCredit": "Official Department of Agriculture article image."
     },
     {
       "id": "kadiwa-2026",
@@ -223,7 +235,11 @@
       ],
       "examAngle": "Connect KADIWA to marketing channels, price spreads, direct marketing, market access and farmer organizations—not to a claim that all middlemen are inherently unnecessary.",
       "sourceLabel": "Department of Agriculture, 22 July 2026",
-      "sourceUrl": "https://www.da.gov.ph/benteng-bigas-drives-kadiwa-sales-past-php4-billion/"
+      "sourceUrl": "https://www.da.gov.ph/benteng-bigas-drives-kadiwa-sales-past-php4-billion/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/07/DSCF2377.jpg",
+      "imageAlt": "KADIWA market activity featured by the Department of Agriculture.",
+      "photoCredit": "Official Department of Agriculture event photo."
     }
-  ]
+  ],
+  "photoNote": "Event photos are shown only when an official source image is available. Images link back to the official source article."
 }
