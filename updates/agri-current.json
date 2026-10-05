@@ -258,7 +258,10 @@
       ],
       "examAngle": "Use this to practice price-trend interpretation: a commodity can fall month-to-month yet remain higher year-on-year. Distinguish short-run movement, seasonal movement, inflation, and supply-demand effects.",
       "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/1.gif",
+      "imageAlt": "PSA chart showing the recent national retail price movement of rice.",
+      "photoCredit": "Official PSA price-situationer chart."
     },
     {
       "id": "market-protein-sep-2026",
@@ -278,7 +281,10 @@
       ],
       "examAngle": "Connect retail-price changes to supply response, production cycles, feed/input costs, disease shocks, imports, substitution between protein sources, and the difference between farmgate and retail prices.",
       "sourceLabel": "Philippine Statistics Authority — September 2026 Price Situationers",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/2.gif",
+      "imageAlt": "PSA chart showing the recent national retail price movement of fresh pork.",
+      "photoCredit": "Official PSA price-situationer chart."
     },
     {
       "id": "market-vegetables-calamansi-sep-2026",
@@ -298,7 +304,10 @@
       ],
       "examAngle": "Practice explaining price volatility using seasonality, perishability, supply elasticity, weather shocks, postharvest losses, storage, transport and market arrivals rather than assuming one cause for all commodities.",
       "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/6.gif",
+      "imageAlt": "PSA chart showing the recent national retail price movement of calamansi.",
+      "photoCredit": "Official PSA price-situationer chart."
     },
     {
       "id": "market-agri-trade-jul-2026",
@@ -320,8 +329,77 @@
       "examAngle": "Relate trade data to comparative advantage, import dependence, domestic supply gaps, exchange-rate exposure, food security, tariff/non-tariff policy, and how imports or exports can influence domestic farm and consumer prices.",
       "sourceLabel": "Philippine Statistics Authority — Agricultural Trade, July 2026",
       "sourceUrl": "https://psa.gov.ph/statistics/agricultural-export-import/monthly/node/1684084133"
+    },
+    {
+      "id": "market-ube-supply-sep-2026",
+      "kind": "Market Trend",
+      "title": "Ube demand is expanding faster than planting-material supply",
+      "date": "2026-09-14",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "The Department of Agriculture indefinitely suspended exports of fresh ube and propagative planting materials as the country tries to keep scarce planting stock at home, expand production, and capture growing demand for fresh and processed ube in domestic and overseas markets.",
+      "keyFacts": [
+        "The suspension covers fresh purple yam and propagative planting materials.",
+        "DA said planting material is a major production bottleneck while demand for ube and value-added products is growing.",
+        "The policy aims to build domestic production capacity before pushing exports further.",
+        "This is a supply-side market story: strong demand alone cannot expand output when quality planting materials are scarce."
+      ],
+      "examAngle": "Connect the story to supply constraints, derived demand for planting materials, export restrictions, value-chain development, production capacity, and how limited supply can keep commodity prices firm even when market opportunities are strong.",
+      "sourceLabel": "Department of Agriculture — 14 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-indefinitely-suspends-raw-ube-exports-to-secure-planting-materials/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/06/ube-photo-by-BPI.jpg",
+      "imageAlt": "Official Bureau of Plant Industry photo of Philippine ube used in a Department of Agriculture ube-industry report.",
+      "photoCredit": "Official DA/BPI ube photo."
+    },
+    {
+      "id": "market-pork-imports-sep-2026",
+      "kind": "Market Trend",
+      "title": "Pork imports and recovering local supply are pressuring farmgate hog prices",
+      "date": "2026-09-25",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Animal Science"
+      ],
+      "summary": "The Department of Agriculture reported that local hog production was recovering while pork imports and inventories remained high. DA said live-hog farmgate prices had fallen sharply, prompting discussions on restoring higher pork tariffs to give domestic raisers more room to recover while still protecting consumer supply.",
+      "keyFacts": [
+        "DA reported local hog production rose 6% in the first semester of 2026.",
+        "DA said farmgate hog prices fell from about ₱215/kg in June 2025 to about ₱150/kg in August 2026.",
+        "DA proposed raising 2027 pork tariffs by 10 percentage points from the current 15% in-quota and 25% out-quota rates.",
+        "Earlier in 2026, EO 116 expanded pork import access as a supply-and-price safeguard amid ASF and inflation risks."
+      ],
+      "examAngle": "This is a useful policy trade-off: imports can improve consumer supply and price stability, but heavy import competition can depress domestic farmgate prices. Relate it to tariffs, MAV, producer surplus, consumer surplus, supply shocks, ASF, and long-run domestic industry competitiveness.",
+      "sourceLabel": "Department of Agriculture — 25 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-hog-industry-eye-pork-tariff-hike-to-boost-pork-prices/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2019/10/LIVESTOCK-DA-AFID-FOTOBANK-15.jpg",
+      "imageAlt": "Official Department of Agriculture livestock file photo accompanying pork-market policy coverage.",
+      "photoCredit": "Official DA-AFID livestock file photo."
+    },
+    {
+      "id": "market-calamansi-sep-2026",
+      "kind": "Market Trend",
+      "title": "Calamansi: retail price eased, while Northern Mindanao output also weakened in Q2",
+      "date": "2026-09-30",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "PSA reported a national average retail price of ₱89.90/kg for calamansi in the second phase of September 2026, lower than August but still above the comparable 2025 level. Separately, PSA Region X reported Northern Mindanao calamansi production fell 10.4% year-on-year in Q2 2026, showing how price and production movements must be interpreted by place, period, and market level.",
+      "keyFacts": [
+        "National retail calamansi price: ₱89.90/kg in 15–17 September 2026.",
+        "This was below ₱98.53/kg in the second phase of August 2026, but above ₱82.25/kg in the comparable September 2025 period.",
+        "Northern Mindanao Q2 2026 calamansi production was 388.4 MT, down 10.4% from 433.4 MT in Q2 2025.",
+        "Retail price and regional production are different measures and should not be treated as a one-to-one relationship."
+      ],
+      "examAngle": "Use this for seasonality, perishability, regional supply, market arrivals, short-run price movements, and the distinction between production statistics and retail-price statistics.",
+      "sourceLabel": "PSA national price situationer and PSA Region X crop production, September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/6.gif",
+      "imageAlt": "Official PSA chart of calamansi retail-price movement.",
+      "photoCredit": "Official PSA price-situationer chart."
     }
   ],
-  "photoNote": "Event photos are shown only when an official source image is available. Images link back to the official source article.",
+  "photoNote": "Official event photos or official statistical charts are shown when an exact, verified government-hosted image URL is available. Images link to the source article.",
   "marketNote": "Market Trend notes prioritize Philippine commodities with recent official PSA/DA data. Prices are reference-period averages and should be interpreted by time period, location and market level (farmgate/wholesale/retail)."
 }
