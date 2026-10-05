@@ -239,7 +239,89 @@
       "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/07/DSCF2377.jpg",
       "imageAlt": "KADIWA market activity featured by the Department of Agriculture.",
       "photoCredit": "Official Department of Agriculture event photo."
+    },
+    {
+      "id": "market-rice-sep-2026",
+      "kind": "Market Trend",
+      "title": "Rice retail prices: slight short-term easing, but still above 2025 levels",
+      "date": "2026-09-30",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "PSA's second-phase September 2026 price survey showed well-milled rice at a national average retail price of ₱56.07/kg. This was slightly lower than the first phase of September and the second phase of August, but notably higher than the same period in September 2025.",
+      "keyFacts": [
+        "Well-milled rice averaged ₱56.07/kg in 15–17 September 2026.",
+        "It was ₱56.48/kg in the first phase of September 2026 and ₱56.29/kg in the second phase of August 2026.",
+        "The comparable second-phase September 2025 price was ₱47.22/kg.",
+        "Short-run price direction and year-on-year direction can differ at the same time."
+      ],
+      "examAngle": "Use this to practice price-trend interpretation: a commodity can fall month-to-month yet remain higher year-on-year. Distinguish short-run movement, seasonal movement, inflation, and supply-demand effects.",
+      "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+    },
+    {
+      "id": "market-protein-sep-2026",
+      "kind": "Market Trend",
+      "title": "Protein markets: pork lower year-on-year while egg prices were relatively stable",
+      "date": "2026-09-30",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Animal Science"
+      ],
+      "summary": "National retail data showed fresh pork with bones at ₱295.58/kg in the second phase of September 2026, below both August 2026 and September 2025 levels. Chicken egg prices in the first phase of September were ₱9.26/piece, only slightly higher than August but lower than September 2025.",
+      "keyFacts": [
+        "Fresh pork with bones averaged ₱295.58/kg in the second phase of September 2026.",
+        "The comparable September 2025 pork price was ₱327.03/kg.",
+        "Chicken egg averaged ₱9.26/piece in the first phase of September 2026.",
+        "Different livestock and poultry commodities can move in different directions because their supply cycles, feed costs, disease risks and demand conditions differ."
+      ],
+      "examAngle": "Connect retail-price changes to supply response, production cycles, feed/input costs, disease shocks, imports, substitution between protein sources, and the difference between farmgate and retail prices.",
+      "sourceLabel": "Philippine Statistics Authority — September 2026 Price Situationers",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+    },
+    {
+      "id": "market-vegetables-calamansi-sep-2026",
+      "kind": "Market Trend",
+      "title": "Vegetables and calamansi: strong commodity-specific and seasonal price swings",
+      "date": "2026-09-30",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "PSA data for the second phase of September 2026 showed sharply different price behavior across horticultural commodities: cabbage rose strongly from August, red onion was slightly higher month-to-month but below 2025 levels, while calamansi declined from August but remained above the same period a year earlier.",
+      "keyFacts": [
+        "Cabbage averaged ₱143.85/kg, up from ₱100.11/kg in the second phase of August 2026.",
+        "Red onion averaged ₱144.86/kg, slightly above August 2026 but below ₱180.41/kg in the comparable September 2025 period.",
+        "Calamansi averaged ₱89.90/kg, down from ₱98.53/kg in the second phase of August 2026 but above ₱82.25/kg a year earlier.",
+        "Perishable commodities often show stronger short-run volatility because weather, harvest timing, storage and transport constraints quickly affect marketable supply."
+      ],
+      "examAngle": "Practice explaining price volatility using seasonality, perishability, supply elasticity, weather shocks, postharvest losses, storage, transport and market arrivals rather than assuming one cause for all commodities.",
+      "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities"
+    },
+    {
+      "id": "market-agri-trade-jul-2026",
+      "kind": "Market Trend",
+      "title": "Agricultural trade: imports remained much larger than exports; cereals led imports",
+      "date": "2026-09-03",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "In July 2026, Philippine agricultural imports reached USD 1.90 billion while exports were USD 705.23 million, producing a USD 1.19 billion agricultural trade deficit. Cereals were the largest agricultural import group, while fats and oils were the largest export group.",
+      "keyFacts": [
+        "July 2026 total agricultural trade was USD 2.60 billion.",
+        "Imports were USD 1.90 billion (72.9% of agricultural trade) and exports were USD 705.23 million (27.1%).",
+        "The agricultural trade deficit was USD 1.19 billion.",
+        "Cereals accounted for USD 513.90 million or 27.1% of agricultural imports.",
+        "Animal/vegetable fats and oils accounted for USD 241.13 million or 34.2% of agricultural exports."
+      ],
+      "examAngle": "Relate trade data to comparative advantage, import dependence, domestic supply gaps, exchange-rate exposure, food security, tariff/non-tariff policy, and how imports or exports can influence domestic farm and consumer prices.",
+      "sourceLabel": "Philippine Statistics Authority — Agricultural Trade, July 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/agricultural-export-import/monthly/node/1684084133"
     }
   ],
-  "photoNote": "Event photos are shown only when an official source image is available. Images link back to the official source article."
+  "photoNote": "Event photos are shown only when an official source image is available. Images link back to the official source article.",
+  "marketNote": "Market Trend notes prioritize Philippine commodities with recent official PSA/DA data. Prices are reference-period averages and should be interpreted by time period, location and market level (farmgate/wholesale/retail)."
 }
