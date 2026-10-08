@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-08",
+  "title": "School & Review Center Reviewer Sources",
+  "totalFiles": 53,
+  "totalPages": 1534,
+  "note": "These uploaded reviewer collections are treated as legacy/reference material. The app should not blindly copy old answers or outdated policy facts. New practice questions should be rewritten into original board-style items, checked against the current PRC TOS and current official references, deduplicated, and given explanations.",
+  "subjects": [
+    "Crop Science",
+    "Crop Protection",
+    "Soil Science",
+    "Animal Science",
+    "Agricultural Economics & Marketing",
+    "Agricultural Extension & Communication"
+  ],
+  "collections": [
+    {
+      "id": "green-empire",
+      "name": "Green Empire LEAR Reviewer",
+      "type": "Review Center",
+      "files": 6,
+      "pages": 797,
+      "coverage": "All six ALE subjects",
+      "description": "Lecture Manual and Review Questions collection covering Crop Science, Soil Science, Animal Science, Crop Protection, Agricultural Economics & Marketing, and Agricultural Extension & Communication.",
+      "status": "Reference source added",
+      "usePolicy": "Use concepts and recurring reviewer themes to guide original high-yield questions; verify technical details against current TOS and official references."
+    },
+    {
+      "id": "vsu-reviewer",
+      "name": "VSU Q&A Reviewer",
+      "type": "School Reviewer",
+      "files": 6,
+      "pages": 202,
+      "coverage": "All six ALE subjects",
+      "description": "Question-and-answer reviewer collection organized by the six Agriculturists Licensure Examination subject areas.",
+      "status": "Reference source added",
+      "usePolicy": "Use as a legacy question-pattern and concept-coverage reference; rewrite and verify before adding to the live bank."
+    },
+    {
+      "id": "uplb-reviewer-2006",
+      "name": "UPLB College of Agriculture PRC Licensure Reviewer",
+      "type": "School Reviewer",
+      "files": 6,
+      "pages": 235,
+      "coverage": "All six ALE subjects",
+      "description": "University of the Philippines Los Baños College of Agriculture review-question collection, Revised Version 2006.",
+      "status": "Reference source added",
+      "usePolicy": "Use for enduring core concepts and classic board-review coverage. Treat time-sensitive facts, policies, statistics, names, and recommendations as historical until re-verified."
+    },
+    {
+      "id": "doscst-review",
+      "name": "DOSCST Review Collection",
+      "type": "School/Reviewer Collection",
+      "files": 35,
+      "pages": 300,
+      "coverage": "All six ALE subjects; multiple Q&A sets",
+      "description": "Multi-set licensure review collection with numerous subject-specific question-and-answer sets across the six ALE areas.",
+      "status": "Reference source added",
+      "usePolicy": "Use recurring concepts and question patterns as input for original questions; correct obsolete terminology or outdated factual claims before use."
+    }
+  ],
+  "integrationRules": [
+    "Current PRC TOS has priority over old reviewer emphasis.",
+    "Do not assume an old answer key is correct without verification.",
+    "Rewrite source-inspired items rather than mechanically duplicating wording.",
+    "Prefer situational, analytical, diagnostic, calculation, and best-action questions when the TOS emphasizes application.",
+    "Preserve source attribution at collection level for study transparency.",
+    "Do not treat any legacy reviewer item as a leaked or guaranteed future PRC question."
+  ]
+}
