@@ -17,13 +17,13 @@
     {
       "id": "green-empire",
       "name": "Green Empire LEAR Reviewer",
-      "type": "Review Center",
+      "type": "Lecture Manual / Review Center Reference",
       "files": 6,
       "pages": 797,
       "coverage": "All six ALE subjects",
-      "description": "Lecture Manual and Review Questions collection covering Crop Science, Soil Science, Animal Science, Crop Protection, Agricultural Economics & Marketing, and Agricultural Extension & Communication.",
-      "status": "Reference source added",
-      "usePolicy": "Use concepts and recurring reviewer themes to guide original high-yield questions; verify technical details against current TOS and official references."
+      "description": "Green Empire's six uploaded PDFs are structured lecture/review manuals covering the six ALE subjects. They are not treated as a raw multiple-choice answer-key bank.",
+      "status": "Mapped to clear Verified 2026 practice",
+      "usePolicy": "Use the manuals for topic coverage and concept cross-checking. Green Empire practice in the app now uses clear verified four-choice questions aligned to manual topics; OCR-only page fragments are excluded from Legacy Q&A practice."
     },
     {
       "id": "vsu-reviewer",
@@ -80,6 +80,6 @@
       "Agricultural Economics & Marketing": 411,
       "Agricultural Extension & Communication": 637
     },
-    "note": "All extractable multiple-choice items from the uploaded reviewer collections are available in Legacy Reviewer Practice. Items with a reliably extracted source answer key can be scored against that source key; unkeyed items are intentionally unscored rather than assigned an invented answer."
+    "note": "Legacy Reviewer Practice now excludes OCR-only Green Empire manual fragments. Green Empire has its own clear practice mode using the Verified 2026 question engine. VSU, UPLB/ACAP and DOSCST remain the raw legacy Q&A sources where extractable."
   }
 }
