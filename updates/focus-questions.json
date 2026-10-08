@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "focus-2026.10.09.1",
+  "released": "2026-10-09",
+  "questionCount": 36,
+  "purpose": "Targeted baseline questions for Sir Brian Mock Focus, seeded from user-supplied 2023 recalled topic signals. Personal mock-exam errors will be added and weighted as results are submitted.",
+  "disclaimer": "These are original practice questions based on recalled topic signals, not claimed exact PRC questions.",
+  "questions": [
+    {
+      "id": "focus26-cs-001",
+      "subject": "Crop Science",
+      "topic": "Nyctinasty",
+      "question": "A legume folds its leaflets at night and reopens them during daylight without bending toward the light source. What is this sleep movement called?",
+      "options": [
+        "Phototropism",
+        "Nyctinasty",
+        "Geotropism",
+        "Hydrotropism"
+      ],
+      "answer": 1,
+      "explanation": "Nyctinasty is a reversible nastic sleep movement associated with the day-night cycle and is not oriented by stimulus direction.",
+      "optionExplanations": [
+        "Phototropism is directional growth toward/away from light.",
+        "Correct. Nyctinasty is the classic plant sleep movement.",
+        "Geotropism is directional growth in response to gravity.",
+        "Hydrotropism is directional growth in response to water."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Nyctinasty",
+        "clue": "Nyctinasty",
+        "principle": "Nyctinasty is a reversible nastic sleep movement associated with the day-night cycle and is not oriented by stimulus direction.",
+        "result": "Nyctinasty",
+        "memory": "Nyctinasty → Nyctinasty"
+      }
+    },
+    {
+      "id": "focus26-cs-002",
+      "subject": "Crop Science",
+      "topic": "Arabica coffee site selection",
+      "question": "For Arabica coffee, which farm site is generally the best choice among the following?",
+      "options": [
+        "A cool, well-drained upland site",
+        "A hot saline coastal flat",
+        "A permanently waterlogged lowland",
+        "A site where soil remains anaerobic"
+      ],
+      "answer": 0,
+      "explanation": "Arabica generally performs best under cooler higher-elevation conditions with adequate moisture and good drainage.",
+      "optionExplanations": [
+        "Correct. Cooler uplands with drainage commonly favor Arabica.",
+        "Heat and salinity are unfavorable.",
+        "Waterlogging damages roots.",
+        "Anaerobic soil conditions are unsuitable."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Arabica coffee site selection",
+        "clue": "Arabica coffee site selection",
+        "principle": "Arabica generally performs best under cooler higher-elevation conditions with adequate moisture and good drainage.",
+        "result": "A cool, well-drained upland site",
+        "memory": "Arabica coffee site selection → A cool, well-drained upland site"
+      }
+    },
+    {
+      "id": "focus26-cs-003",
+      "subject": "Crop Science",
+      "topic": "Nitrogen deficiency",
+      "question": "A corn crop shows uniform yellowing that starts on the older leaves while the newest leaves remain greener. Which nutrient is most likely deficient?",
+      "options": [
+        "Nitrogen",
+        "Iron",
+        "Calcium",
+        "Boron"
+      ],
+      "answer": 0,
+      "explanation": "Nitrogen is mobile in plants, so deficiency symptoms typically begin on older leaves as general chlorosis.",
+      "optionExplanations": [
+        "Correct. Mobile N is remobilized to younger tissues.",
+        "Iron deficiency generally appears first on young leaves.",
+        "Calcium deficiency affects growing points and young tissues.",
+        "Boron deficiency commonly damages meristems and young tissues."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Nitrogen deficiency",
+        "clue": "Nitrogen deficiency",
+        "principle": "Nitrogen is mobile in plants, so deficiency symptoms typically begin on older leaves as general chlorosis.",
+        "result": "Nitrogen",
+        "memory": "Nitrogen deficiency → Nitrogen"
+      }
+    },
+    {
+      "id": "focus26-cs-004",
+      "subject": "Crop Science",
+      "topic": "Iron deficiency",
+      "question": "Young leaves of a crop become yellow between the veins, while older leaves stay relatively green. Which deficiency best fits this pattern?",
+      "options": [
+        "Iron",
+        "Nitrogen",
+        "Magnesium",
+        "Potassium"
+      ],
+      "answer": 0,
+      "explanation": "Iron is relatively immobile, so deficiency commonly appears as interveinal chlorosis on young leaves.",
+      "optionExplanations": [
+        "Correct. Young-leaf interveinal chlorosis strongly suggests Fe deficiency.",
+        "Nitrogen symptoms usually start on older leaves.",
+        "Magnesium symptoms commonly start on older leaves.",
+        "Potassium usually causes marginal chlorosis/necrosis on older leaves."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Iron deficiency",
+        "clue": "Iron deficiency",
+        "principle": "Iron is relatively immobile, so deficiency commonly appears as interveinal chlorosis on young leaves.",
+        "result": "Iron",
+        "memory": "Iron deficiency → Iron"
+      }
+    },
+    {
+      "id": "focus26-cs-005",
+      "subject": "Crop Science",
+      "topic": "Potassium deficiency",
+      "question": "Which symptom is most characteristic of potassium deficiency in many field crops?",
+      "options": [
+        "Marginal yellowing and scorching beginning on older leaves",
+        "Interveinal chlorosis only on the youngest leaves",
+        "Death of the shoot tip before leaf symptoms",
+        "White powdery fungal growth on leaf surfaces"
+      ],
+      "answer": 0,
+      "explanation": "Potassium is mobile and deficiency often begins on older leaves with marginal chlorosis that progresses to necrosis or scorching.",
+      "optionExplanations": [
+        "Correct. Marginal scorch on older leaves is classic.",
+        "This more strongly suggests iron deficiency.",
+        "Growing-point death is more typical of calcium or boron deficiency.",
+        "Powdery growth indicates disease, not nutrient deficiency."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Potassium deficiency",
+        "clue": "Potassium deficiency",
+        "principle": "Potassium is mobile and deficiency often begins on older leaves with marginal chlorosis that progresses to necrosis or scorching.",
+        "result": "Marginal yellowing and scorching beginning on older leaves",
+        "memory": "Potassium deficiency → Marginal yellowing and scorching beginning on older leaves"
+      }
+    },
+    {
+      "id": "focus26-cs-006",
+      "subject": "Crop Science",
+      "topic": "Nutrient mobility",
+      "question": "Why do deficiencies of mobile nutrients such as nitrogen and magnesium often appear first on older leaves?",
+      "options": [
+        "The plant can retranslocate them from old tissues to actively growing tissues",
+        "Old leaves cannot receive water",
+        "Young leaves have no vascular connections",
+        "Mobile nutrients are not used in growing tissues"
+      ],
+      "answer": 0,
+      "explanation": "Mobile nutrients can be remobilized from older leaves to younger growing organs, causing older leaves to show deficiency first.",
+      "optionExplanations": [
+        "Correct. Remobilization explains the symptom pattern.",
+        "Water supply is not the defining reason.",
+        "Young leaves develop vascular connections.",
+        "Growing tissues have strong nutrient demand."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Nutrient mobility",
+        "clue": "Nutrient mobility",
+        "principle": "Mobile nutrients can be remobilized from older leaves to younger growing organs, causing older leaves to show deficiency first.",
+        "result": "The plant can retranslocate them from old tissues to actively growing tissues",
+        "memory": "Nutrient mobility → The plant can retranslocate them from old tissues to actively growing tissues"
+      }
+    },
+    {
+      "id": "focus26-ss-001",
+      "subject": "Soil Science",
+      "topic": "Soil orders",
+      "question": "A soil derived from volcanic ash has unusually low bulk density and strong phosphate retention. Which soil order is most likely?",
+      "options": [
+        "Andisol",
+        "Vertisol",
+        "Aridisol",
+        "Histosol"
+      ],
+      "answer": 0,
+      "explanation": "Andisols form from volcanic materials and commonly exhibit low bulk density and strong phosphorus fixation.",
+      "optionExplanations": [
+        "Correct.",
+        "Vertisols are shrink-swell clay soils.",
+        "Aridisols form in dry climates.",
+        "Histosols are organic soils."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Soil orders",
+        "clue": "Soil orders",
+        "principle": "Andisols form from volcanic materials and commonly exhibit low bulk density and strong phosphorus fixation.",
+        "result": "Andisol",
+        "memory": "Soil orders → Andisol"
+      }
+    },
+    {
+      "id": "focus26-ss-002",
+      "subject": "Soil Science",
+      "topic": "Soil orders",
+      "question": "A clayey soil opens wide cracks during a dry season and swells strongly after heavy rain. Which soil order best matches?",
+      "options": [
+        "Vertisol",
+        "Spodosol",
+        "Entisol",
+        "Mollisol"
+      ],
+      "answer": 0,
+      "explanation": "Vertisols contain abundant shrink-swell clays and characteristically crack when dry.",
+      "optionExplanations": [
+        "Correct.",
+        "Spodosols have spodic horizons.",
+        "Entisols have little horizon development.",
+        "Mollisols have dark base-rich surface horizons."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Soil orders",
+        "clue": "Soil orders",
+        "principle": "Vertisols contain abundant shrink-swell clays and characteristically crack when dry.",
+        "result": "Vertisol",
+        "memory": "Soil orders → Vertisol"
+      }
+    },
+    {
+      "id": "focus26-ss-003",
+      "subject": "Soil Science",
+      "topic": "Soil orders",
+      "question": "Which soil order is typically strongly weathered, acidic, has clay accumulation, and relatively low base saturation?",
+      "options": [
+        "Ultisol",
+        "Mollisol",
+        "Aridisol",
+        "Histosol"
+      ],
+      "answer": 0,
+      "explanation": "Ultisols are strongly weathered acidic mineral soils with low base saturation and commonly an argillic or kandic horizon.",
+      "optionExplanations": [
+        "Correct.",
+        "Mollisols generally have high base saturation.",
+        "Aridisols are dryland soils.",
+        "Histosols are dominated by organic matter."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Soil orders",
+        "clue": "Soil orders",
+        "principle": "Ultisols are strongly weathered acidic mineral soils with low base saturation and commonly an argillic or kandic horizon.",
+        "result": "Ultisol",
+        "memory": "Soil orders → Ultisol"
+      }
+    },
+    {
+      "id": "focus26-ss-004",
+      "subject": "Soil Science",
+      "topic": "Bulk density",
+      "question": "An oven-dry soil sample weighs 150 g and occupies a total bulk volume of 125 cm³. What is the bulk density?",
+      "options": [
+        "0.83 g/cm³",
+        "1.20 g/cm³",
+        "1.50 g/cm³",
+        "12.0 g/cm³"
+      ],
+      "answer": 1,
+      "explanation": "Bulk density = oven-dry mass ÷ total bulk volume = 150 ÷ 125 = 1.20 g/cm³.",
+      "optionExplanations": [
+        "Too low for the stated values.",
+        "Correct. 150/125 = 1.20.",
+        "This would be 150/100.",
+        "This is a decimal-place error."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Bulk density",
+        "clue": "Bulk density",
+        "principle": "Bulk density = oven-dry mass ÷ total bulk volume = 150 ÷ 125 = 1.20 g/cm³.",
+        "result": "1.20 g/cm³",
+        "memory": "Bulk density → 1.20 g/cm³"
+      }
+    },
+    {
+      "id": "focus26-ss-005",
+      "subject": "Soil Science",
+      "topic": "Particle density",
+      "question": "A mineral soil has 265 g of dry solids occupying 100 cm³ of solid volume. What is its particle density?",
+      "options": [
+        "1.00 g/cm³",
+        "1.65 g/cm³",
+        "2.65 g/cm³",
+        "26.5 g/cm³"
+      ],
+      "answer": 2,
+      "explanation": "Particle density = mass of soil solids ÷ volume of soil solids = 265 ÷ 100 = 2.65 g/cm³.",
+      "optionExplanations": [
+        "Incorrect.",
+        "This resembles a high bulk density.",
+        "Correct.",
+        "This is ten times too high."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Particle density",
+        "clue": "Particle density",
+        "principle": "Particle density = mass of soil solids ÷ volume of soil solids = 265 ÷ 100 = 2.65 g/cm³.",
+        "result": "2.65 g/cm³",
+        "memory": "Particle density → 2.65 g/cm³"
+      }
+    },
+    {
+      "id": "focus26-ss-006",
+      "subject": "Soil Science",
+      "topic": "Porosity",
+      "question": "A mineral soil has a bulk density of 1.325 g/cm³ and a particle density of 2.65 g/cm³. Approximately what is total porosity?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": 1,
+      "explanation": "Porosity = [1 − (BD/PD)] × 100 = [1 − (1.325/2.65)] × 100 = 50%.",
+      "optionExplanations": [
+        "This would require a different density ratio.",
+        "Correct.",
+        "This is too high for the given ratio.",
+        "A mineral soil cannot be 100% pore space."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Porosity",
+        "clue": "Porosity",
+        "principle": "Porosity = [1 − (BD/PD)] × 100 = [1 − (1.325/2.65)] × 100 = 50%.",
+        "result": "50%",
+        "memory": "Porosity → 50%"
+      }
+    },
+    {
+      "id": "focus26-cp-001",
+      "subject": "Crop Protection",
+      "topic": "Pyrethrum",
+      "question": "The natural botanical insecticide pyrethrum contains active compounds known as:",
+      "options": [
+        "Pyrethrins",
+        "Carbamates",
+        "Neonicotinoids",
+        "Organophosphates"
+      ],
+      "answer": 0,
+      "explanation": "Pyrethrum flowers contain natural insecticidal compounds called pyrethrins.",
+      "optionExplanations": [
+        "Correct.",
+        "Carbamates are a separate insecticide class.",
+        "Neonicotinoids are synthetic insecticides.",
+        "Organophosphates are a separate chemical class."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Pyrethrum",
+        "clue": "Pyrethrum",
+        "principle": "Pyrethrum flowers contain natural insecticidal compounds called pyrethrins.",
+        "result": "Pyrethrins",
+        "memory": "Pyrethrum → Pyrethrins"
+      }
+    },
+    {
+      "id": "focus26-cp-002",
+      "subject": "Crop Protection",
+      "topic": "Insect leg modifications",
+      "question": "A diving insect has flattened, fringed hind legs that function like paddles. What is this leg type?",
+      "options": [
+        "Natatorial",
+        "Saltatorial",
+        "Raptorial",
+        "Fossorial"
+      ],
+      "answer": 0,
+      "explanation": "Natatorial legs are modified for swimming and are often flattened with fringes of hairs.",
+      "optionExplanations": [
+        "Correct.",
+        "Saltatorial legs are for jumping.",
+        "Raptorial legs grasp prey.",
+        "Fossorial legs are for digging."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Insect leg modifications",
+        "clue": "Insect leg modifications",
+        "principle": "Natatorial legs are modified for swimming and are often flattened with fringes of hairs.",
+        "result": "Natatorial",
+        "memory": "Insect leg modifications → Natatorial"
+      }
+    },
+    {
+      "id": "focus26-cp-003",
+      "subject": "Crop Protection",
+      "topic": "Insect antennae",
+      "question": "Antennae with a distinct elbow, as commonly seen in ants and many weevils, are called:",
+      "options": [
+        "Geniculate",
+        "Plumose",
+        "Filiform",
+        "Lamellate"
+      ],
+      "answer": 0,
+      "explanation": "Geniculate antennae have a conspicuous elbow-like bend.",
+      "optionExplanations": [
+        "Correct.",
+        "Plumose antennae are feather-like.",
+        "Filiform antennae are thread-like.",
+        "Lamellate antennae have plate-like terminal segments."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Insect antennae",
+        "clue": "Insect antennae",
+        "principle": "Geniculate antennae have a conspicuous elbow-like bend.",
+        "result": "Geniculate",
+        "memory": "Insect antennae → Geniculate"
+      }
+    },
+    {
+      "id": "focus26-cp-004",
+      "subject": "Crop Protection",
+      "topic": "Insect mouthparts",
+      "question": "Aphids insert slender stylets into plant tissues and withdraw sap. Which mouthpart type do they possess?",
+      "options": [
+        "Piercing-sucking",
+        "Chewing",
+        "Sponging",
+        "Siphoning"
+      ],
+      "answer": 0,
+      "explanation": "Aphids have piercing-sucking mouthparts adapted for penetrating tissues and sucking sap.",
+      "optionExplanations": [
+        "Correct.",
+        "Chewing mouthparts remove solid tissue.",
+        "Sponging is typical of house flies.",
+        "Siphoning is typical of adult butterflies and moths."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Insect mouthparts",
+        "clue": "Insect mouthparts",
+        "principle": "Aphids have piercing-sucking mouthparts adapted for penetrating tissues and sucking sap.",
+        "result": "Piercing-sucking",
+        "memory": "Insect mouthparts → Piercing-sucking"
+      }
+    },
+    {
+      "id": "focus26-cp-005",
+      "subject": "Crop Protection",
+      "topic": "Pesticide computation",
+      "question": "A pesticide label recommends 1.5 L of product per hectare. How much product is needed for 4 hectares?",
+      "options": [
+        "2.5 L",
+        "4.0 L",
+        "5.5 L",
+        "6.0 L"
+      ],
+      "answer": 3,
+      "explanation": "Product required = 1.5 L/ha × 4 ha = 6.0 L.",
+      "optionExplanations": [
+        "Incorrect.",
+        "Incorrect.",
+        "Incorrect.",
+        "Correct."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Pesticide computation",
+        "clue": "Pesticide computation",
+        "principle": "Product required = 1.5 L/ha × 4 ha = 6.0 L.",
+        "result": "6.0 L",
+        "memory": "Pesticide computation → 6.0 L"
+      }
+    },
+    {
+      "id": "focus26-cp-006",
+      "subject": "Crop Protection",
+      "topic": "Pesticide computation",
+      "question": "A 16-L knapsack tank must contain a 0.25% v/v liquid pesticide concentration. How much product should be added per tank?",
+      "options": [
+        "4 mL",
+        "16 mL",
+        "40 mL",
+        "400 mL"
+      ],
+      "answer": 2,
+      "explanation": "0.25% × 16 L = 0.04 L = 40 mL.",
+      "optionExplanations": [
+        "This is too little.",
+        "This equals 0.10%.",
+        "Correct. 40 mL in 16 L is 0.25% v/v.",
+        "This equals 2.5%."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Pesticide computation",
+        "clue": "Pesticide computation",
+        "principle": "0.25% × 16 L = 0.04 L = 40 mL.",
+        "result": "40 mL",
+        "memory": "Pesticide computation → 40 mL"
+      }
+    },
+    {
+      "id": "focus26-as-001",
+      "subject": "Animal Science",
+      "topic": "Adrenal cortex",
+      "question": "Which hormone is secreted primarily by the zona glomerulosa of the adrenal cortex?",
+      "options": [
+        "Aldosterone",
+        "Cortisol",
+        "Epinephrine",
+        "Insulin"
+      ],
+      "answer": 0,
+      "explanation": "The zona glomerulosa produces mineralocorticoids, chiefly aldosterone.",
+      "optionExplanations": [
+        "Correct.",
+        "Cortisol is mainly from the zona fasciculata.",
+        "Epinephrine is from the adrenal medulla.",
+        "Insulin is from pancreatic beta cells."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Adrenal cortex",
+        "clue": "Adrenal cortex",
+        "principle": "The zona glomerulosa produces mineralocorticoids, chiefly aldosterone.",
+        "result": "Aldosterone",
+        "memory": "Adrenal cortex → Aldosterone"
+      }
+    },
+    {
+      "id": "focus26-as-002",
+      "subject": "Animal Science",
+      "topic": "Farrowing index",
+      "question": "A herd records 225 farrowings in one year and maintains an average of 100 productive sows. What is the approximate farrowing index?",
+      "options": [
+        "1.25",
+        "2.25",
+        "3.25",
+        "22.5"
+      ],
+      "answer": 1,
+      "explanation": "Farrowing index ≈ total farrowings ÷ average sow inventory = 225/100 = 2.25 farrowings per sow per year.",
+      "optionExplanations": [
+        "Too low.",
+        "Correct.",
+        "Too high.",
+        "Decimal error."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Farrowing index",
+        "clue": "Farrowing index",
+        "principle": "Farrowing index ≈ total farrowings ÷ average sow inventory = 225/100 = 2.25 farrowings per sow per year.",
+        "result": "2.25",
+        "memory": "Farrowing index → 2.25"
+      }
+    },
+    {
+      "id": "focus26-as-003",
+      "subject": "Animal Science",
+      "topic": "Embryonic mortality",
+      "question": "Twenty-four ova are confirmed fertilized, but only 18 viable embryos remain. Using fertilized ova as the denominator, what is embryonic mortality?",
+      "options": [
+        "18%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "answer": 1,
+      "explanation": "Embryonic deaths = 24 − 18 = 6. Mortality = 6/24 × 100 = 25%.",
+      "optionExplanations": [
+        "Incorrect.",
+        "Correct.",
+        "Incorrect.",
+        "75% is the survival rate."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Embryonic mortality",
+        "clue": "Embryonic mortality",
+        "principle": "Embryonic deaths = 24 − 18 = 6. Mortality = 6/24 × 100 = 25%.",
+        "result": "25%",
+        "memory": "Embryonic mortality → 25%"
+      }
+    },
+    {
+      "id": "focus26-as-004",
+      "subject": "Animal Science",
+      "topic": "Scientific names",
+      "question": "Which set correctly matches the animal with its scientific name?",
+      "options": [
+        "Rabbit — Oryctolagus cuniculus",
+        "Chicken — Numida meleagris",
+        "Guinea fowl — Gallus gallus domesticus",
+        "Rabbit — Capra hircus"
+      ],
+      "answer": 0,
+      "explanation": "Domestic rabbit is Oryctolagus cuniculus; chicken is Gallus gallus domesticus; guinea fowl is Numida meleagris.",
+      "optionExplanations": [
+        "Correct.",
+        "Numida meleagris is guinea fowl.",
+        "Gallus gallus domesticus is chicken.",
+        "Capra hircus is goat."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Scientific names",
+        "clue": "Scientific names",
+        "principle": "Domestic rabbit is Oryctolagus cuniculus; chicken is Gallus gallus domesticus; guinea fowl is Numida meleagris.",
+        "result": "Rabbit — Oryctolagus cuniculus",
+        "memory": "Scientific names → Rabbit — Oryctolagus cuniculus"
+      }
+    },
+    {
+      "id": "focus26-as-005",
+      "subject": "Animal Science",
+      "topic": "Serology",
+      "question": "A veterinarian wants to determine whether an animal has antibodies against a specific pathogen. Which type of laboratory test is most appropriate?",
+      "options": [
+        "Serologic test",
+        "Soil particle-size analysis",
+        "Feed proximate analysis",
+        "Carcass grading"
+      ],
+      "answer": 0,
+      "explanation": "Serology examines serum for antibodies and/or antigens associated with infection or immune response.",
+      "optionExplanations": [
+        "Correct.",
+        "Unrelated to animal antibodies.",
+        "Measures feed composition.",
+        "Evaluates carcass traits."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Serology",
+        "clue": "Serology",
+        "principle": "Serology examines serum for antibodies and/or antigens associated with infection or immune response.",
+        "result": "Serologic test",
+        "memory": "Serology → Serologic test"
+      }
+    },
+    {
+      "id": "focus26-as-006",
+      "subject": "Animal Science",
+      "topic": "Artificial insemination timing",
+      "question": "A dairy cow is first observed in standing estrus in the morning. Under the traditional AM-PM rule, when is insemination generally performed?",
+      "options": [
+        "Immediately before estrus is confirmed",
+        "About 12 hours later, in the evening",
+        "Three days later",
+        "Only after pregnancy diagnosis"
+      ],
+      "answer": 1,
+      "explanation": "The traditional AM-PM rule places insemination roughly 12 hours after first observed standing estrus.",
+      "optionExplanations": [
+        "Estrus should be confirmed.",
+        "Correct.",
+        "Usually too late.",
+        "Pregnancy diagnosis occurs after breeding."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Artificial insemination timing",
+        "clue": "Artificial insemination timing",
+        "principle": "The traditional AM-PM rule places insemination roughly 12 hours after first observed standing estrus.",
+        "result": "About 12 hours later, in the evening",
+        "memory": "Artificial insemination timing → About 12 hours later, in the evening"
+      }
+    },
+    {
+      "id": "focus26-aem-001",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Markup",
+      "question": "A product costs ₱120 and a seller uses a 25% markup on cost. What is the selling price?",
+      "options": [
+        "₱135",
+        "₱150",
+        "₱160",
+        "₱180"
+      ],
+      "answer": 1,
+      "explanation": "Markup = 25% × ₱120 = ₱30; selling price = ₱150.",
+      "optionExplanations": [
+        "Only 12.5% markup.",
+        "Correct.",
+        "Too high.",
+        "Too high."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Markup",
+        "clue": "Markup",
+        "principle": "Markup = 25% × ₱120 = ₱30; selling price = ₱150.",
+        "result": "₱150",
+        "memory": "Markup → ₱150"
+      }
+    },
+    {
+      "id": "focus26-aem-002",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Markup",
+      "question": "A trader buys produce for ₱200 and sells it for ₱260. What is the markup percentage on cost?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "60%"
+      ],
+      "answer": 2,
+      "explanation": "Markup = ₱60. Markup on cost = 60/200 × 100 = 30%.",
+      "optionExplanations": [
+        "Incorrect.",
+        "Incorrect.",
+        "Correct.",
+        "This confuses markup amount with percentage."
+      ],
+      "difficulty": "Computation",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "formula",
+        "title": "Markup",
+        "clue": "Markup",
+        "principle": "Markup = ₱60. Markup on cost = 60/200 × 100 = 30%.",
+        "result": "30%",
+        "memory": "Markup → 30%"
+      }
+    },
+    {
+      "id": "focus26-aem-003",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Quantity demanded",
+      "question": "The market price of tomatoes falls, and consumers buy more tomatoes while income and preferences stay unchanged. This is best described as:",
+      "options": [
+        "An increase in demand",
+        "An increase in quantity demanded",
+        "A decrease in supply",
+        "A rightward supply shift"
+      ],
+      "answer": 1,
+      "explanation": "A change in the good's own price causes movement along the demand curve, called a change in quantity demanded.",
+      "optionExplanations": [
+        "Demand increase means the whole curve shifts.",
+        "Correct.",
+        "Supply is a seller-side concept.",
+        "The statement concerns demand."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Quantity demanded",
+        "clue": "Quantity demanded",
+        "principle": "A change in the good's own price causes movement along the demand curve, called a change in quantity demanded.",
+        "result": "An increase in quantity demanded",
+        "memory": "Quantity demanded → An increase in quantity demanded"
+      }
+    },
+    {
+      "id": "focus26-aem-004",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Demand shift",
+      "question": "Consumer income increases for a normal food product while its own price remains constant. What happens to demand?",
+      "options": [
+        "Demand shifts right",
+        "Quantity demanded moves down the same curve because price fell",
+        "Supply shifts left",
+        "Demand must stay unchanged"
+      ],
+      "answer": 0,
+      "explanation": "Income is a non-price determinant. For a normal good, higher income increases demand and shifts the curve right.",
+      "optionExplanations": [
+        "Correct.",
+        "The product's own price did not fall.",
+        "This is not primarily a supply change.",
+        "Demand can change at the same own price."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Demand shift",
+        "clue": "Demand shift",
+        "principle": "Income is a non-price determinant. For a normal good, higher income increases demand and shifts the curve right.",
+        "result": "Demand shifts right",
+        "memory": "Demand shift → Demand shifts right"
+      }
+    },
+    {
+      "id": "focus26-aem-005",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Supply shift",
+      "question": "Fuel and fertilizer costs increase sharply for vegetable producers. At each market price, less is offered for sale. This represents:",
+      "options": [
+        "An increase in quantity supplied",
+        "A decrease in supply",
+        "An increase in demand",
+        "A movement caused by a higher vegetable price"
+      ],
+      "answer": 1,
+      "explanation": "Higher input costs shift the supply curve leftward, reducing supply.",
+      "optionExplanations": [
+        "Quantity supplied changes because of the product's own price.",
+        "Correct.",
+        "Demand is not the affected relationship.",
+        "The vegetable's own price is not the cause."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Supply shift",
+        "clue": "Supply shift",
+        "principle": "Higher input costs shift the supply curve leftward, reducing supply.",
+        "result": "A decrease in supply",
+        "memory": "Supply shift → A decrease in supply"
+      }
+    },
+    {
+      "id": "focus26-aem-006",
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Market equilibrium",
+      "question": "If demand for onions increases while supply remains unchanged, what is the usual immediate equilibrium effect?",
+      "options": [
+        "Price and quantity both fall",
+        "Price rises and quantity rises",
+        "Price rises and quantity falls",
+        "Neither price nor quantity changes"
+      ],
+      "answer": 1,
+      "explanation": "A rightward demand shift with unchanged supply normally raises equilibrium price and equilibrium quantity.",
+      "optionExplanations": [
+        "Fits a demand decrease.",
+        "Correct.",
+        "Quantity typically increases.",
+        "A demand shift changes equilibrium."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Market equilibrium",
+        "clue": "Market equilibrium",
+        "principle": "A rightward demand shift with unchanged supply normally raises equilibrium price and equilibrium quantity.",
+        "result": "Price rises and quantity rises",
+        "memory": "Market equilibrium → Price rises and quantity rises"
+      }
+    },
+    {
+      "id": "focus26-aec-001",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Participatory extension",
+      "question": "Farmers help identify problems, choose priorities, test solutions, and evaluate the results of an extension program. Which approach is being used?",
+      "options": [
+        "Participatory extension",
+        "Strict top-down transfer only",
+        "One-way propaganda",
+        "No-contact extension"
+      ],
+      "answer": 0,
+      "explanation": "Participatory extension treats farmers as active partners in diagnosis, planning, implementation, and evaluation.",
+      "optionExplanations": [
+        "Correct.",
+        "Top-down transfer limits farmer decision-making.",
+        "Propaganda is not participatory learning.",
+        "No-contact extension cannot support collaboration."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Participatory extension",
+        "clue": "Participatory extension",
+        "principle": "Participatory extension treats farmers as active partners in diagnosis, planning, implementation, and evaluation.",
+        "result": "Participatory extension",
+        "memory": "Participatory extension → Participatory extension"
+      }
+    },
+    {
+      "id": "focus26-aec-002",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Farmer Field School",
+      "question": "A group meets regularly in the field, observes crop conditions, conducts simple experiments, and makes decisions through agroecosystem analysis. This describes a:",
+      "options": [
+        "Farmer Field School",
+        "Pure mass-media campaign",
+        "Census survey",
+        "Commodity tax program"
+      ],
+      "answer": 0,
+      "explanation": "Farmer Field Schools are experiential, field-based, season-long learning groups centered on observation and analysis.",
+      "optionExplanations": [
+        "Correct.",
+        "Mass media does not provide the same field learning.",
+        "A census collects data.",
+        "A tax program is not an extension teaching approach."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Farmer Field School",
+        "clue": "Farmer Field School",
+        "principle": "Farmer Field Schools are experiential, field-based, season-long learning groups centered on observation and analysis.",
+        "result": "Farmer Field School",
+        "memory": "Farmer Field School → Farmer Field School"
+      }
+    },
+    {
+      "id": "focus26-aec-003",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Smith-Lever Act",
+      "question": "Which 1914 U.S. law established the cooperative extension system associated with land-grant universities?",
+      "options": [
+        "Smith-Lever Act",
+        "Smith-Hughes Act",
+        "Hatch Act",
+        "Morrill Act"
+      ],
+      "answer": 0,
+      "explanation": "The Smith-Lever Act of 1914 established the Cooperative Extension Service partnership.",
+      "optionExplanations": [
+        "Correct.",
+        "Smith-Hughes focused on vocational education.",
+        "The Hatch Act supported experiment stations.",
+        "The Morrill Acts established land-grant colleges."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Smith-Lever Act",
+        "clue": "Smith-Lever Act",
+        "principle": "The Smith-Lever Act of 1914 established the Cooperative Extension Service partnership.",
+        "result": "Smith-Lever Act",
+        "memory": "Smith-Lever Act → Smith-Lever Act"
+      }
+    },
+    {
+      "id": "focus26-aec-004",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Training and Visit approach",
+      "question": "Which feature is most closely associated with the classic Training and Visit extension system?",
+      "options": [
+        "Regular staff training followed by scheduled farmer visits",
+        "No technical supervision",
+        "No planned contact schedule",
+        "Only mass-media messages"
+      ],
+      "answer": 0,
+      "explanation": "The T&V system emphasized structured staff training, supervision, and regular scheduled field visits.",
+      "optionExplanations": [
+        "Correct.",
+        "The system used supervision.",
+        "Regular schedules were central.",
+        "T&V was not only mass media."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Training and Visit approach",
+        "clue": "Training and Visit approach",
+        "principle": "The T&V system emphasized structured staff training, supervision, and regular scheduled field visits.",
+        "result": "Regular staff training followed by scheduled farmer visits",
+        "memory": "Training and Visit approach → Regular staff training followed by scheduled farmer visits"
+      }
+    },
+    {
+      "id": "focus26-aec-005",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Reading comprehension",
+      "question": "An extension worker delivers a technically accurate lecture, but farmers cannot explain when to apply the recommendation or demonstrate the skill. What is the best conclusion?",
+      "options": [
+        "Information was delivered, but learning was not adequately demonstrated",
+        "The lecture succeeded because the worker spoke clearly",
+        "Feedback is unnecessary in extension communication",
+        "Skill learning cannot be evaluated"
+      ],
+      "answer": 0,
+      "explanation": "Message delivery alone does not prove learning; feedback and performance evidence are needed.",
+      "optionExplanations": [
+        "Correct.",
+        "Clear speaking alone does not demonstrate learner competence.",
+        "Feedback helps confirm understanding.",
+        "Performance-based assessment can evaluate skills."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Reading comprehension",
+        "clue": "Reading comprehension",
+        "principle": "Message delivery alone does not prove learning; feedback and performance evidence are needed.",
+        "result": "Information was delivered, but learning was not adequately demonstrated",
+        "memory": "Reading comprehension → Information was delivered, but learning was not adequately demonstrated"
+      }
+    },
+    {
+      "id": "focus26-aec-006",
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Innovation adoption",
+      "question": "A farmer refuses a new technology because it is expensive, difficult to use, and conflicts with the farm's labor schedule. Which adoption factors are unfavorable?",
+      "options": [
+        "Complexity, cost/relative advantage, and compatibility",
+        "Only observability",
+        "Only trialability",
+        "Only communication channel"
+      ],
+      "answer": 0,
+      "explanation": "High complexity, poor compatibility, and weak perceived advantage or high cost can slow adoption.",
+      "optionExplanations": [
+        "Correct.",
+        "Observability alone does not explain the barriers.",
+        "Trialability alone is too narrow.",
+        "The barriers are characteristics of the innovation and farm context."
+      ],
+      "difficulty": "Application",
+      "priority": "Mock-focus high",
+      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Innovation adoption",
+        "clue": "Innovation adoption",
+        "principle": "High complexity, poor compatibility, and weak perceived advantage or high cost can slow adoption.",
+        "result": "Complexity, cost/relative advantage, and compatibility",
+        "memory": "Innovation adoption → Complexity, cost/relative advantage, and compatibility"
+      }
+    }
+  ]
+}
