@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-09",
+  "title": "PRB Agriculture Professional-Background Priority Map",
+  "disclaimer": "This is a study-weighting aid only. Public professional backgrounds do not prove which person writes a given examination item and do not guarantee that a topic will appear. The current PRC Table of Specifications and the learner's mock-exam error pattern remain higher-priority signals.",
+  "strategyOrder": [
+    "1. Sir Brian mock-exam mistakes and weak competencies",
+    "2. Current PRC Enhanced Tables of Specifications",
+    "3. Publicly documented PRB professional specializations and research/practice backgrounds",
+    "4. Recurrent themes from legacy reviewers and recalled prior-exam topics"
+  ],
+  "members": [
+    {
+      "name": "Emma K. Sales",
+      "role": "Chairperson",
+      "evidenceConfidence": "high",
+      "documentedBackground": "Retired University of Southern Mindanao professor; recognized for crop biotechnology; established a tissue culture and biotechnology laboratory; developed molecular diagnostic/identification tools for durian, rubber and mango varieties.",
+      "prioritySubjects": [
+        "Crop Science"
+      ],
+      "priorityThemes": [
+        "plant biotechnology",
+        "tissue culture and micropropagation",
+        "plant breeding and genetics",
+        "molecular/varietal identification",
+        "crop improvement",
+        "planting material quality",
+        "rubber, durian and mango crop science",
+        "biotechnology applications and biosafety"
+      ],
+      "sources": [
+        "https://www.usm.edu.ph/emma-sales-named-2019-cssp-honorary-fellow/",
+        "https://k-portal.pcc.gov.ph/assets/pdfs/Bubalus%202nd%20qtr%202021.pdf"
+      ]
+    },
+    {
+      "name": "Eric P. Palacpac",
+      "role": "Member",
+      "evidenceConfidence": "high",
+      "documentedBackground": "BS and MS in Animal Science, with animal production/dairy background; PhD work on science-society interface; Philippine Carabao Center knowledge-management and operations-research leadership; research interests include livestock innovations, technology transfer, science communication, extension, evaluation, ruminant production/nutrition and dairy technology.",
+      "prioritySubjects": [
+        "Animal Science",
+        "Agricultural Extension & Communication"
+      ],
+      "priorityThemes": [
+        "ruminant production and nutrition",
+        "dairy technology",
+        "livestock systems",
+        "technology transfer and adoption",
+        "science communication",
+        "knowledge management",
+        "extension program monitoring and evaluation",
+        "impact assessment"
+      ],
+      "sources": [
+        "https://mark.pcc.gov.ph/researcher/eric-palacpac/",
+        "https://k-portal.pcc.gov.ph/assets/pdfs/Bubalus%202nd%20qtr%202021.pdf"
+      ]
+    },
+    {
+      "name": "Annabelle S. Sarabia",
+      "role": "Member",
+      "evidenceConfidence": "high",
+      "documentedBackground": "PhD and MS in Animal Science major in Animal Physiology; former Philippine Carabao Center senior manager/researcher; research interests include animal physiology, reproduction, pregnancy diagnosis, artificial insemination, embryo transfer, ovarian examination, estrus synchronization, superovulation, livestock production and management.",
+      "prioritySubjects": [
+        "Animal Science"
+      ],
+      "priorityThemes": [
+        "animal physiology",
+        "endocrinology",
+        "reproductive physiology",
+        "estrus and ovulation",
+        "artificial insemination timing",
+        "pregnancy diagnosis",
+        "embryo transfer",
+        "estrus synchronization",
+        "superovulation",
+        "livestock breeding and biotechnology"
+      ],
+      "sources": [
+        "https://mark.pcc.gov.ph/researcher/annabelle-sarabia/",
+        "https://k-portal.pcc.gov.ph/assets/pdfs/Bubalus%202nd%20qtr%202021.pdf"
+      ]
+    },
+    {
+      "name": "Maria Eden S. Piadozo",
+      "role": "Member",
+      "evidenceConfidence": "high",
+      "documentedBackground": "UPLB agricultural economist; former chair of the Department of Agricultural and Applied Economics; specialization in Agricultural Economics, Agricultural Marketing and International Trade; research includes market integration, price linkages, marketing channels and organic certification economics.",
+      "prioritySubjects": [
+        "Agricultural Economics & Marketing"
+      ],
+      "priorityThemes": [
+        "agricultural marketing",
+        "marketing channels and margins",
+        "price analysis",
+        "market integration and price linkages",
+        "international agricultural trade",
+        "supply/value chains",
+        "market structure",
+        "producer marketing decisions",
+        "certification economics and market incentives"
+      ],
+      "sources": [
+        "https://ceat.uplb.edu.ph/wp-content/uploads/2023/01/uplbresearchmanual2008.pdf",
+        "https://www.ukdr.uplb.edu.ph/journal-articles/2077/",
+        "https://our.uplb.edu.ph/wp-content/uploads/2023/05/Academic-Catalogue-2.pdf"
+      ]
+    },
+    {
+      "name": "Lilia A. Portales",
+      "role": "Member",
+      "evidenceConfidence": "high",
+      "documentedBackground": "Former senior agriculturist with the Bureau of Plant Industry Crop Protection Division; professional involvement in the Philippine Phytopathological Society, including leadership roles.",
+      "prioritySubjects": [
+        "Crop Protection"
+      ],
+      "priorityThemes": [
+        "plant pathology",
+        "disease diagnosis and symptom recognition",
+        "plant disease epidemiology",
+        "plant biosecurity and quarantine",
+        "pathogen identification",
+        "disease management",
+        "integrated pest and disease management",
+        "fungicide principles and resistance stewardship"
+      ],
+      "sources": [
+        "https://www.apec.org/docs/default-source/Publications/2011/12/Enhancing-Food-Security-through-a-Regional-Approach-and-Wide-Stakeholder-Participation-to-Plant-Bios/2011_atc_enhancing-food-secuirty.pdf",
+        "https://philphytopath.org/wp-content/uploads/Journal-of-Tropical-Plant-Pathology-Volume-51-Number-1-2-Final.pdf"
+      ]
+    },
+    {
+      "name": "Anastacia G. Notarte",
+      "role": "Member",
+      "evidenceConfidence": "medium",
+      "documentedBackground": "Long-serving provincial agriculturist in Davao del Norte and agricultural/fishery council leader. Public sources strongly document applied agricultural administration, local program implementation and farmer/stakeholder coordination, but do not clearly establish a single narrow academic specialization.",
+      "prioritySubjects": [
+        "Agricultural Extension & Communication",
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "priorityThemes": [
+        "local agricultural development planning",
+        "extension and farmer services",
+        "program implementation and monitoring",
+        "stakeholder participation",
+        "farmer organizations and councils",
+        "agricultural projects and local governance",
+        "market linkage and agribusiness support",
+        "applied farm and provincial agriculture scenarios"
+      ],
+      "sources": [
+        "https://pcaf.da.gov.ph/index.php/afc-directory/",
+        "https://pcaf.da.gov.ph/wp-content/uploads/2018/04/NSSCC-and-AFC_Directory-For-Web.pdf"
+      ]
+    }
+  ]
+}
