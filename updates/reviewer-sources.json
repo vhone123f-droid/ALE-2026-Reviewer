@@ -4,7 +4,7 @@
   "title": "School & Review Center Reviewer Sources",
   "totalFiles": 53,
   "totalPages": 1534,
-  "note": "These uploaded reviewer collections are treated as legacy/reference material. The app should not blindly copy old answers or outdated policy facts. New practice questions should be rewritten into original board-style items, checked against the current PRC TOS and current official references, deduplicated, and given explanations.",
+  "note": "All four uploaded reviewer collections are now incorporated in two ways: (1) as secondary reference sources for the Verified 2026 Bank, and (2) as a separate Legacy Reviewer Practice bank containing 5,133 unique extracted multiple-choice items. Legacy source keys are shown only where reliably extracted; current PRC TOS and current official references still take priority for authoritative review.",
   "subjects": [
     "Crop Science",
     "Crop Protection",
@@ -66,5 +66,20 @@
     "Prefer situational, analytical, diagnostic, calculation, and best-action questions when the TOS emphasizes application.",
     "Preserve source attribution at collection level for study transparency.",
     "Do not treat any legacy reviewer item as a leaked or guaranteed future PRC question."
-  ]
+  ],
+  "legacyPracticeBank": {
+    "bankVersion": "legacy-1.0.0",
+    "uniqueExtractedItems": 5133,
+    "extractedSourceKeyItems": 2328,
+    "unkeyedItems": 2805,
+    "subjects": {
+      "Crop Science": 1199,
+      "Crop Protection": 825,
+      "Soil Science": 749,
+      "Animal Science": 1312,
+      "Agricultural Economics & Marketing": 411,
+      "Agricultural Extension & Communication": 637
+    },
+    "note": "All extractable multiple-choice items from the uploaded reviewer collections are available in Legacy Reviewer Practice. Items with a reliably extracted source answer key can be scored against that source key; unkeyed items are intentionally unscored rather than assigned an invented answer."
+  }
 }
