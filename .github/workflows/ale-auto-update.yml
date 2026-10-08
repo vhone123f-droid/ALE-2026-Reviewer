@@ -1,4 +1,5 @@
 name: ALE reviewer Pages deploy
+# Includes legacy reviewer practice assets.
 
 on:
   push:
