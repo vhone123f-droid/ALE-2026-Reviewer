@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-09",
+  "title": "Sir Brian Mock Exam Focus",
+  "mockPlan": {
+    "provider": "Sir Brian Review Center",
+    "mockExamsPerSubject": 9,
+    "itemsPerMock": 100,
+    "subjects": [
+      "Crop Science",
+      "Crop Protection",
+      "Soil Science",
+      "Animal Science",
+      "Agricultural Economics & Marketing",
+      "Agricultural Extension & Communication"
+    ],
+    "completedResultsReceived": 0
+  },
+  "strategy": {
+    "weak": 60,
+    "correctRepeat": 25,
+    "mixed": 15,
+    "note": "After each mock summary is received, missed concepts get the highest repetition weight. Correct items remain in rotation for retrieval practice. No duplicate copies are added to the bank; repetition happens by resurfacing existing or improved-variant questions in later sessions."
+  },
+  "priorityTopics": [
+    {
+      "subject": "Crop Science",
+      "topic": "Nyctinasty / sleep movements",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "nyctinasty",
+        "sleep movement",
+        "nastic"
+      ],
+      "note": "Know the term, stimulus-response type, and how nastic movements differ from tropisms."
+    },
+    {
+      "subject": "Crop Science",
+      "topic": "Arabica coffee site suitability",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "arabica",
+        "coffee",
+        "elevation",
+        "altitude",
+        "temperature"
+      ],
+      "note": "Practice site-selection reasoning: elevation, temperature, rainfall, drainage and shade."
+    },
+    {
+      "subject": "Crop Science",
+      "topic": "Plant nutrient deficiency diagnosis",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "deficiency",
+        "nitrogen",
+        "phosphorus",
+        "potassium",
+        "magnesium",
+        "iron",
+        "chlorosis",
+        "necrosis"
+      ],
+      "note": "Emphasize mobile vs immobile nutrients, symptom location and visual diagnosis."
+    },
+    {
+      "subject": "Soil Science",
+      "topic": "Soil orders",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "soil order",
+        "taxonomy",
+        "ultisol",
+        "alfisol",
+        "mollisol",
+        "andisol",
+        "oxisol",
+        "vertisol",
+        "entisol",
+        "inceptisol",
+        "spodosol",
+        "aridisol",
+        "histosol",
+        "gelisol"
+      ],
+      "note": "Practice identifying diagnostic features and Philippine-relevant examples."
+    },
+    {
+      "subject": "Soil Science",
+      "topic": "Bulk density",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "bulk density",
+        "dry mass",
+        "total volume"
+      ],
+      "note": "Repeat computations and interpretation of compaction/porosity."
+    },
+    {
+      "subject": "Soil Science",
+      "topic": "Particle density",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "particle density",
+        "solid volume",
+        "mineral soil"
+      ],
+      "note": "Distinguish particle density from bulk density and use both in porosity problems."
+    },
+    {
+      "subject": "Crop Protection",
+      "topic": "Pyrethrum and pesticide classes",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "pyrethrum",
+        "pyrethrin",
+        "pesticide",
+        "insecticide",
+        "botanical"
+      ],
+      "note": "Know natural pyrethrins vs synthetic pyrethroids, target pests and mode-of-action context."
+    },
+    {
+      "subject": "Crop Protection",
+      "topic": "Insect leg functions — natatorial",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "natatorial",
+        "insect leg",
+        "swimming leg",
+        "leg modification"
+      ],
+      "note": "Drill leg modifications and representative insects."
+    },
+    {
+      "subject": "Crop Protection",
+      "topic": "Antennae identification",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "antenna",
+        "antennae",
+        "filiform",
+        "geniculate",
+        "plumose",
+        "clavate",
+        "serrate"
+      ],
+      "note": "Practice form-to-insect matching and functions."
+    },
+    {
+      "subject": "Crop Protection",
+      "topic": "Insect mouthparts",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "mouthpart",
+        "chewing",
+        "piercing",
+        "sucking",
+        "siphoning",
+        "sponging",
+        "rasping"
+      ],
+      "note": "Practice type, insect example and crop-damage pattern."
+    },
+    {
+      "subject": "Crop Protection",
+      "topic": "Pesticide application computations",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "application rate",
+        "sprayer",
+        "calibration",
+        "pesticide",
+        "dose",
+        "hectare",
+        "dilution"
+      ],
+      "note": "High repetition on rate, concentration, area, tank capacity and product requirement calculations."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Zona glomerulosa — aldosterone",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "zona glomerulosa",
+        "aldosterone",
+        "adrenal cortex"
+      ],
+      "note": "Know adrenal cortical zones and principal hormones."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Farrowing index computations",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "farrowing index",
+        "farrowing",
+        "litter",
+        "sow"
+      ],
+      "note": "Practice formula interpretation and realistic swine-production scenarios."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Embryonic death rate computations",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "embryonic death",
+        "embryo mortality",
+        "conception",
+        "implantation"
+      ],
+      "note": "Repeat reproductive-efficiency calculations and denominator selection."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Scientific names of livestock",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "rabbit",
+        "chicken",
+        "guinea fowl",
+        "scientific name",
+        "oryctolagus",
+        "gallus",
+        "numida"
+      ],
+      "note": "Include rabbit, chicken, guinea fowl and other common board-relevant livestock names."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Serology",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "serology",
+        "antibody",
+        "antigen",
+        "serum",
+        "diagnostic"
+      ],
+      "note": "Practice what serologic tests detect and when they are used."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Laboratory measurement of estrogen",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "estrogen",
+        "estradiol",
+        "blood",
+        "assay",
+        "elisa",
+        "ria",
+        "immunoassay"
+      ],
+      "note": "Focus on hormone-assay principles rather than one brand-specific laboratory test."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Artificial insemination timing",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "artificial insemination",
+        "insemination",
+        "estrus",
+        "ovulation",
+        "standing heat"
+      ],
+      "note": "Practice species-specific timing relative to estrus and ovulation."
+    },
+    {
+      "subject": "Animal Science",
+      "topic": "Breeding and biotechnology",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "breeding",
+        "heritability",
+        "heterosis",
+        "selection",
+        "biotechnology",
+        "embryo transfer",
+        "genomic",
+        "artificial insemination"
+      ],
+      "note": "Keep this broad area heavily represented."
+    },
+    {
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Markup",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "markup",
+        "mark-up",
+        "selling price",
+        "cost price"
+      ],
+      "note": "Repeat percentage and peso markup calculations, including markup on cost vs selling price."
+    },
+    {
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Law of supply and demand",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "supply",
+        "demand",
+        "equilibrium",
+        "price",
+        "quantity"
+      ],
+      "note": "Practice shifts, movements, equilibrium changes and scenario interpretation."
+    },
+    {
+      "subject": "Agricultural Economics & Marketing",
+      "topic": "Change in demand vs change in quantity demanded",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "change in demand",
+        "quantity demanded",
+        "demand curve",
+        "movement along",
+        "shift"
+      ],
+      "note": "High-priority graph reasoning: own-price movement vs non-price determinant shift."
+    },
+    {
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Extension approaches",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "extension approach",
+        "participatory",
+        "training and visit",
+        "commodity",
+        "farming systems",
+        "farmer field school"
+      ],
+      "note": "Compare approaches, strengths, limitations and scenario fit."
+    },
+    {
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Smith-Lever Act of 1914",
+      "weight": 4,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "smith-lever",
+        "1914",
+        "cooperative extension"
+      ],
+      "note": "The recalled note said 'Smith Act 1914'; review the Smith-Lever Act of 1914 and its role in U.S. cooperative extension."
+    },
+    {
+      "subject": "Agricultural Extension & Communication",
+      "topic": "Reading-comprehension scenarios",
+      "weight": 5,
+      "origin": "2023 recalled topic signal",
+      "keywords": [
+        "scenario",
+        "passage",
+        "best action",
+        "communication",
+        "extension"
+      ],
+      "note": "Prioritize long-scenario questions that require identifying the principle before choosing the best answer."
+    }
+  ],
+  "mockResults": [],
+  "disclaimer": "These initial topics come from recalled 2023 examination-topic notes supplied by the user and are used only as study signals, not as verified exact PRC questions. Personal mock-exam errors will take priority as soon as mock summaries are analyzed."
+}
