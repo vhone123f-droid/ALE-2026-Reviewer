@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "appMinVersion": "2.0.0",
-  "bankVersion": "2.2.0",
-  "bankUrl": "../question-bank-v2.2.0.json",
-  "released": "2026-10-05",
-  "questionCount": 660,
+  "bankVersion": "2.2.1",
+  "bankUrl": "../question-bank-v2.2.1.json",
+  "released": "2026-10-08",
+  "questionCount": 720,
   "releaseNotes": [
-    "Weekly high-yield update: +300 original TOS-weighted board-style questions",
-    "50 new questions in each of the six Agriculturist Licensure Examination subjects",
-    "Priority given to high-weight competencies, application, analysis, calculations, diagnosis, and board-style distinctions",
-    "Every new question includes post-answer visualSpec for the permanent visual-learning engine",
-    "Existing 360 question IDs and ordering are preserved"
+    "Added 60 original source-informed questions based on themes found across the uploaded Green Empire, VSU, UPLB/ACAP, and DOSCST reviewer collections.",
+    "10 new questions per ALE subject; emphasis on enduring concepts, situational application, calculations, diagnosis, and best-action reasoning.",
+    "Legacy material was treated as reference only: wording was rewritten and older/time-sensitive facts were not copied blindly.",
+    "Existing 660 question IDs and order are preserved."
   ],
   "verifiedAgainst": [
-    "PRC Board of Agriculture Resolution No. 04 (s. 2024) Enhanced Tables of Specifications",
-    "PRC 2026 Schedule of Licensure Examinations"
+    "Current ALE six-subject structure and existing app schema",
+    "Uploaded legacy reviewer collections used as concept/question-pattern references"
   ]
 }
