@@ -32,6 +32,7 @@ jobs:
           cp question-bank-v*.json _site/
           cp updates/latest.json _site/updates/
           if [ -f updates/agri-current.json ]; then cp updates/agri-current.json _site/updates/; fi
+          if [ -f updates/reviewer-sources.json ]; then cp updates/reviewer-sources.json _site/updates/; fi
           if [ -f updates/history.json ]; then cp updates/history.json _site/updates/; fi
           if [ -f updates/IMPORT_THIS_IF_NEEDED.json ]; then cp updates/IMPORT_THIS_IF_NEEDED.json _site/updates/; fi
           touch _site/.nojekyll
