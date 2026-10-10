@@ -1,4 +1,4 @@
-const CACHE = 'ale-2026-visual-v1';
+const CACHE = 'ale-2026-visual-v2';
 const STATIC_ASSETS = [
   './manifest.json',
   './icon-192.png',
@@ -30,14 +30,13 @@ self.addEventListener('fetch', event => {
 
   const url = new URL(req.url);
 
-  // Never cache the live update feed or versioned question banks.
+  // Never cache dynamic reviewer/update JSON or versioned question banks.
+  // This prevents stale Sir Brian mock banks, trend notes, and update metadata.
   if (
-    url.pathname.endsWith('/updates/latest.json') ||
+    /\/updates\/[^/]+\.json$/i.test(url.pathname) ||
     /\/question-bank-v[^/]+\.json$/i.test(url.pathname)
   ) {
-    event.respondWith(
-      fetch(req, { cache: 'no-store' }).catch(() => caches.match(req))
-    );
+    event.respondWith(fetch(req, { cache: 'no-store' }));
     return;
   }
 
