@@ -35,6 +35,7 @@ jobs:
           if [ -f updates/agri-current.json ]; then cp updates/agri-current.json _site/updates/; fi
           if [ -f updates/reviewer-sources.json ]; then cp updates/reviewer-sources.json _site/updates/; fi
           if [ -f updates/mock-focus.json ]; then cp updates/mock-focus.json _site/updates/; fi
+          if [ -f updates/sir-brian-bank.json ]; then cp updates/sir-brian-bank.json _site/updates/; fi
           if [ -f updates/focus-questions.json ]; then cp updates/focus-questions.json _site/updates/; fi
           if [ -f updates/history.json ]; then cp updates/history.json _site/updates/; fi
           if [ -f updates/IMPORT_THIS_IF_NEEDED.json ]; then cp updates/IMPORT_THIS_IF_NEEDED.json _site/updates/; fi
