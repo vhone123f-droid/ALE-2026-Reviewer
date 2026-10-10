@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "sirbrian-2026.10.10.4",
+  "bankVersion": "sirbrian-2026.10.11.1",
   "released": "2026-10-11",
   "title": "Sir Brian Mock Training Reviewer",
   "actualMockSummariesReceived": 5,
@@ -10,7 +10,7 @@
     "itemsPerMock": 100,
     "totalMockExams": 54
   },
-  "purpose": "Personal retraining bank built only from the user's submitted Sir Brian Review Center mock-exam results. Subjects are added only after the user submits an actual mock result/summary for that subject.",
+  "purpose": "Personalized retraining derived only from the user's submitted Sir Brian Review Center mock-exam results. It is separate from the independent High-Yield 2026 Reviewer.",
   "disclaimer": "This bank is separate from the independent High-Yield 2026 Reviewer. At present, only Crop Science is included because only Crop Science Sir Brian mock results have been submitted. Recalled board topics, Green Empire material, and other sources must not be placed in this Sir Brian bank.",
   "strategy": {
     "mistakePriority": 60,
@@ -20,192 +20,6 @@
     "subjectAdmissionRule": "Do not add a subject until the user submits at least one actual Sir Brian mock result/summary for that subject."
   },
   "questions": [
-    {
-      "id": "focus26-cs-001",
-      "subject": "Crop Science",
-      "topic": "Nyctinasty",
-      "question": "A legume folds its leaflets at night and reopens them during daylight without bending toward the light source. What is this sleep movement called?",
-      "options": [
-        "Phototropism",
-        "Nyctinasty",
-        "Geotropism",
-        "Hydrotropism"
-      ],
-      "answer": 1,
-      "explanation": "Nyctinasty is a reversible nastic sleep movement associated with the day-night cycle and is not oriented by stimulus direction.",
-      "optionExplanations": [
-        "Phototropism is directional growth toward/away from light.",
-        "Correct. Nyctinasty is the classic plant sleep movement.",
-        "Geotropism is directional growth in response to gravity.",
-        "Hydrotropism is directional growth in response to water."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Nyctinasty",
-        "clue": "Nyctinasty",
-        "principle": "Nyctinasty is a reversible nastic sleep movement associated with the day-night cycle and is not oriented by stimulus direction.",
-        "result": "Nyctinasty",
-        "memory": "Nyctinasty → Nyctinasty"
-      }
-    },
-    {
-      "id": "focus26-cs-002",
-      "subject": "Crop Science",
-      "topic": "Arabica coffee site selection",
-      "question": "For Arabica coffee, which farm site is generally the best choice among the following?",
-      "options": [
-        "A cool, well-drained upland site",
-        "A hot saline coastal flat",
-        "A permanently waterlogged lowland",
-        "A site where soil remains anaerobic"
-      ],
-      "answer": 0,
-      "explanation": "Arabica generally performs best under cooler higher-elevation conditions with adequate moisture and good drainage.",
-      "optionExplanations": [
-        "Correct. Cooler uplands with drainage commonly favor Arabica.",
-        "Heat and salinity are unfavorable.",
-        "Waterlogging damages roots.",
-        "Anaerobic soil conditions are unsuitable."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Arabica coffee site selection",
-        "clue": "Arabica coffee site selection",
-        "principle": "Arabica generally performs best under cooler higher-elevation conditions with adequate moisture and good drainage.",
-        "result": "A cool, well-drained upland site",
-        "memory": "Arabica coffee site selection → A cool, well-drained upland site"
-      }
-    },
-    {
-      "id": "focus26-cs-003",
-      "subject": "Crop Science",
-      "topic": "Nitrogen deficiency",
-      "question": "A corn crop shows uniform yellowing that starts on the older leaves while the newest leaves remain greener. Which nutrient is most likely deficient?",
-      "options": [
-        "Nitrogen",
-        "Iron",
-        "Calcium",
-        "Boron"
-      ],
-      "answer": 0,
-      "explanation": "Nitrogen is mobile in plants, so deficiency symptoms typically begin on older leaves as general chlorosis.",
-      "optionExplanations": [
-        "Correct. Mobile N is remobilized to younger tissues.",
-        "Iron deficiency generally appears first on young leaves.",
-        "Calcium deficiency affects growing points and young tissues.",
-        "Boron deficiency commonly damages meristems and young tissues."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Nitrogen deficiency",
-        "clue": "Nitrogen deficiency",
-        "principle": "Nitrogen is mobile in plants, so deficiency symptoms typically begin on older leaves as general chlorosis.",
-        "result": "Nitrogen",
-        "memory": "Nitrogen deficiency → Nitrogen"
-      }
-    },
-    {
-      "id": "focus26-cs-004",
-      "subject": "Crop Science",
-      "topic": "Iron deficiency",
-      "question": "Young leaves of a crop become yellow between the veins, while older leaves stay relatively green. Which deficiency best fits this pattern?",
-      "options": [
-        "Iron",
-        "Nitrogen",
-        "Magnesium",
-        "Potassium"
-      ],
-      "answer": 0,
-      "explanation": "Iron is relatively immobile, so deficiency commonly appears as interveinal chlorosis on young leaves.",
-      "optionExplanations": [
-        "Correct. Young-leaf interveinal chlorosis strongly suggests Fe deficiency.",
-        "Nitrogen symptoms usually start on older leaves.",
-        "Magnesium symptoms commonly start on older leaves.",
-        "Potassium usually causes marginal chlorosis/necrosis on older leaves."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Iron deficiency",
-        "clue": "Iron deficiency",
-        "principle": "Iron is relatively immobile, so deficiency commonly appears as interveinal chlorosis on young leaves.",
-        "result": "Iron",
-        "memory": "Iron deficiency → Iron"
-      }
-    },
-    {
-      "id": "focus26-cs-005",
-      "subject": "Crop Science",
-      "topic": "Potassium deficiency",
-      "question": "Which symptom is most characteristic of potassium deficiency in many field crops?",
-      "options": [
-        "Marginal yellowing and scorching beginning on older leaves",
-        "Interveinal chlorosis only on the youngest leaves",
-        "Death of the shoot tip before leaf symptoms",
-        "White powdery fungal growth on leaf surfaces"
-      ],
-      "answer": 0,
-      "explanation": "Potassium is mobile and deficiency often begins on older leaves with marginal chlorosis that progresses to necrosis or scorching.",
-      "optionExplanations": [
-        "Correct. Marginal scorch on older leaves is classic.",
-        "This more strongly suggests iron deficiency.",
-        "Growing-point death is more typical of calcium or boron deficiency.",
-        "Powdery growth indicates disease, not nutrient deficiency."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Potassium deficiency",
-        "clue": "Potassium deficiency",
-        "principle": "Potassium is mobile and deficiency often begins on older leaves with marginal chlorosis that progresses to necrosis or scorching.",
-        "result": "Marginal yellowing and scorching beginning on older leaves",
-        "memory": "Potassium deficiency → Marginal yellowing and scorching beginning on older leaves"
-      }
-    },
-    {
-      "id": "focus26-cs-006",
-      "subject": "Crop Science",
-      "topic": "Nutrient mobility",
-      "question": "Why do deficiencies of mobile nutrients such as nitrogen and magnesium often appear first on older leaves?",
-      "options": [
-        "The plant can retranslocate them from old tissues to actively growing tissues",
-        "Old leaves cannot receive water",
-        "Young leaves have no vascular connections",
-        "Mobile nutrients are not used in growing tissues"
-      ],
-      "answer": 0,
-      "explanation": "Mobile nutrients can be remobilized from older leaves to younger growing organs, causing older leaves to show deficiency first.",
-      "optionExplanations": [
-        "Correct. Remobilization explains the symptom pattern.",
-        "Water supply is not the defining reason.",
-        "Young leaves develop vascular connections.",
-        "Growing tissues have strong nutrient demand."
-      ],
-      "difficulty": "Application",
-      "priority": "Mock-focus high",
-      "sourceTag": "2023 recalled topic signal + Sir Brian mock-focus baseline 2026-10-09",
-      "visualSpec": {
-        "type": "flow",
-        "title": "Nutrient mobility",
-        "clue": "Nutrient mobility",
-        "principle": "Mobile nutrients can be remobilized from older leaves to younger growing organs, causing older leaves to show deficiency first.",
-        "result": "The plant can retranslocate them from old tissues to actively growing tissues",
-        "memory": "Nutrient mobility → The plant can retranslocate them from old tissues to actively growing tissues"
-      }
-    },
     {
       "id": "sb-cs-m4-001",
       "subject": "Crop Science",
@@ -3173,5 +2987,6 @@
   "availableSubjects": [
     "Crop Science"
   ],
-  "removedNonMockBaselineQuestions": 30
+  "removedNonMockBaselineQuestions": 30,
+  "questionCount": 90
 }
