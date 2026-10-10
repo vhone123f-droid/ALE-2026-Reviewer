@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "title": "Sir Brian Mock Exam Focus",
   "mockPlan": {
     "provider": "Sir Brian Review Center",
@@ -14,13 +14,13 @@
       "Agricultural Economics & Marketing",
       "Agricultural Extension & Communication"
     ],
-    "completedResultsReceived": 0
+    "completedResultsReceived": 4
   },
   "strategy": {
     "weak": 60,
     "correctRepeat": 25,
     "mixed": 15,
-    "note": "After each mock summary is received, missed concepts get the highest repetition weight. Correct items remain in rotation for retrieval practice. No duplicate copies are added to the bank; repetition happens by resurfacing existing or improved-variant questions in later sessions."
+    "note": "Sir Brian mock results are used only inside the separate Sir Brian Mock Reviewer. The independent High-Yield 2026 bank must not absorb or duplicate Sir Brian mock-derived questions. Missed concepts get 60% of targeted repetition, correct concepts 25%, and cumulative mixed review 15%."
   },
   "priorityTopics": [
     {
@@ -386,6 +386,129 @@
       "note": "Prioritize long-scenario questions that require identifying the principle before choosing the best answer."
     }
   ],
-  "mockResults": [],
-  "disclaimer": "These initial topics come from recalled 2023 examination-topic notes supplied by the user and are used only as study signals, not as verified exact PRC questions. Personal mock-exam errors will take priority as soon as mock summaries are analyzed."
+  "mockResults": [
+    {
+      "subject": "Crop Science",
+      "mock": 1,
+      "score": 71,
+      "total": 100,
+      "wrong": 29
+    },
+    {
+      "subject": "Crop Science",
+      "mock": 2,
+      "score": 46,
+      "total": 100,
+      "wrong": 54
+    },
+    {
+      "subject": "Crop Science",
+      "mock": 3,
+      "score": 60,
+      "total": 100,
+      "wrong": 40
+    },
+    {
+      "subject": "Crop Science",
+      "mock": 4,
+      "score": 45,
+      "total": 100,
+      "wrong": 55
+    }
+  ],
+  "disclaimer": "These initial topics come from recalled 2023 examination-topic notes supplied by the user and are used only as study signals, not as verified exact PRC questions. Personal mock-exam errors will take priority as soon as mock summaries are analyzed.",
+  "performanceSummary": {
+    "subject": "Crop Science",
+    "examsAnalyzed": 4,
+    "itemsAnalyzed": 400,
+    "correct": 222,
+    "wrong": 178,
+    "averageScore": 55.5,
+    "priorityOrder": [
+      {
+        "topic": "Taxonomy & crop families",
+        "accuracy": 27,
+        "wrong": 11,
+        "total": 15,
+        "weight": 10
+      },
+      {
+        "topic": "Photosynthesis & respiration",
+        "accuracy": 35,
+        "wrong": 11,
+        "total": 17,
+        "weight": 9
+      },
+      {
+        "topic": "Plant nutrition",
+        "accuracy": 40,
+        "wrong": 12,
+        "total": 20,
+        "weight": 9
+      },
+      {
+        "topic": "Breeding & biotechnology",
+        "accuracy": 47,
+        "wrong": 8,
+        "total": 15,
+        "weight": 8
+      },
+      {
+        "topic": "Plant hormones & movements",
+        "accuracy": 48,
+        "wrong": 11,
+        "total": 21,
+        "weight": 8
+      },
+      {
+        "topic": "Plant anatomy & morphology",
+        "accuracy": 52,
+        "wrong": 31,
+        "total": 64,
+        "weight": 8
+      },
+      {
+        "topic": "Horticulture & fruit science",
+        "accuracy": 55,
+        "wrong": 18,
+        "total": 40,
+        "weight": 7
+      },
+      {
+        "topic": "Propagation & tissue culture",
+        "accuracy": 57,
+        "wrong": 9,
+        "total": 21,
+        "weight": 7
+      },
+      {
+        "topic": "Philippine crops & institutions",
+        "accuracy": 60,
+        "wrong": 12,
+        "total": 30,
+        "weight": 6
+      },
+      {
+        "topic": "Postharvest / processing",
+        "accuracy": 64,
+        "wrong": 4,
+        "total": 11,
+        "weight": 5
+      },
+      {
+        "topic": "Agronomy & crop management",
+        "accuracy": 65,
+        "wrong": 6,
+        "total": 17,
+        "weight": 5
+      },
+      {
+        "topic": "Seed science",
+        "accuracy": 70,
+        "wrong": 15,
+        "total": 50,
+        "weight": 4
+      }
+    ]
+  }
 }
