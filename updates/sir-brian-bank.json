@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "sirbrian-2026.10.10.1",
+  "bankVersion": "sirbrian-2026.10.10.2",
   "released": "2026-10-10",
   "title": "Sir Brian Mock Training Reviewer",
-  "actualMockSummariesReceived": 0,
+  "actualMockSummariesReceived": 4,
   "plannedMockExams": {
     "subjects": 6,
     "mockExamsPerSubject": 9,
@@ -11,11 +11,12 @@
     "totalMockExams": 54
   },
   "purpose": "Separate practice bank for Sir Brian Review Center mock-exam analysis and targeted retraining. Future questions derived from the user's submitted mock summaries belong here, not in the High-Yield 2026 bank.",
-  "disclaimer": "The current baseline items are original training questions seeded from the user's recalled prior-exam topic signals. They are not claimed to be actual Sir Brian Review Center questions. Once the user submits mock summaries, this bank should prioritize concepts the user missed while still repeating correctly answered high-yield concepts.",
+  "disclaimer": "Sir Brian Review Center mock results are used to diagnose the user's weak concepts and create original retraining questions. Exact proprietary mock questions are not republished in this public app. The High-Yield 2026 Reviewer remains a separate independent bank.",
   "strategy": {
     "mistakePriority": 60,
     "correctReinforcement": 25,
-    "cumulativeMixed": 15
+    "cumulativeMixed": 15,
+    "note": "Mock-derived retraining is separated from the independent High-Yield 2026 bank. Missed concepts receive the highest repetition weight; correct concepts remain in rotation. Exact mock wording is not republished."
   },
   "questions": [
     {
@@ -1133,6 +1134,1800 @@
         "result": "Complexity, cost/relative advantage, and compatibility",
         "memory": "Innovation adoption → Complexity, cost/relative advantage, and compatibility"
       }
+    },
+    {
+      "id": "sb-cs-m4-001",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "A crop has opposite leaves, square stems, and aromatic foliage. Which family is the best match?",
+      "options": [
+        "Fabaceae",
+        "Lamiaceae",
+        "Poaceae",
+        "Brassicaceae"
+      ],
+      "answer": 1,
+      "explanation": "Lamiaceae commonly includes aromatic herbs with square stems and opposite leaves.",
+      "optionExplanations": [
+        "Fabaceae is the legume family.",
+        "Correct. Lamiaceae commonly includes aromatic herbs with square stems and opposite leaves.",
+        "Poaceae is the grass family.",
+        "Brassicaceae commonly has mustard-type flowers."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Lamiaceae commonly includes aromatic herbs with square stems and opposite leaves.",
+        "result": "Lamiaceae",
+        "memory": "Taxonomy & Crop Families → Lamiaceae"
+      }
+    },
+    {
+      "id": "sb-cs-m4-002",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Which pairing is taxonomically correct?",
+      "options": [
+        "Tomato — Solanaceae",
+        "Carrot — Poaceae",
+        "Corn — Fabaceae",
+        "Peanut — Brassicaceae"
+      ],
+      "answer": 0,
+      "explanation": "Tomato belongs to Solanaceae.",
+      "optionExplanations": [
+        "Correct. Tomato belongs to Solanaceae.",
+        "Carrot belongs to Apiaceae.",
+        "Corn belongs to Poaceae.",
+        "Peanut belongs to Fabaceae."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Tomato belongs to Solanaceae.",
+        "result": "Tomato — Solanaceae",
+        "memory": "Taxonomy & Crop Families → Tomato — Solanaceae"
+      }
+    },
+    {
+      "id": "sb-cs-m4-003",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Which crop is NOT a member of Solanaceae?",
+      "options": [
+        "Eggplant",
+        "Tomato",
+        "Sweet potato",
+        "Pepper"
+      ],
+      "answer": 2,
+      "explanation": "Sweet potato is in Convolvulaceae, whereas eggplant, tomato, and pepper are Solanaceae.",
+      "optionExplanations": [
+        "Eggplant is Solanaceae.",
+        "Tomato is Solanaceae.",
+        "Correct. Sweet potato is in Convolvulaceae, whereas eggplant, tomato, and pepper are Solanaceae.",
+        "Pepper is Solanaceae."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Sweet potato is in Convolvulaceae, whereas eggplant, tomato, and pepper are Solanaceae.",
+        "result": "Sweet potato",
+        "memory": "Taxonomy & Crop Families → Sweet potato"
+      }
+    },
+    {
+      "id": "sb-cs-m4-004",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "The botanical family traditionally called Umbelliferae is now commonly called:",
+      "options": [
+        "Apiaceae",
+        "Asteraceae",
+        "Cucurbitaceae",
+        "Malvaceae"
+      ],
+      "answer": 0,
+      "explanation": "Apiaceae is the accepted family name corresponding to the older name Umbelliferae.",
+      "optionExplanations": [
+        "Correct. Apiaceae is the accepted family name corresponding to the older name Umbelliferae.",
+        "Asteraceae is the sunflower family.",
+        "Cucurbitaceae is the gourd family.",
+        "Malvaceae includes okra and cotton."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Apiaceae is the accepted family name corresponding to the older name Umbelliferae.",
+        "result": "Apiaceae",
+        "memory": "Taxonomy & Crop Families → Apiaceae"
+      }
+    },
+    {
+      "id": "sb-cs-m4-005",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Rice and corn are both classified under which family?",
+      "options": [
+        "Poaceae",
+        "Fabaceae",
+        "Solanaceae",
+        "Rutaceae"
+      ],
+      "answer": 0,
+      "explanation": "Rice and corn are grasses, both belonging to Poaceae.",
+      "optionExplanations": [
+        "Correct. Rice and corn are grasses, both belonging to Poaceae.",
+        "Fabaceae contains legumes.",
+        "Solanaceae contains nightshades.",
+        "Rutaceae includes citrus."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Rice and corn are grasses, both belonging to Poaceae.",
+        "result": "Poaceae",
+        "memory": "Taxonomy & Crop Families → Poaceae"
+      }
+    },
+    {
+      "id": "sb-cs-m4-006",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Which fruit type is characteristic of grasses such as rice and corn?",
+      "options": [
+        "Caryopsis",
+        "Drupe",
+        "Berry",
+        "Legume"
+      ],
+      "answer": 0,
+      "explanation": "A caryopsis is the typical dry indehiscent fruit of grasses, with the pericarp fused to the seed coat.",
+      "optionExplanations": [
+        "Correct. A caryopsis is the typical dry indehiscent fruit of grasses, with the pericarp fused to the seed coat.",
+        "A drupe has a stony endocarp.",
+        "A berry is fleshy throughout most of the pericarp.",
+        "A legume is typical of Fabaceae."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "A caryopsis is the typical dry indehiscent fruit of grasses, with the pericarp fused to the seed coat.",
+        "result": "Caryopsis",
+        "memory": "Taxonomy & Crop Families → Caryopsis"
+      }
+    },
+    {
+      "id": "sb-cs-m4-007",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "A plant key places a specimen under Fabaceae. Which trait would most strongly support that placement?",
+      "options": [
+        "Fruit is a legume or pod",
+        "Stem always has a square cross-section",
+        "Inflorescence is always a panicle",
+        "Leaves must be needle-like"
+      ],
+      "answer": 0,
+      "explanation": "The legume or pod is the characteristic fruit type of Fabaceae.",
+      "optionExplanations": [
+        "Correct. The legume or pod is the characteristic fruit type of Fabaceae.",
+        "Square stems are common in Lamiaceae.",
+        "Panicles occur in many unrelated families.",
+        "Needle-like leaves are not a defining Fabaceae trait."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "The legume or pod is the characteristic fruit type of Fabaceae.",
+        "result": "Fruit is a legume or pod",
+        "memory": "Taxonomy & Crop Families → Fruit is a legume or pod"
+      }
+    },
+    {
+      "id": "sb-cs-m4-008",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "In C3 plants, the first stable product after CO₂ fixation is:",
+      "options": [
+        "Oxaloacetate",
+        "3-phosphoglycerate",
+        "Pyruvate",
+        "Malate"
+      ],
+      "answer": 1,
+      "explanation": "C3 photosynthesis produces the three-carbon compound 3-phosphoglycerate as the first stable product.",
+      "optionExplanations": [
+        "Oxaloacetate is the first stable product of C4 fixation.",
+        "Correct. C3 photosynthesis produces the three-carbon compound 3-phosphoglycerate as the first stable product.",
+        "Pyruvate is involved in several metabolic pathways but is not the first stable C3 fixation product.",
+        "Malate is associated with C4/CAM carbon concentration."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "C3 photosynthesis produces the three-carbon compound 3-phosphoglycerate as the first stable product.",
+        "result": "3-phosphoglycerate",
+        "memory": "Photosynthesis & Respiration → 3-phosphoglycerate"
+      }
+    },
+    {
+      "id": "sb-cs-m4-009",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "The oxygen released during photosynthesis comes directly from:",
+      "options": [
+        "Carbon dioxide",
+        "Water",
+        "Glucose",
+        "Chlorophyll"
+      ],
+      "answer": 1,
+      "explanation": "Photosynthetic oxygen is produced by photolysis of water in the light reactions.",
+      "optionExplanations": [
+        "CO₂ supplies carbon, not released O₂.",
+        "Correct. Photosynthetic oxygen is produced by photolysis of water in the light reactions.",
+        "Glucose is a product of carbon fixation.",
+        "Chlorophyll captures light but is not the oxygen source."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Photosynthetic oxygen is produced by photolysis of water in the light reactions.",
+        "result": "Water",
+        "memory": "Photosynthesis & Respiration → Water"
+      }
+    },
+    {
+      "id": "sb-cs-m4-010",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "Which feature allows C4 plants to reduce photorespiration?",
+      "options": [
+        "CO₂ concentration in bundle-sheath cells",
+        "Absence of chlorophyll",
+        "Permanent stomatal closure",
+        "No use of the Calvin cycle"
+      ],
+      "answer": 0,
+      "explanation": "C4 metabolism concentrates CO₂ around Rubisco in bundle-sheath cells, reducing oxygenation and photorespiration.",
+      "optionExplanations": [
+        "Correct. C4 metabolism concentrates CO₂ around Rubisco in bundle-sheath cells, reducing oxygenation and photorespiration.",
+        "C4 plants contain chlorophyll.",
+        "Stomata still function.",
+        "C4 plants still use the Calvin cycle."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "C4 metabolism concentrates CO₂ around Rubisco in bundle-sheath cells, reducing oxygenation and photorespiration.",
+        "result": "CO₂ concentration in bundle-sheath cells",
+        "memory": "Photosynthesis & Respiration → CO₂ concentration in bundle-sheath cells"
+      }
+    },
+    {
+      "id": "sb-cs-m4-011",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "During the light reactions, which pair is produced and later used in the Calvin cycle?",
+      "options": [
+        "ATP and NADPH",
+        "CO₂ and O₂",
+        "Pyruvate and ethanol",
+        "Starch and sucrose"
+      ],
+      "answer": 0,
+      "explanation": "The light reactions generate ATP and NADPH that power carbon reduction in the Calvin cycle.",
+      "optionExplanations": [
+        "Correct. The light reactions generate ATP and NADPH that power carbon reduction in the Calvin cycle.",
+        "CO₂ is consumed in the Calvin cycle; O₂ is released from water splitting.",
+        "Pyruvate and ethanol are associated with glycolysis/fermentation.",
+        "Starch and sucrose are later products of carbon metabolism."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "The light reactions generate ATP and NADPH that power carbon reduction in the Calvin cycle.",
+        "result": "ATP and NADPH",
+        "memory": "Photosynthesis & Respiration → ATP and NADPH"
+      }
+    },
+    {
+      "id": "sb-cs-m4-012",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "Photorespiration increases when Rubisco reacts with:",
+      "options": [
+        "O₂ instead of CO₂",
+        "N₂ instead of O₂",
+        "ATP instead of NADPH",
+        "Water instead of CO₂"
+      ],
+      "answer": 0,
+      "explanation": "Photorespiration begins when Rubisco oxygenates RuBP by reacting with O₂ rather than carboxylating it with CO₂.",
+      "optionExplanations": [
+        "Correct. Photorespiration begins when Rubisco oxygenates RuBP by reacting with O₂ rather than carboxylating it with CO₂.",
+        "N₂ is not a Rubisco substrate.",
+        "ATP and NADPH are energy/reducing molecules, not Rubisco gaseous substrates.",
+        "Water does not replace CO₂ at Rubisco."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Photorespiration begins when Rubisco oxygenates RuBP by reacting with O₂ rather than carboxylating it with CO₂.",
+        "result": "O₂ instead of CO₂",
+        "memory": "Photosynthesis & Respiration → O₂ instead of CO₂"
+      }
+    },
+    {
+      "id": "sb-cs-m4-013",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "Which condition most favors photorespiration in a C3 crop?",
+      "options": [
+        "Hot conditions with low internal CO₂",
+        "Cool conditions with abundant CO₂",
+        "Darkness with high soil nitrogen",
+        "Low temperature with open stomata"
+      ],
+      "answer": 0,
+      "explanation": "High temperature and reduced internal CO₂ favor Rubisco oxygenation and therefore photorespiration.",
+      "optionExplanations": [
+        "Correct. High temperature and reduced internal CO₂ favor Rubisco oxygenation and therefore photorespiration.",
+        "Cooler conditions and abundant CO₂ reduce photorespiration.",
+        "Darkness stops photosynthetic carbon fixation.",
+        "Low temperature generally reduces the oxygenation tendency of Rubisco."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "High temperature and reduced internal CO₂ favor Rubisco oxygenation and therefore photorespiration.",
+        "result": "Hot conditions with low internal CO₂",
+        "memory": "Photosynthesis & Respiration → Hot conditions with low internal CO₂"
+      }
+    },
+    {
+      "id": "sb-cs-m4-014",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "The main function of cellular respiration in plant cells is to:",
+      "options": [
+        "Capture usable energy from organic molecules as ATP",
+        "Produce chlorophyll from oxygen",
+        "Fix atmospheric nitrogen directly",
+        "Convert all CO₂ into starch"
+      ],
+      "answer": 0,
+      "explanation": "Respiration oxidizes organic substrates and captures part of their energy in ATP.",
+      "optionExplanations": [
+        "Correct. Respiration oxidizes organic substrates and captures part of their energy in ATP.",
+        "Chlorophyll synthesis is not the main purpose of respiration.",
+        "Most plants do not directly fix atmospheric N₂.",
+        "CO₂ is released by respiration rather than all being converted to starch."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Respiration oxidizes organic substrates and captures part of their energy in ATP.",
+        "result": "Capture usable energy from organic molecules as ATP",
+        "memory": "Photosynthesis & Respiration → Capture usable energy from organic molecules as ATP"
+      }
+    },
+    {
+      "id": "sb-cs-m4-015",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "A deficiency appears first on older leaves as generalized chlorosis. Which nutrient is most likely deficient?",
+      "options": [
+        "Nitrogen",
+        "Calcium",
+        "Boron",
+        "Iron"
+      ],
+      "answer": 0,
+      "explanation": "Nitrogen is mobile in the plant, so deficiency commonly appears first on older leaves.",
+      "optionExplanations": [
+        "Correct. Nitrogen is mobile in the plant, so deficiency commonly appears first on older leaves.",
+        "Calcium deficiency typically affects young tissues and growing points.",
+        "Boron deficiency often damages meristems and young tissues.",
+        "Iron deficiency commonly causes interveinal chlorosis on young leaves."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Nitrogen is mobile in the plant, so deficiency commonly appears first on older leaves.",
+        "result": "Nitrogen",
+        "memory": "Plant Nutrition & Fertility → Nitrogen"
+      }
+    },
+    {
+      "id": "sb-cs-m4-016",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Young leaves show interveinal chlorosis while veins remain relatively green. Which deficiency is most likely?",
+      "options": [
+        "Iron",
+        "Nitrogen",
+        "Magnesium",
+        "Phosphorus"
+      ],
+      "answer": 0,
+      "explanation": "Iron is relatively immobile, so its deficiency commonly appears first as interveinal chlorosis of young leaves.",
+      "optionExplanations": [
+        "Correct. Iron is relatively immobile, so its deficiency commonly appears first as interveinal chlorosis of young leaves.",
+        "Nitrogen symptoms begin on older leaves.",
+        "Magnesium is mobile and typically affects older leaves first.",
+        "Phosphorus deficiency often causes stunting and dark or purplish coloration."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Iron is relatively immobile, so its deficiency commonly appears first as interveinal chlorosis of young leaves.",
+        "result": "Iron",
+        "memory": "Plant Nutrition & Fertility → Iron"
+      }
+    },
+    {
+      "id": "sb-cs-m4-017",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Purpling of older leaves together with stunted growth most strongly suggests deficiency of:",
+      "options": [
+        "Phosphorus",
+        "Calcium",
+        "Sulfur",
+        "Boron"
+      ],
+      "answer": 0,
+      "explanation": "Phosphorus deficiency often causes stunting and accumulation of anthocyanin, producing purplish coloration.",
+      "optionExplanations": [
+        "Correct. Phosphorus deficiency often causes stunting and accumulation of anthocyanin, producing purplish coloration.",
+        "Calcium deficiency damages young tissues.",
+        "Sulfur commonly causes general chlorosis of younger leaves.",
+        "Boron deficiency affects growing points and reproductive tissues."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Phosphorus deficiency often causes stunting and accumulation of anthocyanin, producing purplish coloration.",
+        "result": "Phosphorus",
+        "memory": "Plant Nutrition & Fertility → Phosphorus"
+      }
+    },
+    {
+      "id": "sb-cs-m4-018",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Which nutrient is central to chlorophyll molecules and is mobile enough that deficiency often starts on older leaves?",
+      "options": [
+        "Magnesium",
+        "Calcium",
+        "Boron",
+        "Iron"
+      ],
+      "answer": 0,
+      "explanation": "Magnesium is the central atom in chlorophyll and is mobile in plants, so deficiency often affects older leaves first.",
+      "optionExplanations": [
+        "Correct. Magnesium is the central atom in chlorophyll and is mobile in plants, so deficiency often affects older leaves first.",
+        "Calcium is relatively immobile and affects young tissues.",
+        "Boron is not the central atom of chlorophyll.",
+        "Iron is required for chlorophyll formation but is not the central atom and its deficiency appears on young leaves."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Magnesium is the central atom in chlorophyll and is mobile in plants, so deficiency often affects older leaves first.",
+        "result": "Magnesium",
+        "memory": "Plant Nutrition & Fertility → Magnesium"
+      }
+    },
+    {
+      "id": "sb-cs-m4-019",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "A crop has marginal scorching on older leaves and weak stems. Which macronutrient deficiency is a likely cause?",
+      "options": [
+        "Potassium",
+        "Calcium",
+        "Boron",
+        "Iron"
+      ],
+      "answer": 0,
+      "explanation": "Potassium deficiency commonly causes marginal chlorosis or scorching on older leaves and weak growth.",
+      "optionExplanations": [
+        "Correct. Potassium deficiency commonly causes marginal chlorosis or scorching on older leaves and weak growth.",
+        "Calcium problems usually show first in growing tissues.",
+        "Boron deficiency primarily affects meristems and reproductive growth.",
+        "Iron deficiency is usually interveinal chlorosis of young leaves."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Potassium deficiency commonly causes marginal chlorosis or scorching on older leaves and weak growth.",
+        "result": "Potassium",
+        "memory": "Plant Nutrition & Fertility → Potassium"
+      }
+    },
+    {
+      "id": "sb-cs-m4-020",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Why can excessive liming of an acidic soil create micronutrient problems?",
+      "options": [
+        "Some micronutrients become less available as pH rises too high",
+        "Lime removes all clay particles",
+        "Lime converts nitrogen into oxygen gas",
+        "All nutrients become equally soluble"
+      ],
+      "answer": 0,
+      "explanation": "Excessively high pH can reduce the availability of micronutrients such as Fe, Mn, Zn, and Cu.",
+      "optionExplanations": [
+        "Correct. Excessively high pH can reduce the availability of micronutrients such as Fe, Mn, Zn, and Cu.",
+        "Lime does not remove all clay.",
+        "Nitrogen is not converted into oxygen gas by liming.",
+        "Nutrient solubility changes differently among elements."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Excessively high pH can reduce the availability of micronutrients such as Fe, Mn, Zn, and Cu.",
+        "result": "Some micronutrients become less available as pH rises too high",
+        "memory": "Plant Nutrition & Fertility → Some micronutrients become less available as pH rises too high"
+      }
+    },
+    {
+      "id": "sb-cs-m4-021",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Which diagnostic method directly measures the nutrient concentration within plant tissue?",
+      "options": [
+        "Plant tissue analysis",
+        "Soil texture analysis",
+        "Seed purity test",
+        "Bulk density determination"
+      ],
+      "answer": 0,
+      "explanation": "Plant tissue analysis measures nutrients present in plant tissues and helps diagnose nutritional status.",
+      "optionExplanations": [
+        "Correct. Plant tissue analysis measures nutrients present in plant tissues and helps diagnose nutritional status.",
+        "Soil texture measures particle-size distribution.",
+        "Seed purity evaluates seed-lot composition.",
+        "Bulk density measures dry soil mass per bulk volume."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Plant tissue analysis measures nutrients present in plant tissues and helps diagnose nutritional status.",
+        "result": "Plant tissue analysis",
+        "memory": "Plant Nutrition & Fertility → Plant tissue analysis"
+      }
+    },
+    {
+      "id": "sb-cs-m4-022",
+      "subject": "Crop Science",
+      "topic": "Plant Breeding & Biotechnology",
+      "question": "The major purpose of backcross breeding is to:",
+      "options": [
+        "Transfer one or a few desired genes into an otherwise desirable recurrent parent",
+        "Create maximum segregation indefinitely",
+        "Produce only polyploid plants",
+        "Eliminate the recurrent parent genome"
+      ],
+      "answer": 0,
+      "explanation": "Backcrossing repeatedly uses the recurrent parent to recover its genetic background while introducing a specific desired trait.",
+      "optionExplanations": [
+        "Correct. Backcrossing repeatedly uses the recurrent parent to recover its genetic background while introducing a specific desired trait.",
+        "Segregation is not the main goal of repeated backcrossing.",
+        "Polyploidy is not required.",
+        "The recurrent parent genome is deliberately recovered, not eliminated."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Breeding & Biotechnology",
+        "clue": "Plant Breeding & Biotechnology",
+        "principle": "Backcrossing repeatedly uses the recurrent parent to recover its genetic background while introducing a specific desired trait.",
+        "result": "Transfer one or a few desired genes into an otherwise desirable recurrent parent",
+        "memory": "Plant Breeding & Biotechnology → Transfer one or a few desired genes into an otherwise desirable recurrent parent"
+      }
+    },
+    {
+      "id": "sb-cs-m4-023",
+      "subject": "Crop Science",
+      "topic": "Plant Breeding & Biotechnology",
+      "question": "Heterosis is most accurately described as:",
+      "options": [
+        "Superior performance of a hybrid relative to its parents or parental mean",
+        "Loss of vigor caused by inbreeding",
+        "Mutation induced by radiation",
+        "Complete genetic uniformity in an F2 population"
+      ],
+      "answer": 0,
+      "explanation": "Heterosis or hybrid vigor is enhanced performance of a hybrid compared with its parents or their mean.",
+      "optionExplanations": [
+        "Correct. Heterosis or hybrid vigor is enhanced performance of a hybrid compared with its parents or their mean.",
+        "Loss of vigor from inbreeding is inbreeding depression.",
+        "Mutation is a different genetic process.",
+        "F2 populations usually segregate rather than remain completely uniform."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Breeding & Biotechnology",
+        "clue": "Plant Breeding & Biotechnology",
+        "principle": "Heterosis or hybrid vigor is enhanced performance of a hybrid compared with its parents or their mean.",
+        "result": "Superior performance of a hybrid relative to its parents or parental mean",
+        "memory": "Plant Breeding & Biotechnology → Superior performance of a hybrid relative to its parents or parental mean"
+      }
+    },
+    {
+      "id": "sb-cs-m4-024",
+      "subject": "Crop Science",
+      "topic": "Plant Breeding & Biotechnology",
+      "question": "A breeder wants to rapidly fix homozygosity from a heterozygous plant. Which technique can greatly shorten the process?",
+      "options": [
+        "Doubled-haploid production",
+        "Open pollination only",
+        "Repeated vegetative pruning",
+        "Delayed harvesting"
+      ],
+      "answer": 0,
+      "explanation": "Doubled-haploid technology can produce fully homozygous lines in one generation after chromosome doubling.",
+      "optionExplanations": [
+        "Correct. Doubled-haploid technology can produce fully homozygous lines in one generation after chromosome doubling.",
+        "Open pollination does not rapidly fix homozygosity.",
+        "Pruning does not alter zygosity.",
+        "Harvest timing does not create homozygous lines."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Breeding & Biotechnology",
+        "clue": "Plant Breeding & Biotechnology",
+        "principle": "Doubled-haploid technology can produce fully homozygous lines in one generation after chromosome doubling.",
+        "result": "Doubled-haploid production",
+        "memory": "Plant Breeding & Biotechnology → Doubled-haploid production"
+      }
+    },
+    {
+      "id": "sb-cs-m4-025",
+      "subject": "Crop Science",
+      "topic": "Plant Breeding & Biotechnology",
+      "question": "Which statement best distinguishes a genetically modified crop from a conventional hybrid?",
+      "options": [
+        "A GM crop contains genetic change introduced through biotechnology, while a hybrid results from crossing parents",
+        "A hybrid has no genes",
+        "A GM crop cannot reproduce",
+        "Conventional hybrids are always clones"
+      ],
+      "answer": 0,
+      "explanation": "Genetic modification uses biotechnology to introduce or alter genetic material, whereas hybridization combines genomes through crossing.",
+      "optionExplanations": [
+        "Correct. Genetic modification uses biotechnology to introduce or alter genetic material, whereas hybridization combines genomes through crossing.",
+        "Hybrids contain genes like all organisms.",
+        "GM crops can reproduce unless engineered or managed otherwise.",
+        "Hybrids are not necessarily clones."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Breeding & Biotechnology",
+        "clue": "Plant Breeding & Biotechnology",
+        "principle": "Genetic modification uses biotechnology to introduce or alter genetic material, whereas hybridization combines genomes through crossing.",
+        "result": "A GM crop contains genetic change introduced through biotechnology, while a hybrid results from crossing parents",
+        "memory": "Plant Breeding & Biotechnology → A GM crop contains genetic change introduced through biotechnology, while a hybrid results from crossing parents"
+      }
+    },
+    {
+      "id": "sb-cs-m4-026",
+      "subject": "Crop Science",
+      "topic": "Plant Breeding & Biotechnology",
+      "question": "In plant breeding, a cultivar with high performance in one environment but poor performance elsewhere shows strong:",
+      "options": [
+        "Genotype × environment interaction",
+        "Apomixis",
+        "Seed dormancy",
+        "Photolysis"
+      ],
+      "answer": 0,
+      "explanation": "Genotype × environment interaction occurs when genotypes respond differently across environments.",
+      "optionExplanations": [
+        "Correct. Genotype × environment interaction occurs when genotypes respond differently across environments.",
+        "Apomixis is asexual seed formation.",
+        "Dormancy is failure to germinate despite favorable conditions.",
+        "Photolysis is light-driven splitting of water."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Breeding & Biotechnology",
+        "clue": "Plant Breeding & Biotechnology",
+        "principle": "Genotype × environment interaction occurs when genotypes respond differently across environments.",
+        "result": "Genotype × environment interaction",
+        "memory": "Plant Breeding & Biotechnology → Genotype × environment interaction"
+      }
+    },
+    {
+      "id": "sb-cs-m4-027",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "Which hormone is most strongly associated with stomatal closure during water stress?",
+      "options": [
+        "Abscisic acid",
+        "Gibberellin",
+        "Cytokinin",
+        "Ethylene"
+      ],
+      "answer": 0,
+      "explanation": "Abscisic acid accumulates during water stress and promotes stomatal closure.",
+      "optionExplanations": [
+        "Correct. Abscisic acid accumulates during water stress and promotes stomatal closure.",
+        "Gibberellins mainly promote elongation and germination.",
+        "Cytokinins promote cell division and can delay senescence.",
+        "Ethylene is strongly associated with ripening and senescence."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Abscisic acid accumulates during water stress and promotes stomatal closure.",
+        "result": "Abscisic acid",
+        "memory": "Plant Hormones & Movements → Abscisic acid"
+      }
+    },
+    {
+      "id": "sb-cs-m4-028",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "A plant bends toward a unilateral light source because auxin redistributes to the shaded side of the stem. This response is:",
+      "options": [
+        "Phototropism",
+        "Nyctinasty",
+        "Thigmonasty",
+        "Hydronasty"
+      ],
+      "answer": 0,
+      "explanation": "Directional growth toward light is positive phototropism.",
+      "optionExplanations": [
+        "Correct. Directional growth toward light is positive phototropism.",
+        "Nyctinasty is a sleep movement tied to day-night cycles.",
+        "Thigmonasty is a non-directional touch response.",
+        "Hydronasty is a nastic response associated with water status."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Directional growth toward light is positive phototropism.",
+        "result": "Phototropism",
+        "memory": "Plant Hormones & Movements → Phototropism"
+      }
+    },
+    {
+      "id": "sb-cs-m4-029",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "Which hormone is best known for promoting fruit ripening in climacteric fruits?",
+      "options": [
+        "Ethylene",
+        "Auxin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "answer": 0,
+      "explanation": "Ethylene is the principal ripening hormone in climacteric fruits.",
+      "optionExplanations": [
+        "Correct. Ethylene is the principal ripening hormone in climacteric fruits.",
+        "Auxin is better known for elongation and apical dominance.",
+        "Cytokinin promotes cell division.",
+        "ABA is best known for stress responses and dormancy."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Ethylene is the principal ripening hormone in climacteric fruits.",
+        "result": "Ethylene",
+        "memory": "Plant Hormones & Movements → Ethylene"
+      }
+    },
+    {
+      "id": "sb-cs-m4-030",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "The 'foolish seedling' disease of rice historically revealed the growth-promoting effect of:",
+      "options": [
+        "Gibberellins",
+        "Abscisic acid",
+        "Ethylene",
+        "Cytokinins"
+      ],
+      "answer": 0,
+      "explanation": "Gibberellins were linked to excessive elongation in foolish seedling disease caused by Gibberella/Fusarium.",
+      "optionExplanations": [
+        "Correct. Gibberellins were linked to excessive elongation in foolish seedling disease caused by Gibberella/Fusarium.",
+        "ABA generally inhibits growth and promotes dormancy.",
+        "Ethylene does not cause the characteristic excessive elongation.",
+        "Cytokinins mainly promote cell division."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Gibberellins were linked to excessive elongation in foolish seedling disease caused by Gibberella/Fusarium.",
+        "result": "Gibberellins",
+        "memory": "Plant Hormones & Movements → Gibberellins"
+      }
+    },
+    {
+      "id": "sb-cs-m4-031",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "A legume folds its leaflets at night and opens them by day. This is an example of:",
+      "options": [
+        "Nyctinasty",
+        "Phototropism",
+        "Gravitropism",
+        "Hydrotropism"
+      ],
+      "answer": 0,
+      "explanation": "Nyctinasty is a reversible sleep movement associated with the daily light-dark cycle.",
+      "optionExplanations": [
+        "Correct. Nyctinasty is a reversible sleep movement associated with the daily light-dark cycle.",
+        "Phototropism is directional growth toward light.",
+        "Gravitropism is directional growth in response to gravity.",
+        "Hydrotropism is directional growth in response to water."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Nyctinasty is a reversible sleep movement associated with the daily light-dark cycle.",
+        "result": "Nyctinasty",
+        "memory": "Plant Hormones & Movements → Nyctinasty"
+      }
+    },
+    {
+      "id": "sb-cs-m4-032",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Lateral roots normally originate from which tissue?",
+      "options": [
+        "Pericycle",
+        "Epidermis",
+        "Pith",
+        "Guard cells"
+      ],
+      "answer": 0,
+      "explanation": "Lateral roots arise endogenously from the pericycle, usually opposite protoxylem poles.",
+      "optionExplanations": [
+        "Correct. Lateral roots arise endogenously from the pericycle, usually opposite protoxylem poles.",
+        "The epidermis forms the outer surface.",
+        "Pith is central ground tissue in many stems/roots.",
+        "Guard cells regulate stomata."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Lateral roots arise endogenously from the pericycle, usually opposite protoxylem poles.",
+        "result": "Pericycle",
+        "memory": "Plant Anatomy & Morphology → Pericycle"
+      }
+    },
+    {
+      "id": "sb-cs-m4-033",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which simple permanent tissue is most abundant and performs storage, photosynthesis, and wound repair?",
+      "options": [
+        "Parenchyma",
+        "Sclerenchyma",
+        "Xylem vessel",
+        "Cork"
+      ],
+      "answer": 0,
+      "explanation": "Parenchyma is the most common living ground tissue and performs diverse functions including storage and photosynthesis.",
+      "optionExplanations": [
+        "Correct. Parenchyma is the most common living ground tissue and performs diverse functions including storage and photosynthesis.",
+        "Sclerenchyma is specialized for mechanical support.",
+        "Xylem vessels conduct water and are complex-tissue elements.",
+        "Cork is protective tissue."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Parenchyma is the most common living ground tissue and performs diverse functions including storage and photosynthesis.",
+        "result": "Parenchyma",
+        "memory": "Plant Anatomy & Morphology → Parenchyma"
+      }
+    },
+    {
+      "id": "sb-cs-m4-034",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which tissue mainly transports sugars from source leaves to sink organs?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "Epidermis",
+        "Cambium"
+      ],
+      "answer": 0,
+      "explanation": "Phloem translocates assimilates such as sucrose from sources to sinks.",
+      "optionExplanations": [
+        "Correct. Phloem translocates assimilates such as sucrose from sources to sinks.",
+        "Xylem mainly conducts water and minerals.",
+        "Epidermis is protective.",
+        "Cambium produces secondary xylem and phloem."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Phloem translocates assimilates such as sucrose from sources to sinks.",
+        "result": "Phloem",
+        "memory": "Plant Anatomy & Morphology → Phloem"
+      }
+    },
+    {
+      "id": "sb-cs-m4-035",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "A leaf is called determinate because it:",
+      "options": [
+        "Stops growth after reaching a genetically regulated size and developmental state",
+        "Continues apical growth indefinitely",
+        "Always produces secondary wood",
+        "Forms roots at every node"
+      ],
+      "answer": 0,
+      "explanation": "Leaves generally have determinate growth, unlike indeterminate shoot apices that can continue producing organs.",
+      "optionExplanations": [
+        "Correct. Leaves generally have determinate growth, unlike indeterminate shoot apices that can continue producing organs.",
+        "Indefinite apical growth is characteristic of indeterminate meristems.",
+        "Leaves generally do not produce secondary wood.",
+        "Root formation at every node is not what determinate means."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Leaves generally have determinate growth, unlike indeterminate shoot apices that can continue producing organs.",
+        "result": "Stops growth after reaching a genetically regulated size and developmental state",
+        "memory": "Plant Anatomy & Morphology → Stops growth after reaching a genetically regulated size and developmental state"
+      }
+    },
+    {
+      "id": "sb-cs-m4-036",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which structure is the male reproductive organ of a typical flower?",
+      "options": [
+        "Stamen",
+        "Pistil",
+        "Sepal",
+        "Ovary"
+      ],
+      "answer": 0,
+      "explanation": "The stamen, composed of anther and filament, is the male reproductive organ.",
+      "optionExplanations": [
+        "Correct. The stamen, composed of anther and filament, is the male reproductive organ.",
+        "The pistil/carpel is female.",
+        "Sepals are protective floral parts.",
+        "The ovary is part of the female carpel."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "The stamen, composed of anther and filament, is the male reproductive organ.",
+        "result": "Stamen",
+        "memory": "Plant Anatomy & Morphology → Stamen"
+      }
+    },
+    {
+      "id": "sb-cs-m4-037",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "The mature ovary of a flower generally develops into the:",
+      "options": [
+        "Fruit",
+        "Seed coat",
+        "Pollen grain",
+        "Root cap"
+      ],
+      "answer": 0,
+      "explanation": "After fertilization, the ovary commonly develops into the fruit while ovules develop into seeds.",
+      "optionExplanations": [
+        "Correct. After fertilization, the ovary commonly develops into the fruit while ovules develop into seeds.",
+        "The seed coat comes from integuments.",
+        "Pollen grains are male gametophytes.",
+        "The root cap protects root tips."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "After fertilization, the ovary commonly develops into the fruit while ovules develop into seeds.",
+        "result": "Fruit",
+        "memory": "Plant Anatomy & Morphology → Fruit"
+      }
+    },
+    {
+      "id": "sb-cs-m4-038",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "A storage organ is classified as a true root rather than a modified stem if it lacks:",
+      "options": [
+        "Nodes and internodes",
+        "Vascular tissue",
+        "Stored carbohydrates",
+        "Living cells"
+      ],
+      "answer": 0,
+      "explanation": "Modified stems possess nodes and internodes; true storage roots lack these stem features.",
+      "optionExplanations": [
+        "Correct. Modified stems possess nodes and internodes; true storage roots lack these stem features.",
+        "Roots contain vascular tissue.",
+        "Both roots and stems can store carbohydrates.",
+        "Roots contain living cells."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Modified stems possess nodes and internodes; true storage roots lack these stem features.",
+        "result": "Nodes and internodes",
+        "memory": "Plant Anatomy & Morphology → Nodes and internodes"
+      }
+    },
+    {
+      "id": "sb-cs-m4-039",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Which branch of horticulture focuses on fruit production?",
+      "options": [
+        "Pomology",
+        "Olericulture",
+        "Floriculture",
+        "Agronomy"
+      ],
+      "answer": 0,
+      "explanation": "Pomology is the science and practice of fruit production.",
+      "optionExplanations": [
+        "Correct. Pomology is the science and practice of fruit production.",
+        "Olericulture concerns vegetables.",
+        "Floriculture concerns flowers and ornamental crops.",
+        "Agronomy focuses mainly on field crops and soils."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Pomology is the science and practice of fruit production.",
+        "result": "Pomology",
+        "memory": "Horticulture & Fruit Science → Pomology"
+      }
+    },
+    {
+      "id": "sb-cs-m4-040",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Which fruit is climacteric and can continue substantial ripening after harvest?",
+      "options": [
+        "Banana",
+        "Grape",
+        "Pineapple",
+        "Watermelon"
+      ],
+      "answer": 0,
+      "explanation": "Banana is a climacteric fruit with a respiratory and ethylene rise during ripening.",
+      "optionExplanations": [
+        "Correct. Banana is a climacteric fruit with a respiratory and ethylene rise during ripening.",
+        "Grapes are non-climacteric.",
+        "Pineapple is generally non-climacteric.",
+        "Watermelon is non-climacteric."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Banana is a climacteric fruit with a respiratory and ethylene rise during ripening.",
+        "result": "Banana",
+        "memory": "Horticulture & Fruit Science → Banana"
+      }
+    },
+    {
+      "id": "sb-cs-m4-041",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "For a distant market, mature-green harvest is especially appropriate for which crop?",
+      "options": [
+        "Mango",
+        "Strawberry",
+        "Lettuce",
+        "Cucumber"
+      ],
+      "answer": 0,
+      "explanation": "Mango is climacteric and can be harvested physiologically mature but still firm for transport and later ripening.",
+      "optionExplanations": [
+        "Correct. Mango is climacteric and can be harvested physiologically mature but still firm for transport and later ripening.",
+        "Strawberry has little postharvest ripening ability.",
+        "Lettuce is a leafy vegetable, not a climacteric fruit.",
+        "Cucumber is harvested at horticultural maturity but does not ripen like mango."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Mango is climacteric and can be harvested physiologically mature but still firm for transport and later ripening.",
+        "result": "Mango",
+        "memory": "Horticulture & Fruit Science → Mango"
+      }
+    },
+    {
+      "id": "sb-cs-m4-042",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Which crop is botanically a herbaceous perennial even though it can reach several meters in height?",
+      "options": [
+        "Banana",
+        "Mango",
+        "Coconut",
+        "Durian"
+      ],
+      "answer": 0,
+      "explanation": "Banana is a giant herb with a pseudostem formed by leaf sheaths rather than a woody trunk.",
+      "optionExplanations": [
+        "Correct. Banana is a giant herb with a pseudostem formed by leaf sheaths rather than a woody trunk.",
+        "Mango is a woody tree.",
+        "Coconut is a palm.",
+        "Durian is a woody tree."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Banana is a giant herb with a pseudostem formed by leaf sheaths rather than a woody trunk.",
+        "result": "Banana",
+        "memory": "Horticulture & Fruit Science → Banana"
+      }
+    },
+    {
+      "id": "sb-cs-m4-043",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "In abaca fiber preparation, removal of the leaf sheath strips from the stalk is called:",
+      "options": [
+        "Tuxying",
+        "Topping",
+        "Ratooning",
+        "Scarification"
+      ],
+      "answer": 0,
+      "explanation": "Tuxying is the operation of separating or pulling the tuxies/strips from abaca leaf sheaths before fiber extraction.",
+      "optionExplanations": [
+        "Correct. Tuxying is the operation of separating or pulling the tuxies/strips from abaca leaf sheaths before fiber extraction.",
+        "Topping removes upper plant parts.",
+        "Ratooning grows a new crop from regrowth after harvest.",
+        "Scarification treats hard seed coats."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Tuxying is the operation of separating or pulling the tuxies/strips from abaca leaf sheaths before fiber extraction.",
+        "result": "Tuxying",
+        "memory": "Horticulture & Fruit Science → Tuxying"
+      }
+    },
+    {
+      "id": "sb-cs-m4-044",
+      "subject": "Crop Science",
+      "topic": "Propagation & Tissue Culture",
+      "question": "A detached stem piece forms adventitious roots and develops into a new plant. This propagation method is:",
+      "options": [
+        "Cutting",
+        "Grafting",
+        "Budding",
+        "Layering"
+      ],
+      "answer": 0,
+      "explanation": "Propagation by cutting uses a detached vegetative part that regenerates missing organs.",
+      "optionExplanations": [
+        "Correct. Propagation by cutting uses a detached vegetative part that regenerates missing organs.",
+        "Grafting joins a scion to a rootstock.",
+        "Budding uses a single bud as the scion piece.",
+        "Layering induces roots while a shoot remains attached to the parent initially."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Propagation & Tissue Culture",
+        "clue": "Propagation & Tissue Culture",
+        "principle": "Propagation by cutting uses a detached vegetative part that regenerates missing organs.",
+        "result": "Cutting",
+        "memory": "Propagation & Tissue Culture → Cutting"
+      }
+    },
+    {
+      "id": "sb-cs-m4-045",
+      "subject": "Crop Science",
+      "topic": "Propagation & Tissue Culture",
+      "question": "Which statement best defines totipotency?",
+      "options": [
+        "A single plant cell can regenerate into a complete plant under suitable conditions",
+        "A seed can never become dormant",
+        "A root can photosynthesize without chlorophyll",
+        "A hybrid is always sterile"
+      ],
+      "answer": 0,
+      "explanation": "Totipotency is the capacity of a living plant cell to regenerate a complete organism under appropriate culture conditions.",
+      "optionExplanations": [
+        "Correct. Totipotency is the capacity of a living plant cell to regenerate a complete organism under appropriate culture conditions.",
+        "Dormancy is unrelated.",
+        "Photosynthesis requires appropriate pigments.",
+        "Many hybrids are fertile."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Propagation & Tissue Culture",
+        "clue": "Propagation & Tissue Culture",
+        "principle": "Totipotency is the capacity of a living plant cell to regenerate a complete organism under appropriate culture conditions.",
+        "result": "A single plant cell can regenerate into a complete plant under suitable conditions",
+        "memory": "Propagation & Tissue Culture → A single plant cell can regenerate into a complete plant under suitable conditions"
+      }
+    },
+    {
+      "id": "sb-cs-m4-046",
+      "subject": "Crop Science",
+      "topic": "Propagation & Tissue Culture",
+      "question": "Which method induces roots on a stem while it is still attached to the parent plant?",
+      "options": [
+        "Layering",
+        "Cutting",
+        "Seed propagation",
+        "Division of pollen grains"
+      ],
+      "answer": 0,
+      "explanation": "Layering induces roots on an attached shoot before it is separated from the parent.",
+      "optionExplanations": [
+        "Correct. Layering induces roots on an attached shoot before it is separated from the parent.",
+        "Cuttings are detached before rooting.",
+        "Seed propagation is sexual.",
+        "Pollen division is not a standard vegetative propagation method."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Propagation & Tissue Culture",
+        "clue": "Propagation & Tissue Culture",
+        "principle": "Layering induces roots on an attached shoot before it is separated from the parent.",
+        "result": "Layering",
+        "memory": "Propagation & Tissue Culture → Layering"
+      }
+    },
+    {
+      "id": "sb-cs-m4-047",
+      "subject": "Crop Science",
+      "topic": "Propagation & Tissue Culture",
+      "question": "A pineapple planting-material list includes crowns, slips, and suckers. Which structure would NOT normally be used as a standard pineapple propagule?",
+      "options": [
+        "Corm",
+        "Crown",
+        "Slip",
+        "Sucker"
+      ],
+      "answer": 0,
+      "explanation": "Pineapple is commonly propagated by crowns, slips, and suckers; a corm is not a normal pineapple propagule.",
+      "optionExplanations": [
+        "Correct. Pineapple is commonly propagated by crowns, slips, and suckers; a corm is not a normal pineapple propagule.",
+        "Crowns are common propagules.",
+        "Slips are common propagules.",
+        "Suckers are common propagules."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Propagation & Tissue Culture",
+        "clue": "Propagation & Tissue Culture",
+        "principle": "Pineapple is commonly propagated by crowns, slips, and suckers; a corm is not a normal pineapple propagule.",
+        "result": "Corm",
+        "memory": "Propagation & Tissue Culture → Corm"
+      }
+    },
+    {
+      "id": "sb-cs-m4-048",
+      "subject": "Crop Science",
+      "topic": "Philippine Agriculture & Institutions",
+      "question": "The headquarters of the International Rice Research Institute is located in:",
+      "options": [
+        "Los Baños, Laguna",
+        "Science City of Muñoz, Nueva Ecija",
+        "Baguio City",
+        "Davao City"
+      ],
+      "answer": 0,
+      "explanation": "IRRI is headquartered in Los Baños, Laguna.",
+      "optionExplanations": [
+        "Correct. IRRI is headquartered in Los Baños, Laguna.",
+        "Science City of Muñoz hosts several agricultural institutions but not IRRI headquarters.",
+        "Baguio is not IRRI headquarters.",
+        "Davao is not IRRI headquarters."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Philippine Agriculture & Institutions",
+        "clue": "Philippine Agriculture & Institutions",
+        "principle": "IRRI is headquartered in Los Baños, Laguna.",
+        "result": "Los Baños, Laguna",
+        "memory": "Philippine Agriculture & Institutions → Los Baños, Laguna"
+      }
+    },
+    {
+      "id": "sb-cs-m4-049",
+      "subject": "Crop Science",
+      "topic": "Philippine Agriculture & Institutions",
+      "question": "Which Philippine locality is officially known as the country's Science City and hosts major agricultural research institutions?",
+      "options": [
+        "Muñoz, Nueva Ecija",
+        "Los Baños, Laguna",
+        "Iloilo City",
+        "Malaybalay City"
+      ],
+      "answer": 0,
+      "explanation": "Science City of Muñoz in Nueva Ecija hosts major agricultural science institutions, including PhilRice and CLSU.",
+      "optionExplanations": [
+        "Correct. Science City of Muñoz in Nueva Ecija hosts major agricultural science institutions, including PhilRice and CLSU.",
+        "Los Baños is a major science and education center but is not the officially designated Science City.",
+        "Iloilo City is not the designated Science City.",
+        "Malaybalay is not the designated Science City."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 7,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Philippine Agriculture & Institutions",
+        "clue": "Philippine Agriculture & Institutions",
+        "principle": "Science City of Muñoz in Nueva Ecija hosts major agricultural science institutions, including PhilRice and CLSU.",
+        "result": "Muñoz, Nueva Ecija",
+        "memory": "Philippine Agriculture & Institutions → Muñoz, Nueva Ecija"
+      }
+    },
+    {
+      "id": "sb-cs-m4-050",
+      "subject": "Crop Science",
+      "topic": "Philippine Agriculture & Institutions",
+      "question": "Which province is nationally known as the leading abaca-producing province in recent years?",
+      "options": [
+        "Catanduanes",
+        "Bataan",
+        "Pampanga",
+        "Bohol"
+      ],
+      "answer": 0,
+      "explanation": "Catanduanes is widely recognized as the country's leading abaca-producing province.",
+      "optionExplanations": [
+        "Correct. Catanduanes is widely recognized as the country's leading abaca-producing province.",
+        "Bataan is not the leading abaca province.",
+        "Pampanga is not the leading abaca province.",
+        "Bohol is not the leading abaca province."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 7,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Philippine Agriculture & Institutions",
+        "clue": "Philippine Agriculture & Institutions",
+        "principle": "Catanduanes is widely recognized as the country's leading abaca-producing province.",
+        "result": "Catanduanes",
+        "memory": "Philippine Agriculture & Institutions → Catanduanes"
+      }
+    },
+    {
+      "id": "sb-cs-m4-051",
+      "subject": "Crop Science",
+      "topic": "Seed Science & Technology",
+      "question": "A viable seed fails to germinate even though moisture, temperature, and oxygen are favorable. This condition is:",
+      "options": [
+        "Dormancy",
+        "Quiescence",
+        "Senescence",
+        "Abscission"
+      ],
+      "answer": 0,
+      "explanation": "Dormancy is an internal condition preventing germination even under otherwise favorable conditions.",
+      "optionExplanations": [
+        "Correct. Dormancy is an internal condition preventing germination even under otherwise favorable conditions.",
+        "Quiescence is failure to germinate because an external requirement is unfavorable.",
+        "Senescence is age-related deterioration.",
+        "Abscission is organ separation."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Seed Science & Technology",
+        "clue": "Seed Science & Technology",
+        "principle": "Dormancy is an internal condition preventing germination even under otherwise favorable conditions.",
+        "result": "Dormancy",
+        "memory": "Seed Science & Technology → Dormancy"
+      }
+    },
+    {
+      "id": "sb-cs-m4-052",
+      "subject": "Crop Science",
+      "topic": "Seed Science & Technology",
+      "question": "A viable seed does not germinate because the soil is too dry. This is best described as:",
+      "options": [
+        "Quiescence",
+        "Dormancy",
+        "Vivipary",
+        "Scarification"
+      ],
+      "answer": 0,
+      "explanation": "Quiescence is temporary failure to germinate because an external environmental requirement is missing.",
+      "optionExplanations": [
+        "Correct. Quiescence is temporary failure to germinate because an external environmental requirement is missing.",
+        "Dormancy persists despite favorable external conditions.",
+        "Vivipary is germination while still attached to the parent.",
+        "Scarification is a treatment to break physical dormancy."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Seed Science & Technology",
+        "clue": "Seed Science & Technology",
+        "principle": "Quiescence is temporary failure to germinate because an external environmental requirement is missing.",
+        "result": "Quiescence",
+        "memory": "Seed Science & Technology → Quiescence"
+      }
+    },
+    {
+      "id": "sb-cs-m4-053",
+      "subject": "Crop Science",
+      "topic": "Agronomy & Crop Management",
+      "question": "Which nursery method for rice uses a very dense seedbed that produces young seedlings for rapid transplanting?",
+      "options": [
+        "Dapog method",
+        "Dry direct seeding",
+        "Ratooning",
+        "Broadcasting on an unprepared field"
+      ],
+      "answer": 0,
+      "explanation": "The dapog method uses a dense, usually soil-less or thin-layer nursery to produce young rice seedlings for transplanting.",
+      "optionExplanations": [
+        "Correct. The dapog method uses a dense, usually soil-less or thin-layer nursery to produce young rice seedlings for transplanting.",
+        "Dry direct seeding establishes the crop directly in the field.",
+        "Ratooning uses regrowth from a harvested crop.",
+        "Broadcasting on an unprepared field is not the dapog nursery method."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 6,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Agronomy & Crop Management",
+        "clue": "Agronomy & Crop Management",
+        "principle": "The dapog method uses a dense, usually soil-less or thin-layer nursery to produce young rice seedlings for transplanting.",
+        "result": "Dapog method",
+        "memory": "Agronomy & Crop Management → Dapog method"
+      }
+    },
+    {
+      "id": "sb-cs-m4-054",
+      "subject": "Crop Science",
+      "topic": "Postharvest & Processing",
+      "question": "A harvested fleshy fruit shows a pronounced rise in respiration and ethylene as it ripens. It is classified as:",
+      "options": [
+        "Climacteric",
+        "Non-climacteric",
+        "Orthodox seed",
+        "Recalcitrant seed"
+      ],
+      "answer": 0,
+      "explanation": "Climacteric fruits show a characteristic respiratory and ethylene surge during ripening.",
+      "optionExplanations": [
+        "Correct. Climacteric fruits show a characteristic respiratory and ethylene surge during ripening.",
+        "Non-climacteric fruits lack the climacteric respiratory rise.",
+        "Orthodox and recalcitrant refer to seed storage behavior, not fruit ripening.",
+        "This does not best fit the concept being tested."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 6,
+      "sourceTag": "Original retraining item based on user's Sir Brian Crop Science Mock 1–4 performance analysis; not copied from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Postharvest & Processing",
+        "clue": "Postharvest & Processing",
+        "principle": "Climacteric fruits show a characteristic respiratory and ethylene surge during ripening.",
+        "result": "Climacteric",
+        "memory": "Postharvest & Processing → Climacteric"
+      }
     }
-  ]
+  ],
+  "mockPerformance": {
+    "Crop Science": {
+      "examsReceived": 4,
+      "plannedExams": 9,
+      "scores": [
+        71,
+        46,
+        60,
+        45
+      ],
+      "averageScore": 55.5,
+      "totalCorrect": 222,
+      "totalWrong": 178,
+      "itemsAnalyzed": 400,
+      "weakAreas": [
+        {
+          "topic": "Taxonomy & crop families",
+          "accuracy": 27,
+          "wrong": 11,
+          "total": 15
+        },
+        {
+          "topic": "Photosynthesis & respiration",
+          "accuracy": 35,
+          "wrong": 11,
+          "total": 17
+        },
+        {
+          "topic": "Plant nutrition",
+          "accuracy": 40,
+          "wrong": 12,
+          "total": 20
+        },
+        {
+          "topic": "Breeding & biotechnology",
+          "accuracy": 47,
+          "wrong": 8,
+          "total": 15
+        },
+        {
+          "topic": "Plant hormones & movements",
+          "accuracy": 48,
+          "wrong": 11,
+          "total": 21
+        },
+        {
+          "topic": "Plant anatomy & morphology",
+          "accuracy": 52,
+          "wrong": 31,
+          "total": 64
+        },
+        {
+          "topic": "Horticulture & fruit science",
+          "accuracy": 55,
+          "wrong": 18,
+          "total": 40
+        },
+        {
+          "topic": "Propagation & tissue culture",
+          "accuracy": 57,
+          "wrong": 9,
+          "total": 21
+        }
+      ]
+    }
+  }
 }
