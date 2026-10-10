@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "sirbrian-2026.10.10.2",
+  "bankVersion": "sirbrian-2026.10.10.3",
   "released": "2026-10-10",
   "title": "Sir Brian Mock Training Reviewer",
-  "actualMockSummariesReceived": 4,
+  "actualMockSummariesReceived": 5,
   "plannedMockExams": {
     "subjects": 6,
     "mockExamsPerSubject": 9,
@@ -16,7 +16,7 @@
     "mistakePriority": 60,
     "correctReinforcement": 25,
     "cumulativeMixed": 15,
-    "note": "Mock-derived retraining is separated from the independent High-Yield 2026 bank. Missed concepts receive the highest repetition weight; correct concepts remain in rotation. Exact mock wording is not republished."
+    "note": "Mock-derived retraining remains separate from the independent High-Yield 2026 bank. Missed concepts receive the highest repetition weight; correctly answered concepts remain in rotation for memory reinforcement. Exact mock wording is not republished."
   },
   "questions": [
     {
@@ -2862,40 +2862,1199 @@
         "result": "Climacteric",
         "memory": "Postharvest & Processing → Climacteric"
       }
+    },
+    {
+      "id": "sb-cs-m5-001",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "A C3 leaf fixes CO₂ through the Calvin cycle. What is the first stable three-carbon product formed after carboxylation?",
+      "options": [
+        "Oxaloacetate",
+        "3-phosphoglycerate (3-PGA)",
+        "Malate",
+        "Pyruvate"
+      ],
+      "answer": 1,
+      "explanation": "In C3 photosynthesis, Rubisco fixes CO₂ to RuBP and the unstable six-carbon intermediate quickly forms two molecules of 3-PGA.",
+      "optionExplanations": [
+        "Oxaloacetate is the first stable product of initial C4 fixation.",
+        "Correct. 3-PGA is the first stable product in C3 plants.",
+        "Malate is commonly formed after OAA in C4/CAM metabolism.",
+        "Pyruvate is not the first stable Calvin-cycle product."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "In C3 photosynthesis, Rubisco fixes CO₂ to RuBP and the unstable six-carbon intermediate quickly forms two molecules of 3-PGA.",
+        "result": "3-phosphoglycerate (3-PGA)",
+        "memory": "Photosynthesis & Respiration → 3-phosphoglycerate (3-PGA)"
+      }
+    },
+    {
+      "id": "sb-cs-m5-002",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "What key feature is shared by C4 and CAM plants during their initial capture of atmospheric CO₂?",
+      "options": [
+        "Both initially use PEP carboxylase rather than Rubisco",
+        "Both avoid the Calvin cycle entirely",
+        "Both open stomata only at night",
+        "Both separate initial CO₂ fixation from the Calvin cycle only in space"
+      ],
+      "answer": 0,
+      "explanation": "Both C4 and CAM plants initially fix CO₂ with PEP carboxylase, which helps concentrate carbon before it enters the Calvin cycle.",
+      "optionExplanations": [
+        "Correct. PEP carboxylase performs the initial fixation in both pathways.",
+        "Both still use the Calvin cycle later.",
+        "Night-only stomatal opening is characteristic of CAM, not all C4 plants.",
+        "C4 separates processes mainly in space; CAM mainly in time."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Both C4 and CAM plants initially fix CO₂ with PEP carboxylase, which helps concentrate carbon before it enters the Calvin cycle.",
+        "result": "Both initially use PEP carboxylase rather than Rubisco",
+        "memory": "Photosynthesis & Respiration → Both initially use PEP carboxylase rather than Rubisco"
+      }
+    },
+    {
+      "id": "sb-cs-m5-003",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "In the Calvin cycle, which pair correctly matches the CO₂ acceptor and the carboxylating enzyme?",
+      "options": [
+        "PEP and PEP carboxylase",
+        "RuBP and Rubisco",
+        "OAA and malate dehydrogenase",
+        "Pyruvate and pyruvate kinase"
+      ],
+      "answer": 1,
+      "explanation": "The Calvin cycle accepts CO₂ with ribulose-1,5-bisphosphate (RuBP), and Rubisco catalyzes the carboxylation step.",
+      "optionExplanations": [
+        "This pair belongs to initial C4/CAM fixation.",
+        "Correct. RuBP is the acceptor and Rubisco is the enzyme.",
+        "OAA is a product of PEP carboxylation, not the Calvin-cycle acceptor.",
+        "This pair belongs to glycolysis-related metabolism."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "The Calvin cycle accepts CO₂ with ribulose-1,5-bisphosphate (RuBP), and Rubisco catalyzes the carboxylation step.",
+        "result": "RuBP and Rubisco",
+        "memory": "Photosynthesis & Respiration → RuBP and Rubisco"
+      }
+    },
+    {
+      "id": "sb-cs-m5-004",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "Which process occurs in the cytosol and converts one glucose molecule into two molecules of pyruvate?",
+      "options": [
+        "Calvin cycle",
+        "Glycolysis",
+        "Krebs cycle",
+        "Electron transport chain"
+      ],
+      "answer": 1,
+      "explanation": "Glycolysis occurs in the cytosol and splits glucose into two pyruvate molecules while producing a small amount of ATP and NADH.",
+      "optionExplanations": [
+        "The Calvin cycle fixes carbon in chloroplasts.",
+        "Correct. Glycolysis produces pyruvate in the cytosol.",
+        "The Krebs cycle oxidizes acetyl-CoA in the mitochondrial matrix.",
+        "The electron transport chain is associated with the inner mitochondrial membrane."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Glycolysis occurs in the cytosol and splits glucose into two pyruvate molecules while producing a small amount of ATP and NADH.",
+        "result": "Glycolysis",
+        "memory": "Photosynthesis & Respiration → Glycolysis"
+      }
+    },
+    {
+      "id": "sb-cs-m5-005",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "Which statement best distinguishes glycolysis from the Krebs cycle?",
+      "options": [
+        "Glycolysis produces pyruvate; the Krebs cycle oxidizes acetyl-CoA",
+        "The Krebs cycle occurs before glycolysis",
+        "Glycolysis takes place in the mitochondrial matrix",
+        "The Krebs cycle directly splits glucose into two pyruvate molecules"
+      ],
+      "answer": 0,
+      "explanation": "Glycolysis breaks glucose to pyruvate, whereas pyruvate is converted to acetyl-CoA before entering the Krebs cycle.",
+      "optionExplanations": [
+        "Correct. This is the proper sequence and role of the two pathways.",
+        "Glycolysis precedes the Krebs cycle.",
+        "Glycolysis occurs in the cytosol.",
+        "Glucose splitting to pyruvate is glycolysis, not the Krebs cycle."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Glycolysis breaks glucose to pyruvate, whereas pyruvate is converted to acetyl-CoA before entering the Krebs cycle.",
+        "result": "Glycolysis produces pyruvate; the Krebs cycle oxidizes acetyl-CoA",
+        "memory": "Photosynthesis & Respiration → Glycolysis produces pyruvate; the Krebs cycle oxidizes acetyl-CoA"
+      }
+    },
+    {
+      "id": "sb-cs-m5-006",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "If an exam asks for the plant organ where most photosynthesis occurs, which answer is best?",
+      "options": [
+        "Leaf",
+        "Chloroplast",
+        "Chlorophyll",
+        "Stoma"
+      ],
+      "answer": 0,
+      "explanation": "The leaf is the principal organ of photosynthesis; chloroplast is the organelle and chlorophyll is the pigment involved.",
+      "optionExplanations": [
+        "Correct. The question asks for an organ.",
+        "A chloroplast is an organelle, not an organ.",
+        "Chlorophyll is a pigment.",
+        "A stoma is a pore involved in gas exchange."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "The leaf is the principal organ of photosynthesis; chloroplast is the organelle and chlorophyll is the pigment involved.",
+        "result": "Leaf",
+        "memory": "Photosynthesis & Respiration → Leaf"
+      }
+    },
+    {
+      "id": "sb-cs-m5-007",
+      "subject": "Crop Science",
+      "topic": "Photosynthesis & Respiration",
+      "question": "A crop is suddenly exposed to damaging high temperature. Which cellular response most directly helps protect proteins from heat-induced denaturation?",
+      "options": [
+        "Synthesis of heat-shock proteins",
+        "Permanent stomatal closure for the entire season",
+        "Conversion of C3 metabolism to C4 metabolism",
+        "Destruction of all membrane lipids"
+      ],
+      "answer": 0,
+      "explanation": "Heat-shock proteins act as molecular chaperones that help protect and refold proteins during heat stress.",
+      "optionExplanations": [
+        "Correct. Heat-shock proteins are a classic protective response.",
+        "Long-term complete closure would severely limit photosynthesis.",
+        "A C3 plant does not simply convert to C4 metabolism.",
+        "Membrane destruction is injury, not adaptation."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Photosynthesis & Respiration",
+        "clue": "Photosynthesis & Respiration",
+        "principle": "Heat-shock proteins act as molecular chaperones that help protect and refold proteins during heat stress.",
+        "result": "Synthesis of heat-shock proteins",
+        "memory": "Photosynthesis & Respiration → Synthesis of heat-shock proteins"
+      }
+    },
+    {
+      "id": "sb-cs-m5-008",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which phloem cell type is the principal long-distance conduit for sugars in angiosperms?",
+      "options": [
+        "Companion cell",
+        "Sieve-tube element",
+        "Phloem fiber",
+        "Phloem parenchyma"
+      ],
+      "answer": 1,
+      "explanation": "Sieve-tube elements form the main conducting tubes for photoassimilates in angiosperm phloem.",
+      "optionExplanations": [
+        "Companion cells support sieve-tube function but are not the main long-distance conduit.",
+        "Correct. Sieve-tube elements conduct the translocation stream.",
+        "Phloem fibers mainly provide support.",
+        "Phloem parenchyma serves storage and lateral transport roles."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Sieve-tube elements form the main conducting tubes for photoassimilates in angiosperm phloem.",
+        "result": "Sieve-tube element",
+        "memory": "Plant Anatomy & Morphology → Sieve-tube element"
+      }
+    },
+    {
+      "id": "sb-cs-m5-009",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "What is the main role of companion cells in angiosperm phloem?",
+      "options": [
+        "They conduct water upward like xylem vessels",
+        "They metabolically support sieve-tube elements and help load/unload sugars",
+        "They form the seed coat",
+        "They produce root hairs"
+      ],
+      "answer": 1,
+      "explanation": "Companion cells are closely associated with sieve-tube elements and support their metabolism and sugar loading/unloading.",
+      "optionExplanations": [
+        "Water conduction is mainly a xylem function.",
+        "Correct. Companion cells support phloem transport.",
+        "The seed coat develops mainly from integuments.",
+        "Root hairs arise from epidermal cells in the maturation zone."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Companion cells are closely associated with sieve-tube elements and support their metabolism and sugar loading/unloading.",
+        "result": "They metabolically support sieve-tube elements and help load/unload sugars",
+        "memory": "Plant Anatomy & Morphology → They metabolically support sieve-tube elements and help load/unload sugars"
+      }
+    },
+    {
+      "id": "sb-cs-m5-010",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "In which root zone do epidermal cells differentiate into root hairs?",
+      "options": [
+        "Zone of cell division",
+        "Zone of elongation",
+        "Zone of maturation or differentiation",
+        "Root cap"
+      ],
+      "answer": 2,
+      "explanation": "Root hairs appear in the zone of maturation, where cells differentiate into specialized tissues.",
+      "optionExplanations": [
+        "Cell division predominates near the apical meristem.",
+        "Cells mainly elongate in the elongation zone.",
+        "Correct. Differentiation and root-hair formation occur here.",
+        "The root cap protects the root tip."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Root hairs appear in the zone of maturation, where cells differentiate into specialized tissues.",
+        "result": "Zone of maturation or differentiation",
+        "memory": "Plant Anatomy & Morphology → Zone of maturation or differentiation"
+      }
+    },
+    {
+      "id": "sb-cs-m5-011",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "A group of similar or associated cells organized to perform a particular function is called a:",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Organ system",
+        "Organelle"
+      ],
+      "answer": 0,
+      "explanation": "A tissue is a group of cells that work together in a particular function.",
+      "optionExplanations": [
+        "Correct. This is the definition of tissue.",
+        "An organ contains multiple tissue types.",
+        "An organ system contains multiple organs.",
+        "An organelle is a subcellular structure."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "A tissue is a group of cells that work together in a particular function.",
+        "result": "Tissue",
+        "memory": "Plant Anatomy & Morphology → Tissue"
+      }
+    },
+    {
+      "id": "sb-cs-m5-012",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "In a seedling axis, the hypocotyl is the region:",
+      "options": [
+        "Above the cotyledons and below the first true leaves",
+        "Below the cotyledons and above the radicle/root region",
+        "Inside the seed coat only",
+        "Between the anther and stigma"
+      ],
+      "answer": 1,
+      "explanation": "The hypocotyl is the embryonic stem region below the cotyledons and above the radicle.",
+      "optionExplanations": [
+        "This describes the epicotyl region more closely.",
+        "Correct. The hypocotyl lies below the cotyledons.",
+        "It is not defined by being inside the seed coat.",
+        "This refers to floral structures, not the seedling axis."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "The hypocotyl is the embryonic stem region below the cotyledons and above the radicle.",
+        "result": "Below the cotyledons and above the radicle/root region",
+        "memory": "Plant Anatomy & Morphology → Below the cotyledons and above the radicle/root region"
+      }
+    },
+    {
+      "id": "sb-cs-m5-013",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which statement about complete and perfect flowers is correct?",
+      "options": [
+        "Every perfect flower is complete",
+        "Every complete flower is perfect, but a perfect flower may be incomplete",
+        "A complete flower lacks stamens",
+        "A perfect flower must lack sepals"
+      ],
+      "answer": 1,
+      "explanation": "A complete flower has sepals, petals, stamens, and carpels, so it is necessarily perfect; a perfect flower only requires both stamens and carpels and may lack sepals or petals.",
+      "optionExplanations": [
+        "A perfect flower can still be incomplete.",
+        "Correct. Complete implies perfect, but perfect does not always imply complete.",
+        "A complete flower must have stamens.",
+        "A perfect flower is defined by reproductive whorls, not by absence of sepals."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "A complete flower has sepals, petals, stamens, and carpels, so it is necessarily perfect; a perfect flower only requires both stamens and carpels and may lack sepals or petals.",
+        "result": "Every complete flower is perfect, but a perfect flower may be incomplete",
+        "memory": "Plant Anatomy & Morphology → Every complete flower is perfect, but a perfect flower may be incomplete"
+      }
+    },
+    {
+      "id": "sb-cs-m5-014",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Which essential element is a component of the amino acids cysteine and methionine and also occurs in several coenzymes?",
+      "options": [
+        "Sulfur",
+        "Calcium",
+        "Manganese",
+        "Boron"
+      ],
+      "answer": 0,
+      "explanation": "Sulfur is part of sulfur-containing amino acids and is involved in several coenzymes and vitamins.",
+      "optionExplanations": [
+        "Correct. Sulfur is integral to cysteine and methionine.",
+        "Calcium is important in cell walls and signaling.",
+        "Manganese is mainly an enzyme activator and photosynthetic cofactor.",
+        "Boron is important in cell walls and reproductive growth."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Sulfur is part of sulfur-containing amino acids and is involved in several coenzymes and vitamins.",
+        "result": "Sulfur",
+        "memory": "Plant Nutrition & Fertility → Sulfur"
+      }
+    },
+    {
+      "id": "sb-cs-m5-015",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "A nutrient deficiency first appears as chlorosis on older leaves while young leaves remain relatively green. What does this most strongly suggest?",
+      "options": [
+        "The deficient nutrient is mobile within the plant",
+        "The nutrient cannot be retranslocated",
+        "The nutrient is necessarily a micronutrient",
+        "The roots are absorbing too much calcium"
+      ],
+      "answer": 0,
+      "explanation": "Mobile nutrients can be retranslocated from old leaves to young tissues, so deficiency symptoms often appear first on older leaves.",
+      "optionExplanations": [
+        "Correct. Mobility allows redistribution to young growth.",
+        "Immobile nutrients tend to show symptoms first in young tissues.",
+        "Macro/micronutrient status alone does not determine symptom position.",
+        "This is not the general diagnostic principle."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Mobile nutrients can be retranslocated from old leaves to young tissues, so deficiency symptoms often appear first on older leaves.",
+        "result": "The deficient nutrient is mobile within the plant",
+        "memory": "Plant Nutrition & Fertility → The deficient nutrient is mobile within the plant"
+      }
+    },
+    {
+      "id": "sb-cs-m5-016",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Why are many micronutrients required only in very small quantities?",
+      "options": [
+        "They commonly function as enzyme cofactors or components of catalytic systems",
+        "They have no role in metabolism",
+        "They are stored in unlimited quantities in seeds",
+        "They are always immobile in plants"
+      ],
+      "answer": 0,
+      "explanation": "Many micronutrients participate catalytically as enzyme cofactors, so very small amounts can support substantial metabolic activity.",
+      "optionExplanations": [
+        "Correct. Catalytic roles explain the small quantitative requirement.",
+        "Micronutrients are essential for specific functions.",
+        "Seed reserves do not explain all crop requirements.",
+        "Mobility varies among micronutrients."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Many micronutrients participate catalytically as enzyme cofactors, so very small amounts can support substantial metabolic activity.",
+        "result": "They commonly function as enzyme cofactors or components of catalytic systems",
+        "memory": "Plant Nutrition & Fertility → They commonly function as enzyme cofactors or components of catalytic systems"
+      }
+    },
+    {
+      "id": "sb-cs-m5-017",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Which deficiency pattern is most consistent with an immobile nutrient such as calcium?",
+      "options": [
+        "Symptoms begin mainly in young tissues and growing points",
+        "Symptoms always begin on the oldest leaves",
+        "Only roots are affected",
+        "The plant immediately becomes dormant"
+      ],
+      "answer": 0,
+      "explanation": "Immobile nutrients cannot be readily retranslocated from old tissues, so deficiency often appears first in young tissues or meristems.",
+      "optionExplanations": [
+        "Correct. Young tissues are most vulnerable to immobile nutrient deficiency.",
+        "Older-leaf symptoms are more typical of mobile nutrients.",
+        "Symptoms are not restricted to roots.",
+        "Dormancy is not the defining response."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Immobile nutrients cannot be readily retranslocated from old tissues, so deficiency often appears first in young tissues or meristems.",
+        "result": "Symptoms begin mainly in young tissues and growing points",
+        "memory": "Plant Nutrition & Fertility → Symptoms begin mainly in young tissues and growing points"
+      }
+    },
+    {
+      "id": "sb-cs-m5-018",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "Which plant hormone most strongly promotes stem elongation and bolting in many long-day or rosette plants?",
+      "options": [
+        "Gibberellin",
+        "Ethylene",
+        "Abscisic acid",
+        "Cytokinin"
+      ],
+      "answer": 0,
+      "explanation": "Gibberellins promote stem elongation and can induce bolting in suitable plants.",
+      "optionExplanations": [
+        "Correct. Gibberellins strongly stimulate elongation.",
+        "Ethylene is more associated with ripening, abscission, and stress responses.",
+        "ABA generally inhibits growth and promotes stress responses/dormancy.",
+        "Cytokinins promote cell division and delay senescence."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Gibberellins promote stem elongation and can induce bolting in suitable plants.",
+        "result": "Gibberellin",
+        "memory": "Plant Hormones & Movements → Gibberellin"
+      }
+    },
+    {
+      "id": "sb-cs-m5-019",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "Which hormone is best known for delaying leaf senescence and promoting cell division in tissue culture?",
+      "options": [
+        "Cytokinin",
+        "Ethylene",
+        "Abscisic acid",
+        "Jasmonate"
+      ],
+      "answer": 0,
+      "explanation": "Cytokinins promote cell division and commonly delay senescence; their balance with auxin also influences organ formation in culture.",
+      "optionExplanations": [
+        "Correct. These are classic cytokinin effects.",
+        "Ethylene often promotes senescence and abscission.",
+        "ABA is associated with dormancy and drought responses.",
+        "Jasmonates are strongly associated with defense signaling."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Cytokinins promote cell division and commonly delay senescence; their balance with auxin also influences organ formation in culture.",
+        "result": "Cytokinin",
+        "memory": "Plant Hormones & Movements → Cytokinin"
+      }
+    },
+    {
+      "id": "sb-cs-m5-020",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "A plant closes or folds its leaflets every night and reopens them in daylight. This rhythmic sleep movement is:",
+      "options": [
+        "Nyctinasty",
+        "Phototropism",
+        "Gravitropism",
+        "Thigmotropism"
+      ],
+      "answer": 0,
+      "explanation": "Nyctinasty is a reversible day-night nastic movement, often seen as sleep movement of leaves or leaflets.",
+      "optionExplanations": [
+        "Correct. This is nyctinasty.",
+        "Phototropism is directional growth in response to light.",
+        "Gravitropism is directional growth in response to gravity.",
+        "Thigmotropism is directional growth in response to touch."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Nyctinasty is a reversible day-night nastic movement, often seen as sleep movement of leaves or leaflets.",
+        "result": "Nyctinasty",
+        "memory": "Plant Hormones & Movements → Nyctinasty"
+      }
+    },
+    {
+      "id": "sb-cs-m5-021",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "A long-day plant flowers when nights become sufficiently short. Which description is most accurate?",
+      "options": [
+        "It is effectively a short-night plant",
+        "It requires a long uninterrupted dark period",
+        "It is always day-neutral",
+        "It flowers only under total darkness"
+      ],
+      "answer": 0,
+      "explanation": "For many long-day plants, flowering occurs when the dark period is shorter than a critical duration.",
+      "optionExplanations": [
+        "Correct. The critical night length is often the key physiological signal.",
+        "This describes short-day/long-night behavior.",
+        "Day-neutral plants are relatively insensitive to photoperiod.",
+        "Total darkness is not the requirement."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "For many long-day plants, flowering occurs when the dark period is shorter than a critical duration.",
+        "result": "It is effectively a short-night plant",
+        "memory": "Plant Hormones & Movements → It is effectively a short-night plant"
+      }
+    },
+    {
+      "id": "sb-cs-m5-022",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "A fruit has a fleshy outer portion and one hard, stony endocarp enclosing the seed. What type is it?",
+      "options": [
+        "Drupe",
+        "Pome",
+        "Pepo",
+        "Capsule"
+      ],
+      "answer": 0,
+      "explanation": "A drupe has a fleshy mesocarp and a hard stony endocarp surrounding the seed, as in mango and peach.",
+      "optionExplanations": [
+        "Correct. The stone is the hardened endocarp.",
+        "A pome has a fleshy accessory tissue surrounding a papery core.",
+        "A pepo has a hard rind and develops from an inferior ovary.",
+        "A capsule is generally a dry dehiscent fruit."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "A drupe has a fleshy mesocarp and a hard stony endocarp surrounding the seed, as in mango and peach.",
+        "result": "Drupe",
+        "memory": "Horticulture & Fruit Science → Drupe"
+      }
+    },
+    {
+      "id": "sb-cs-m5-023",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Why is strawberry classified as both an aggregate and an accessory fruit?",
+      "options": [
+        "It develops from many ovaries of one flower, while the fleshy edible receptacle is accessory tissue",
+        "It develops from many flowers in one inflorescence",
+        "Its ovary wall alone becomes the fleshy part",
+        "It is botanically a berry"
+      ],
+      "answer": 0,
+      "explanation": "Strawberry has many separate carpels/ovaries in one flower (aggregate), while much of the fleshy portion is enlarged receptacle tissue (accessory).",
+      "optionExplanations": [
+        "Correct. Both features are present.",
+        "Many flowers forming one fruit describes a multiple fruit such as pineapple.",
+        "The fleshy receptacle, not ovary wall alone, dominates the edible portion.",
+        "Strawberry is not a botanical berry."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Strawberry has many separate carpels/ovaries in one flower (aggregate), while much of the fleshy portion is enlarged receptacle tissue (accessory).",
+        "result": "It develops from many ovaries of one flower, while the fleshy edible receptacle is accessory tissue",
+        "memory": "Horticulture & Fruit Science → It develops from many ovaries of one flower, while the fleshy edible receptacle is accessory tissue"
+      }
+    },
+    {
+      "id": "sb-cs-m5-024",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Which fruit type is correctly paired with its example?",
+      "options": [
+        "Hesperidium — orange",
+        "Pome — watermelon",
+        "Pepo — apple",
+        "Drupe — strawberry"
+      ],
+      "answer": 0,
+      "explanation": "Citrus fruits such as orange are hesperidia, a specialized berry with a leathery rind.",
+      "optionExplanations": [
+        "Correct. Orange is a hesperidium.",
+        "Watermelon is a pepo.",
+        "Apple is a pome.",
+        "Strawberry is an aggregate accessory fruit."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 8,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Citrus fruits such as orange are hesperidia, a specialized berry with a leathery rind.",
+        "result": "Hesperidium — orange",
+        "memory": "Horticulture & Fruit Science → Hesperidium — orange"
+      }
+    },
+    {
+      "id": "sb-cs-m5-025",
+      "subject": "Crop Science",
+      "topic": "Seed Science & Technology",
+      "question": "A viable seed fails to germinate because soil moisture is inadequate, but germinates once moisture becomes favorable. This condition is:",
+      "options": [
+        "Quiescence",
+        "Primary dormancy",
+        "Secondary dormancy",
+        "Vivipary"
+      ],
+      "answer": 0,
+      "explanation": "Quiescence is a temporary failure to germinate caused by an unfavorable external environment.",
+      "optionExplanations": [
+        "Correct. The limiting factor is external.",
+        "Dormancy persists despite otherwise favorable external conditions.",
+        "Secondary dormancy is induced dormancy, not simple environmental quiescence.",
+        "Vivipary is germination while still attached to the parent."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Seed Science & Technology",
+        "clue": "Seed Science & Technology",
+        "principle": "Quiescence is a temporary failure to germinate caused by an unfavorable external environment.",
+        "result": "Quiescence",
+        "memory": "Seed Science & Technology → Quiescence"
+      }
+    },
+    {
+      "id": "sb-cs-m5-026",
+      "subject": "Crop Science",
+      "topic": "Seed Science & Technology",
+      "question": "What is the hard outer covering of a seed called?",
+      "options": [
+        "Testa",
+        "Endosperm",
+        "Pericarp",
+        "Cotyledon"
+      ],
+      "answer": 0,
+      "explanation": "The testa is the seed coat derived primarily from the ovule integuments.",
+      "optionExplanations": [
+        "Correct. Testa means seed coat.",
+        "Endosperm is nutritive tissue.",
+        "Pericarp is the fruit wall.",
+        "Cotyledons are embryonic seed leaves."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Seed Science & Technology",
+        "clue": "Seed Science & Technology",
+        "principle": "The testa is the seed coat derived primarily from the ovule integuments.",
+        "result": "Testa",
+        "memory": "Seed Science & Technology → Testa"
+      }
+    },
+    {
+      "id": "sb-cs-m5-027",
+      "subject": "Crop Science",
+      "topic": "Propagation & Tissue Culture",
+      "question": "A fruit tree has a damaged section of trunk. Which grafting approach can bridge or bypass the injured area while maintaining sap flow?",
+      "options": [
+        "Inarching or bridge-type grafting",
+        "Chip budding only",
+        "T-budding on a healthy twig",
+        "Leaf cutting"
+      ],
+      "answer": 0,
+      "explanation": "Inarching/bridge-type grafting can connect healthy tissues above and below damaged bark or trunk sections to restore conduction.",
+      "optionExplanations": [
+        "Correct. It is used to bypass damaged trunk tissue.",
+        "Chip budding is not primarily a repair technique for a girdled trunk.",
+        "T-budding propagates cultivars but does not primarily bridge trunk injury.",
+        "Leaf cuttings do not repair trunk vascular continuity."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Propagation & Tissue Culture",
+        "clue": "Propagation & Tissue Culture",
+        "principle": "Inarching/bridge-type grafting can connect healthy tissues above and below damaged bark or trunk sections to restore conduction.",
+        "result": "Inarching or bridge-type grafting",
+        "memory": "Propagation & Tissue Culture → Inarching or bridge-type grafting"
+      }
+    },
+    {
+      "id": "sb-cs-m5-028",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Which set consists entirely of Fabaceae crops?",
+      "options": [
+        "Pigeon pea, mungbean, peanut",
+        "Cucumber, watermelon, bitter gourd",
+        "Tomato, eggplant, pepper",
+        "Cabbage, pechay, radish"
+      ],
+      "answer": 0,
+      "explanation": "Pigeon pea (Cajanus cajan), mungbean (Vigna radiata), and peanut (Arachis hypogaea) are legumes in Fabaceae.",
+      "optionExplanations": [
+        "Correct. All three are Fabaceae.",
+        "These are Cucurbitaceae.",
+        "These are mainly Solanaceae.",
+        "These are Brassicaceae."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Pigeon pea (Cajanus cajan), mungbean (Vigna radiata), and peanut (Arachis hypogaea) are legumes in Fabaceae.",
+        "result": "Pigeon pea, mungbean, peanut",
+        "memory": "Taxonomy & Crop Families → Pigeon pea, mungbean, peanut"
+      }
+    },
+    {
+      "id": "sb-cs-m5-029",
+      "subject": "Crop Science",
+      "topic": "Taxonomy & Crop Families",
+      "question": "Which set consists entirely of Cucurbitaceae crops?",
+      "options": [
+        "Bitter gourd, cucumber, watermelon",
+        "Mungbean, peanut, pigeon pea",
+        "Tomato, potato, eggplant",
+        "Cabbage, mustard, pechay"
+      ],
+      "answer": 0,
+      "explanation": "Bitter gourd, cucumber, and watermelon belong to the gourd family Cucurbitaceae.",
+      "optionExplanations": [
+        "Correct. All three are cucurbits.",
+        "These are legumes in Fabaceae.",
+        "These are mainly Solanaceae.",
+        "These are Brassicaceae."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 9,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Taxonomy & Crop Families",
+        "clue": "Taxonomy & Crop Families",
+        "principle": "Bitter gourd, cucumber, and watermelon belong to the gourd family Cucurbitaceae.",
+        "result": "Bitter gourd, cucumber, watermelon",
+        "memory": "Taxonomy & Crop Families → Bitter gourd, cucumber, watermelon"
+      }
+    },
+    {
+      "id": "sb-cs-m5-030",
+      "subject": "Crop Science",
+      "topic": "Philippine Agriculture & Institutions",
+      "question": "Which Philippine law is known as the Agriculture and Fisheries Modernization Act of 1997?",
+      "options": [
+        "Republic Act No. 8435",
+        "Republic Act No. 10068",
+        "Republic Act No. 8485",
+        "Presidential Decree No. 1467"
+      ],
+      "answer": 0,
+      "explanation": "Republic Act No. 8435 is the Agriculture and Fisheries Modernization Act (AFMA) of 1997.",
+      "optionExplanations": [
+        "Correct. RA 8435 is AFMA.",
+        "RA 10068 is the Organic Agriculture Act of 2010.",
+        "RA 8485 is the Animal Welfare Act of 1998.",
+        "PD 1467 concerns crop insurance."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 10,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Philippine Agriculture & Institutions",
+        "clue": "Philippine Agriculture & Institutions",
+        "principle": "Republic Act No. 8435 is the Agriculture and Fisheries Modernization Act (AFMA) of 1997.",
+        "result": "Republic Act No. 8435",
+        "memory": "Philippine Agriculture & Institutions → Republic Act No. 8435"
+      }
+    },
+    {
+      "id": "sb-cs-m5-031",
+      "subject": "Crop Science",
+      "topic": "Plant Anatomy & Morphology",
+      "question": "Which vascular tissue primarily transports water and dissolved mineral ions upward from roots?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Epidermis",
+        "Cork"
+      ],
+      "answer": 0,
+      "explanation": "Xylem is the principal vascular tissue for upward water and mineral transport.",
+      "optionExplanations": [
+        "Correct. Xylem conducts water/minerals.",
+        "Phloem mainly transports organic assimilates.",
+        "Epidermis is protective tissue.",
+        "Cork protects older organs."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Anatomy & Morphology",
+        "clue": "Plant Anatomy & Morphology",
+        "principle": "Xylem is the principal vascular tissue for upward water and mineral transport.",
+        "result": "Xylem",
+        "memory": "Plant Anatomy & Morphology → Xylem"
+      }
+    },
+    {
+      "id": "sb-cs-m5-032",
+      "subject": "Crop Science",
+      "topic": "Plant Hormones & Movements",
+      "question": "Which hormone is most directly associated with ripening of climacteric fruits?",
+      "options": [
+        "Ethylene",
+        "Auxin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "answer": 0,
+      "explanation": "Ethylene regulates the climacteric ripening response in many fruits.",
+      "optionExplanations": [
+        "Correct. Ethylene is the ripening hormone.",
+        "Auxin has other major growth roles.",
+        "Cytokinin delays senescence.",
+        "ABA is strongly associated with stress responses and dormancy."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Hormones & Movements",
+        "clue": "Plant Hormones & Movements",
+        "principle": "Ethylene regulates the climacteric ripening response in many fruits.",
+        "result": "Ethylene",
+        "memory": "Plant Hormones & Movements → Ethylene"
+      }
+    },
+    {
+      "id": "sb-cs-m5-033",
+      "subject": "Crop Science",
+      "topic": "Seed Science & Technology",
+      "question": "Rice and corn seeds are generally classified as orthodox because they:",
+      "options": [
+        "Tolerate drying to low moisture content for storage",
+        "Must remain at high moisture content",
+        "Germinate only while attached to the mother plant",
+        "Cannot be stored at low temperature"
+      ],
+      "answer": 0,
+      "explanation": "Orthodox seeds tolerate substantial drying and can often be stored longer under low moisture and low temperature.",
+      "optionExplanations": [
+        "Correct. Desiccation tolerance is the defining storage trait.",
+        "High-moisture sensitivity is characteristic of recalcitrant seeds.",
+        "This describes vivipary, not orthodox behavior.",
+        "Low temperature usually improves orthodox seed longevity when properly dried."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Seed Science & Technology",
+        "clue": "Seed Science & Technology",
+        "principle": "Orthodox seeds tolerate substantial drying and can often be stored longer under low moisture and low temperature.",
+        "result": "Tolerate drying to low moisture content for storage",
+        "memory": "Seed Science & Technology → Tolerate drying to low moisture content for storage"
+      }
+    },
+    {
+      "id": "sb-cs-m5-034",
+      "subject": "Crop Science",
+      "topic": "Plant Nutrition & Fertility",
+      "question": "Which two inorganic forms supply most nitrogen absorbed directly by crop roots?",
+      "options": [
+        "Nitrate and ammonium",
+        "Nitrogen gas and nitrite",
+        "Nitrous oxide and nitrate",
+        "Urea and atmospheric nitrogen gas"
+      ],
+      "answer": 0,
+      "explanation": "Plants primarily absorb mineral nitrogen as nitrate (NO₃⁻) and ammonium (NH₄⁺).",
+      "optionExplanations": [
+        "Correct. These are the principal mineral N forms absorbed by roots.",
+        "N₂ is not directly absorbed by most crops and nitrite is usually minor/toxic.",
+        "Nitrous oxide is not a principal root nutrient form.",
+        "Urea may be converted in soil, while N₂ requires biological fixation."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Plant Nutrition & Fertility",
+        "clue": "Plant Nutrition & Fertility",
+        "principle": "Plants primarily absorb mineral nitrogen as nitrate (NO₃⁻) and ammonium (NH₄⁺).",
+        "result": "Nitrate and ammonium",
+        "memory": "Plant Nutrition & Fertility → Nitrate and ammonium"
+      }
+    },
+    {
+      "id": "sb-cs-m5-035",
+      "subject": "Crop Science",
+      "topic": "Horticulture & Fruit Science",
+      "question": "Pineapple is botanically classified as which type of fruit?",
+      "options": [
+        "Multiple fruit",
+        "Aggregate fruit",
+        "Simple drupe",
+        "Pome"
+      ],
+      "answer": 0,
+      "explanation": "Pineapple develops from the fusion of ovaries and associated tissues from many flowers in an inflorescence, making it a multiple fruit.",
+      "optionExplanations": [
+        "Correct. Multiple flowers contribute to the fruit mass.",
+        "Aggregate fruits arise from multiple ovaries of one flower.",
+        "A drupe arises from one ovary with a stony endocarp.",
+        "A pome is an accessory fruit such as apple."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Horticulture & Fruit Science",
+        "clue": "Horticulture & Fruit Science",
+        "principle": "Pineapple develops from the fusion of ovaries and associated tissues from many flowers in an inflorescence, making it a multiple fruit.",
+        "result": "Multiple fruit",
+        "memory": "Horticulture & Fruit Science → Multiple fruit"
+      }
+    },
+    {
+      "id": "sb-cs-m5-036",
+      "subject": "Crop Science",
+      "topic": "Crop Production & Systems",
+      "question": "Growing a legume primarily to be incorporated into the soil to improve fertility is called:",
+      "options": [
+        "Green manuring",
+        "Ratooning",
+        "Relay cropping",
+        "Topdressing"
+      ],
+      "answer": 0,
+      "explanation": "Green manuring uses a crop, commonly a legume, that is incorporated to add organic matter and nutrients, especially nitrogen.",
+      "optionExplanations": [
+        "Correct. This is green manuring.",
+        "Ratooning uses regrowth after harvest.",
+        "Relay cropping overlaps crop cycles.",
+        "Topdressing is fertilizer application to an established crop."
+      ],
+      "difficulty": "Application",
+      "priority": "Sir Brian mock-targeted",
+      "mockPriority": 5,
+      "sourceTag": "Original retraining item based on the user's Sir Brian Crop Science Mock 5 performance; concept-focused and not copied verbatim from the mock exam.",
+      "visualSpec": {
+        "type": "flow",
+        "title": "Crop Production & Systems",
+        "clue": "Crop Production & Systems",
+        "principle": "Green manuring uses a crop, commonly a legume, that is incorporated to add organic matter and nutrients, especially nitrogen.",
+        "result": "Green manuring",
+        "memory": "Crop Production & Systems → Green manuring"
+      }
     }
   ],
   "mockPerformance": {
     "Crop Science": {
-      "examsReceived": 4,
+      "examsReceived": 5,
       "plannedExams": 9,
       "scores": [
         71,
         46,
         60,
-        45
+        45,
+        59
       ],
-      "averageScore": 55.5,
-      "totalCorrect": 222,
-      "totalWrong": 178,
-      "itemsAnalyzed": 400,
+      "averageScore": 56.2,
+      "totalCorrect": 281,
+      "totalWrong": 219,
+      "itemsAnalyzed": 500,
       "weakAreas": [
         {
-          "topic": "Taxonomy & crop families",
-          "accuracy": 27,
-          "wrong": 11,
-          "total": 15
+          "topic": "Photosynthesis & respiration",
+          "accuracy": 32,
+          "wrong": 15,
+          "total": 22
         },
         {
-          "topic": "Photosynthesis & respiration",
-          "accuracy": 35,
-          "wrong": 11,
-          "total": 17
+          "topic": "Taxonomy & crop families",
+          "accuracy": 38,
+          "wrong": 16,
+          "total": 26
         },
         {
           "topic": "Plant nutrition",
-          "accuracy": 40,
-          "wrong": 12,
-          "total": 20
+          "accuracy": 45,
+          "wrong": 16,
+          "total": 29
+        },
+        {
+          "topic": "Plant hormones & movements",
+          "accuracy": 46,
+          "wrong": 13,
+          "total": 24
         },
         {
           "topic": "Breeding & biotechnology",
@@ -2904,30 +4063,40 @@
           "total": 15
         },
         {
-          "topic": "Plant hormones & movements",
-          "accuracy": 48,
-          "wrong": 11,
-          "total": 21
-        },
-        {
           "topic": "Plant anatomy & morphology",
-          "accuracy": 52,
-          "wrong": 31,
-          "total": 64
-        },
-        {
-          "topic": "Horticulture & fruit science",
           "accuracy": 55,
-          "wrong": 18,
-          "total": 40
+          "wrong": 42,
+          "total": 94
         },
         {
           "topic": "Propagation & tissue culture",
-          "accuracy": 57,
-          "wrong": 9,
-          "total": 21
+          "accuracy": 55,
+          "wrong": 10,
+          "total": 22
+        },
+        {
+          "topic": "Horticulture & fruit science",
+          "accuracy": 58,
+          "wrong": 19,
+          "total": 45
         }
-      ]
+      ],
+      "latestMock": {
+        "mockNumber": 5,
+        "score": 59,
+        "correct": 59,
+        "wrong": 41,
+        "priorityConcepts": [
+          "C3/C4/CAM carbon fixation and photosynthesis-respiration distinctions",
+          "Phloem anatomy, companion cells, root zones, hypocotyl, flower completeness/perfection",
+          "Nutrient mobility, sulfur functions, micronutrient cofactor roles",
+          "Gibberellin, cytokinin, nyctinasty, photoperiod",
+          "Fruit types including drupe and strawberry aggregate-accessory classification",
+          "Seed quiescence versus dormancy and seed coat terminology",
+          "Inarching/repair grafting",
+          "Crop families and Philippine agriculture law RA 8435"
+        ]
+      }
     }
   }
 }
