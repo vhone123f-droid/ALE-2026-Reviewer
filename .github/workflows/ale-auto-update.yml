@@ -1,5 +1,4 @@
 name: ALE reviewer Pages deploy
-# Includes legacy reviewer practice assets.
 
 on:
   push:
@@ -33,7 +32,6 @@ jobs:
           cp question-bank-v*.json _site/
           cp updates/latest.json _site/updates/
           if [ -f updates/agri-current.json ]; then cp updates/agri-current.json _site/updates/; fi
-          if [ -f updates/reviewer-sources.json ]; then cp updates/reviewer-sources.json _site/updates/; fi
           if [ -f updates/mock-focus.json ]; then cp updates/mock-focus.json _site/updates/; fi
           if [ -f updates/sir-brian-bank.json ]; then cp updates/sir-brian-bank.json _site/updates/; fi
           if [ -f updates/focus-questions.json ]; then cp updates/focus-questions.json _site/updates/; fi
