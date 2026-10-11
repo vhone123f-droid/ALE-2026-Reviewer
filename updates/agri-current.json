@@ -1,405 +1,400 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-06",
+  "updated": "2026-10-11",
   "title": "Current Agriculture Trends & Government Programs",
-  "disclaimer": "These notes are prioritized because they connect directly to the PRC Agriculturists Licensure Examination TOS (for example: current Philippine agriculture, current government programs, agricultural development policies/programs, local extension policies, current IPM trends, SMART agriculture, and AI). They are high-yield study notes, not leaked or guaranteed exam questions.",
+  "disclaimer": "TOS-prioritized official-source study notes, not leaked or guaranteed future PRC exam questions. Market prices are dated and level-specific; verify current values before decisions.",
   "updateCadence": "Weekly",
   "items": [
     {
-      "id": "tos-current-programs",
+      "id": "prc-tos-2026",
       "kind": "Exam Scope",
-      "title": "Why current agriculture programs and innovations matter for ALE 2026",
-      "date": "2026-10-06",
+      "title": "PRC enhanced ALE TOS remains the study weighting framework",
+      "date": "2026-10-08",
       "subjects": [
         "Crop Science",
         "Crop Protection",
+        "Soil Science",
+        "Animal Science",
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "The enhanced PRC TOS explicitly includes current Philippine agriculture, current government programs for food security and sustainability, present agricultural innovations, government policies/programs affecting farmer income, agricultural development policies/programs, local extension policies, current IPM trends, SMART agriculture, and AI in crop protection.",
+      "summary": "The Board of Agriculture's 2024 enhanced Tables of Specifications remain the official competency and cognitive-level framework located in the current check. The 2026 AgLE is scheduled for December 1–3; PRC designated Santiago City an additional testing center on October 8.",
       "keyFacts": [
-        "Crop Science includes current Philippine agriculture, current government programs, and present agricultural innovations.",
-        "Crop Protection includes current/emerging IPM trends, SMART agriculture, and AI.",
-        "Agricultural Economics & Marketing includes government policies/programs aimed at farmer income and agricultural development.",
-        "Extension includes local policies and legal mandates related to agricultural extension."
+        "TOS specifies competencies and item distribution across six subjects",
+        "Application and analysis receive substantial weight",
+        "Santiago City added as a testing center on 8 October 2026"
       ],
-      "examAngle": "Expect application or comparison questions: identify the purpose of a program, connect a policy to a farm/economic problem, or select the innovation that best addresses a production or sustainability challenge.",
-      "sourceLabel": "PRC Board of Agriculture Resolution No. 04 (s. 2024), Enhanced TOS",
-      "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2024-04%20published%20with%20annexes_Agriculture_0.pdf"
+      "examAngle": "Study topic weights and applied decision questions; this is TOS-prioritized practice, not leaked or guaranteed PRC questions.",
+      "sourceLabel": "PRC Resolution No. 04 s. 2024 and PRC October 8 advisory",
+      "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2024-04%20published%20with%20annexes_Agriculture_0.pdf",
+      "additionalSourceUrl": "https://prc.gov.ph/article/designating-santiago-city-additional-testing-center-december-2026-agriculturists-licensure"
     },
     {
-      "id": "psat-tasat-2026",
+      "id": "psat-2026",
       "kind": "Government Program",
-      "title": "PSAT and TASAT: results-based agriculture transformation",
+      "title": "PSAT and TASAT: results-based modernization",
       "date": "2026-05-15",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication",
         "Crop Science"
       ],
-      "summary": "The Philippine Sustainable Agriculture Transformation (PSAT) Program was launched in 2026 with World Bank financing, complemented by the Technical Assistance for Sustainable Agriculture Transformation (TASAT). The thrust is modernization, productivity, food security, value-chain strengthening, climate resilience, and results-based implementation.",
+      "summary": "DA launched the Philippine Sustainable Agriculture Transformation program with USD1 billion World Bank financing; technical assistance complements results-based disbursement and value-chain strengthening.",
       "keyFacts": [
-        "PSAT uses a Program-for-Results approach, linking financing to measurable outcomes.",
-        "The program emphasizes productivity, food supply, value chains, rural incomes, and climate resilience.",
-        "TASAT complements financing with technical assistance and capacity building."
+        "PSAT uses Program-for-Results and disbursement-linked indicators",
+        "Targets rice-based output, resilient value chains and institutional performance",
+        "TASAT supports capacity building"
       ],
-      "examAngle": "Link the program to modernization, value-chain development, measurable outcomes, climate resilience, and institutional capacity building.",
+      "examAngle": "Connect program financing to measurable outputs, climate resilience, value-chain coordination and accountability.",
       "sourceLabel": "Department of Agriculture, 15 May 2026",
       "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/",
       "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/05/Philippines-World-Bank-UK-launch-1B-agriculture-transformation-scaled.jpg",
-      "imageAlt": "Department of Agriculture event launching the Philippine Sustainable Agriculture Transformation program with development partners.",
-      "photoCredit": "Official Department of Agriculture event photo; DA article credits Darrel Gultia, OSEC Comms."
+      "imageAlt": "DA launch event with development partners",
+      "photoCredit": "DA-OSEC Comms / Darrel Gultia"
     },
     {
       "id": "rcef-2031",
       "kind": "Government Program",
-      "title": "RCEF extended to 2031 with expanded rice modernization support",
+      "title": "Rice competitiveness fund extended through 2031",
       "date": "2024-12-09",
       "subjects": [
         "Crop Science",
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "Republic Act No. 12078 extended the Rice Competitiveness Enhancement Fund (RCEF) through 2031 and increased annual funding. RCEF continues to support rice competitiveness through seed, mechanization, credit, training/extension and related productivity interventions.",
+      "summary": "Republic Act 12078 extended the Rice Competitiveness Enhancement Fund through 2031 and expanded annual support to ₱30 billion to improve rice productivity and competitiveness.",
       "keyFacts": [
-        "RCEF was extended through 2031.",
-        "Annual allocation was increased to ₱30 billion.",
-        "Core support areas include quality seeds, mechanization, training/extension and other rice-industry modernization measures."
+        "RCEF supports seed, mechanization, extension and other productivity measures",
+        "Annual fund allocation expanded to ₱30 billion",
+        "Extension runs through 2031"
       ],
-      "examAngle": "Know the logic of competitiveness funds: raise farm productivity, lower unit costs, improve technology adoption, and strengthen farmer capacity rather than simply guaranteeing a market price.",
-      "sourceLabel": "Department of Agriculture, RCEF / RA 12078",
+      "examAngle": "Distinguish productivity support from a guaranteed output price and connect public investment to lower unit costs.",
+      "sourceLabel": "Department of Agriculture, 9 December 2024",
       "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/",
       "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2024/12/rtl_11-scaled.jpg",
-      "imageAlt": "Signing event connected with the law extending and expanding the Rice Competitiveness Enhancement Fund.",
-      "photoCredit": "Official Department of Agriculture article photo."
+      "imageAlt": "Official event photo accompanying RCEF extension law",
+      "photoCredit": "Department of Agriculture"
     },
     {
-      "id": "amia-cra",
-      "kind": "Government Program",
-      "title": "AMIA: climate-resilient agriculture as a DA flagship",
-      "date": "2026-10-06",
+      "id": "philrice-pagasa-2026",
+      "kind": "Current Trend",
+      "title": "PhilRice–PAGASA data sharing for climate-resilient rice",
+      "date": "2026-09-25",
       "subjects": [
         "Crop Science",
         "Soil Science",
         "Agricultural Extension & Communication"
       ],
-      "summary": "The Adaptation and Mitigation Initiative in Agriculture (AMIA) is the DA flagship program for climate adaptation and mitigation in agriculture. It promotes climate-resilient agriculture practices, risk management, community capacity and resilient livelihoods.",
+      "summary": "A September 24 agreement connects weather, climate and hazard information with rice-area maps, planting dates and growth-stage data to improve planning and risk assessment.",
       "keyFacts": [
-        "AMIA addresses both climate adaptation and mitigation.",
-        "Climate-resilient agriculture aims to sustain productivity, food security and farmer/fisherfolk incomes under climate stress.",
-        "Implementation combines technologies, climate-risk information, local participation and support services."
+        "PAGASA shares forecasts and hazard datasets",
+        "PhilRice contributes rice monitoring and production information",
+        "Climate information can guide timing and risk reduction"
       ],
-      "examAngle": "Distinguish adaptation from mitigation and choose climate-resilient practices appropriate to drought, flooding, heat, water stress or other climate risks.",
-      "sourceLabel": "DA Adaptation and Mitigation Initiative in Agriculture",
-      "sourceUrl": "https://www.da.gov.ph/foundation/adaptation-and-mitigation-initiative-in-agriculture-amia/"
+      "examAngle": "Apply weather-risk data to crop calendars, irrigation decisions and extension advisories.",
+      "sourceLabel": "Department of Agriculture, 25 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/pagasa-philrice-forge-data-sharing-pact-to-strengthen-climate-resilient-rice-planning/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/09/PAGASA-PhilRice-forge-data-sharing-pact-to-strengthen-climate-resilient-rice-planning.jpg",
+      "imageAlt": "Official image of the PhilRice–PAGASA data-sharing story",
+      "photoCredit": "Department of Agriculture"
     },
     {
-      "id": "apa-climate-info",
-      "kind": "Government Program",
-      "title": "APA Project: localized climate information + climate-resilient practices",
-      "date": "2026-09-08",
-      "subjects": [
-        "Crop Science",
-        "Agricultural Extension & Communication"
-      ],
-      "summary": "The Adapting Philippine Agriculture to Climate Change (APA) Project promotes localized Climate Information Services and climate-resilient agriculture practices, with attention to vulnerable rural communities and agri-enterprise development.",
-      "keyFacts": [
-        "The project runs from 2024 to 2031.",
-        "It combines Climate Information Services with adoption of climate-resilient agriculture practices.",
-        "The program links climate adaptation with livelihood and enterprise development."
-      ],
-      "examAngle": "Expect scenarios asking which extension or farm-management intervention best converts climate information into practical farmer decisions.",
-      "sourceLabel": "DA Adapting Philippine Agriculture to Climate Change Project",
-      "sourceUrl": "https://apa.da.gov.ph/"
-    },
-    {
-      "id": "f2c2-aceds-2026",
-      "kind": "Government Program",
-      "title": "F2C2 and ACEDS: clustering farmers into market-ready enterprises",
-      "date": "2026-09-28",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Agricultural Extension & Communication"
-      ],
-      "summary": "DA is strengthening farmer and fisherfolk clustering, consolidation and cooperative enterprise development through the F2C2 Program and ACEDS. The current emphasis is on stronger organizations that can meet market volume, quality and delivery requirements and become investment-ready.",
-      "keyFacts": [
-        "Clustering and consolidation address scale, coordination and bargaining constraints of small producers.",
-        "Strong farmer organizations can aggregate volume, standardize quality and negotiate with larger buyers.",
-        "Enterprise development links extension, organization-building and market access."
-      ],
-      "examAngle": "Relate clustering to economies of scale, transaction costs, bargaining power, collective marketing and extension facilitation.",
-      "sourceLabel": "Department of Agriculture, 28 September 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-convenes-stakeholders-for-healthy-clusters-strong-cooperatives-investible-agri-fisheries-enterprises/"
-    },
-    {
-      "id": "ai-satellite-agri-2026",
+      "id": "philsa-ai-2026",
       "kind": "Current Trend",
-      "title": "Satellite data, geospatial tools and AI in agriculture",
+      "title": "Satellite data and AI for agriculture monitoring",
       "date": "2026-09-15",
       "subjects": [
+        "Crop Science",
         "Crop Protection",
-        "Crop Science",
-        "Agricultural Extension & Communication"
+        "Agricultural Economics & Marketing"
       ],
-      "summary": "DA and PhilSA formalized collaboration to use satellite imagery, geospatial information and AI for agriculture, fisheries, disaster response and climate-resilient planning.",
+      "summary": "DA and PhilSA highlighted satellite imagery and AI to monitor farm damage, irrigation needs and production risks. Models support decisions but require ground validation.",
       "keyFacts": [
-        "Potential applications include crop-condition monitoring, flood/drought mapping and irrigation planning.",
-        "Remote sensing can support yield forecasting and rapid agricultural damage assessment.",
-        "This directly reinforces the PRC TOS emphasis on SMART agriculture and AI in crop protection."
+        "Remote sensing detects spatial crop conditions",
+        "AI can classify patterns but may misclassify unfamiliar scenes",
+        "Field verification and georeferencing remain essential"
       ],
-      "examAngle": "Know what remote sensing and AI are good for: large-area monitoring, early detection, mapping and decision support—not replacing field validation or sound pest-management principles.",
+      "examAngle": "Differentiate remote-sensing observations, AI predictions and field-confirmed diagnosis.",
       "sourceLabel": "Department of Agriculture, 15 September 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-philsa-harness-space-technology-to-boost-food-security/"
-    },
-    {
-      "id": "q2-2026-production-trends",
-      "kind": "Current Trend",
-      "title": "Q2 2026 production trend: crops down, livestock/poultry/fisheries up",
-      "date": "2026-08-06",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Crop Science",
-        "Animal Science"
-      ],
-      "summary": "PSA reported contrasting sector trends in April–June 2026: crop volume declined year-on-year, while livestock, poultry and fisheries volumes increased.",
-      "keyFacts": [
-        "Crop production volume: 20.84 million metric tons, down 5.5% year-on-year.",
-        "Livestock production volume: up 3.8%; hog production was up 5.6%.",
-        "Poultry production volume: up 6.3%; chicken egg production was up 13.2%.",
-        "Fisheries production volume: up 2.0%.",
-        "At constant 2018 prices, total agriculture and fisheries value of production increased 2.9% year-on-year."
-      ],
-      "examAngle": "Practice interpreting production growth versus value growth. A rise in value does not automatically mean physical output increased by the same rate.",
-      "sourceLabel": "Philippine Statistics Authority, Q2 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/agriculture-fisheries-volume?vcode=0"
+      "sourceUrl": "https://www.da.gov.ph/da-philsa-harness-space-technology-to-boost-food-security/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/09/DA-PhilSA-harness-space-technology-to-boost-food-security-1024x683.jpg",
+      "imageAlt": "Official DA–PhilSA agriculture technology story image",
+      "photoCredit": "Department of Agriculture"
     },
     {
       "id": "paffp-2026",
       "kind": "Government Program",
-      "title": "PAFFP 2026: targeted assistance for farmers and fisherfolk",
+      "title": "PAFFP: targeted assistance against input-cost pressures",
       "date": "2026-04-15",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "The 2026 Presidential Assistance for Farmers and Fisherfolk Program (PAFFP) provides targeted assistance to eligible registered farmers and fisherfolk facing high production and input costs.",
+      "summary": "DA announced a ₱10 billion Presidential Assistance for Farmers and Fisherfolk Program rollout in April 2026 to cushion selected registered producers against higher fuel and production costs.",
       "keyFacts": [
-        "The 2026 rollout was funded at ₱10 billion.",
-        "DA announced assistance of ₱2,325 each for more than 4.17 million beneficiaries.",
-        "Eligibility uses sector registries such as RSBSA and BoatR."
+        "Announcement cited ₱2,325 per targeted beneficiary",
+        "Eligibility depends on applicable registration and program rules",
+        "Input inflation compresses farm margins"
       ],
-      "examAngle": "Connect targeted assistance to input-cost shocks, farmer welfare, registry-based targeting, and the difference between short-run income support and long-run productivity investment.",
+      "examAngle": "Link transfers to input-cost shocks and distinguish assistance eligibility from universal entitlements.",
       "sourceLabel": "Department of Agriculture, 15 April 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/03/fuel-subsidy-for-farmers-and-fisherfolk.jpg",
-      "imageAlt": "Department of Agriculture assistance activity for farmers and fisherfolk.",
-      "photoCredit": "Official Department of Agriculture article image."
+      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/"
     },
     {
-      "id": "climate-smart-hvc-2026",
-      "kind": "Current Trend",
-      "title": "Climate-smart protected cultivation for high-value vegetables",
-      "date": "2026-02-06",
-      "subjects": [
-        "Crop Science",
-        "Soil Science",
-        "Agricultural Economics & Marketing"
-      ],
-      "summary": "DA earmarked support in 2026 for climate-resilient production of high-value vegetables using protected cultivation and water-management technologies to reduce weather-driven supply disruption.",
-      "keyFacts": [
-        "Interventions include basic greenhouses, drip irrigation and water-impounding systems.",
-        "The target problem is unstable production and recurring price spikes caused by extreme weather.",
-        "Protected cultivation can improve production continuity but still requires sound crop, water, pest and nutrient management."
-      ],
-      "examAngle": "Integrate production and economics: reducing weather risk can stabilize supply, improve scheduling and reduce extreme price volatility.",
-      "sourceLabel": "Department of Agriculture, 6 February 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/01/sili.jpg",
-      "imageAlt": "High-value crop production featured by the Department of Agriculture in its climate-smart crop support article.",
-      "photoCredit": "Official Department of Agriculture article image."
-    },
-    {
-      "id": "kadiwa-2026",
+      "id": "kadiwa-expo-oct",
       "kind": "Government Program",
-      "title": "KADIWA: direct market linkage for producers and consumers",
-      "date": "2026-07-22",
+      "title": "October KADIWA Expo: direct market linkages",
+      "date": "2026-10-09",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "KADIWA remains a government-supported direct marketing platform linking farmers, fisherfolk and producer groups with consumers and institutional markets. The marketing logic is shorter channels, market access and lower intermediation costs.",
+      "summary": "The October 8–10 KADIWA ng Pangulo Expo in Pasay gathered 60 exhibitors to promote local products and connect farmer cooperatives, agri-enterprises and buyers.",
       "keyFacts": [
-        "KADIWA provides organized market outlets for agricultural producers.",
-        "Shorter marketing channels can reduce some transaction and intermediation costs.",
-        "The program also illustrates collective marketing and institutional market linkage."
+        "DA-AMAS organized the expo",
+        "Activities include product promotion and proactive market linkages",
+        "The event also showcased the P20 rice initiative"
       ],
-      "examAngle": "Connect KADIWA to marketing channels, price spreads, direct marketing, market access and farmer organizations—not to a claim that all middlemen are inherently unnecessary.",
-      "sourceLabel": "Department of Agriculture, 22 July 2026",
-      "sourceUrl": "https://www.da.gov.ph/benteng-bigas-drives-kadiwa-sales-past-php4-billion/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/07/DSCF2377.jpg",
-      "imageAlt": "KADIWA market activity featured by the Department of Agriculture.",
-      "photoCredit": "Official Department of Agriculture event photo."
+      "examAngle": "Compare direct marketing and intermediary channels; consider grading, transaction costs and producer margins.",
+      "sourceLabel": "Department of Agriculture, 9 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/gallery/3rd-kadiwa-ng-pangulo-expo-2026-at-world-trade-center-october-8-2026/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/10/KNP-EXPO-8-scaled.jpg",
+      "imageAlt": "Official photo from the 3rd KADIWA Expo, October 2026",
+      "photoCredit": "DA-OSEC Comms / Darrel Gultia"
     },
     {
-      "id": "market-rice-sep-2026",
+      "id": "hvc-climate-2026",
+      "kind": "Government Program",
+      "title": "Protected cultivation for climate-smart vegetables",
+      "date": "2026-02-06",
+      "subjects": [
+        "Crop Science",
+        "Crop Protection",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "DA announced around ₱300 million in 2026 support for climate-smart high-value crops, including protected cultivation for tomatoes and peppers.",
+      "keyFacts": [
+        "Protected cultivation can reduce weather exposure",
+        "Drainage and ventilation remain critical",
+        "High initial costs require market and return analysis"
+      ],
+      "examAngle": "Choose protected-cropping technologies based on weather risk, yield quality, cost and site suitability.",
+      "sourceLabel": "Department of Agriculture, 6 February 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/01/sili.jpg",
+      "imageAlt": "Official chili crop photo accompanying DA high-value-crops story",
+      "photoCredit": "Department of Agriculture"
+    },
+    {
+      "id": "f2c2-2026",
+      "kind": "Government Program",
+      "title": "F2C2: cluster-based farmer enterprise development",
+      "date": "2026-09-28",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication"
+      ],
+      "summary": "DA described efforts to strengthen farmer and fisherfolk clusters, cooperatives and investible enterprises through governance, aggregation and market readiness.",
+      "keyFacts": [
+        "Aggregation can improve market volume and bargaining",
+        "Cooperative governance and financial capacity matter",
+        "Enterprise support should respond to market demand"
+      ],
+      "examAngle": "Distinguish organizing farmers from building financially viable and accountable producer enterprises.",
+      "sourceLabel": "Department of Agriculture, 28 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-convenes-stakeholders-for-healthy-clusters-strong-cooperatives-investible-agri-fisheries-enterprises/"
+    },
+    {
+      "id": "el-nino-response-2026",
+      "kind": "Current Trend",
+      "title": "El Niño risk and food inflation response",
+      "date": "2026-10-06",
+      "subjects": [
+        "Crop Science",
+        "Soil Science",
+        "Animal Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "DA reported preparation for projected late-2026 to early-2027 El Niño-related supply disruption while September inflation rose amid weather and logistics pressures. Forecasts are risks, not guaranteed outcomes.",
+      "keyFacts": [
+        "DA cited a ₱45 billion El Niño response allocation with ₱6.2 billion released",
+        "Dry spells can affect irrigation, forage and fish production",
+        "Fuel and transport costs amplify retail price pressure"
+      ],
+      "examAngle": "Select adaptation measures and explain how supply shocks and logistics costs shift market prices.",
+      "sourceLabel": "Department of Agriculture, 6 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-moves-to-curb-food-prices-after-september-surge/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/09/vegetables-photo-by-AFID.jpg",
+      "imageAlt": "Official DA vegetable photo accompanying October food-price response story",
+      "photoCredit": "DA-AFID"
+    },
+    {
+      "id": "rice-price-sep26",
       "kind": "Market Trend",
-      "title": "Rice retail prices: slight short-term easing, but still above 2025 levels",
+      "title": "Well-milled rice retail: short-run easing, higher year-on-year",
       "date": "2026-09-30",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Crop Science"
       ],
-      "summary": "PSA's second-phase September 2026 price survey showed well-milled rice at a national average retail price of ₱56.07/kg. This was slightly lower than the first phase of September and the second phase of August, but notably higher than the same period in September 2025.",
+      "summary": "PSA national average RETAIL well-milled rice was ₱56.07/kg on September 15–17, 2026, down from ₱56.48/kg on September 1–5 but above ₱47.22/kg a year earlier. The short-run decline does not negate annual inflation.",
       "keyFacts": [
-        "Well-milled rice averaged ₱56.07/kg in 15–17 September 2026.",
-        "It was ₱56.48/kg in the first phase of September 2026 and ₱56.29/kg in the second phase of August 2026.",
-        "The comparable second-phase September 2025 price was ₱47.22/kg.",
-        "Short-run price direction and year-on-year direction can differ at the same time."
+        "Market level: national retail, not palay farmgate",
+        "September 15–17: ₱56.07/kg",
+        "September 1–5: ₱56.48/kg",
+        "September 15–17, 2025: ₱47.22/kg",
+        "PSA September 2026 CPI report: rice index +20.3% and corn index +17.3% year-on-year; CPI change is not the same as peso retail price change."
       ],
-      "examAngle": "Use this to practice price-trend interpretation: a commodity can fall month-to-month yet remain higher year-on-year. Distinguish short-run movement, seasonal movement, inflation, and supply-demand effects.",
-      "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
-      "imageUrl": "https://psa.gov.ph/system/files/inline-images/1.gif",
-      "imageAlt": "PSA chart showing the recent national retail price movement of rice.",
-      "photoCredit": "Official PSA price-situationer chart."
+      "examAngle": "Compare like-for-like grades and market levels; explain harvest, logistics, imports and retail margins.",
+      "sourceLabel": "PSA Price Situationer, 30 September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
+      "additionalSourceUrl": "https://psa.gov.ph/price-indices/cpi-ir"
     },
     {
-      "id": "market-protein-sep-2026",
+      "id": "pork-price-sep26",
       "kind": "Market Trend",
-      "title": "Protein markets: pork lower year-on-year while egg prices were relatively stable",
+      "title": "Pork retail eased while hog farmgate prices faced import pressure",
+      "date": "2026-09-30",
+      "subjects": [
+        "Animal Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "PSA national RETAIL fresh pork with bones averaged ₱295.58/kg on September 15–17, down from ₱297.78/kg earlier in September and ₱327.03/kg a year earlier. DA separately reported hog FARMGATE prices dropping from ₱215/kg June 2025 to ₱150/kg August 2026; these are different market levels.",
+      "keyFacts": [
+        "PSA pork retail: ₱295.58/kg, September 15–17",
+        "Year-earlier same grade: ₱327.03/kg",
+        "DA hog farmgate report: ₱150/kg, August 2026"
+      ],
+      "examAngle": "Distinguish live-hog farmgate and cut-pork retail; analyze supply recovery, imports, ASF and market margins.",
+      "sourceLabel": "DA hog industry report, 25 September 2026; PSA price situationer, 30 September 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-hog-industry-eye-pork-tariff-hike-to-boost-pork-prices/",
+      "additionalSourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2019/10/LIVESTOCK-DA-AFID-FOTOBANK-15.jpg",
+      "imageAlt": "Official DA file photo of livestock accompanying September 2026 hog-market report",
+      "photoCredit": "Department of Agriculture / AFID file photo"
+    },
+    {
+      "id": "fish-price-sep26",
+      "kind": "Market Trend",
+      "title": "Fish and egg retail: short-run and annual trends differ",
       "date": "2026-09-30",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Animal Science"
       ],
-      "summary": "National retail data showed fresh pork with bones at ₱295.58/kg in the second phase of September 2026, below both August 2026 and September 2025 levels. Chicken egg prices in the first phase of September were ₱9.26/piece, only slightly higher than August but lower than September 2025.",
+      "summary": "PSA national RETAIL galunggong averaged ₱242.77/kg on September 15–17, 2026, down from ₱248.54/kg on September 1–5 but above ₱232.37/kg on September 15–17, 2025. In a separate PSA first-phase September survey, national RETAIL chicken eggs averaged ₱9.26 per piece, up from ₱9.16 in late August but below ₱9.40 in the comparable September 2025 phase.",
       "keyFacts": [
-        "Fresh pork with bones averaged ₱295.58/kg in the second phase of September 2026.",
-        "The comparable September 2025 pork price was ₱327.03/kg.",
-        "Chicken egg averaged ₱9.26/piece in the first phase of September 2026.",
-        "Different livestock and poultry commodities can move in different directions because their supply cycles, feed costs, disease risks and demand conditions differ."
+        "Market level: national retail",
+        "Second phase September 2026: ₱242.77/kg",
+        "First phase September 2026: ₱248.54/kg",
+        "Second phase September 2025: ₱232.37/kg",
+        "Chicken egg retail, September 1–5: ₱9.26/piece; August 15–17: ₱9.16; September 15–17, 2025: ₱9.40."
       ],
-      "examAngle": "Connect retail-price changes to supply response, production cycles, feed/input costs, disease shocks, imports, substitution between protein sources, and the difference between farmgate and retail prices.",
-      "sourceLabel": "Philippine Statistics Authority — September 2026 Price Situationers",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
-      "imageUrl": "https://psa.gov.ph/system/files/inline-images/2.gif",
-      "imageAlt": "PSA chart showing the recent national retail price movement of fresh pork.",
-      "photoCredit": "Official PSA price-situationer chart."
+      "examAngle": "Explain fish supply seasonality, landing conditions, cold chain and how short-run declines can coexist with annual increases.",
+      "sourceLabel": "PSA Price Situationer, 30 September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
+      "additionalSourceUrl": "https://psa.gov.ph/content/price-situationer-selected-agricultural-commodities-first-phase-september-2026"
     },
     {
-      "id": "market-vegetables-calamansi-sep-2026",
+      "id": "vegetable-price-sep26",
       "kind": "Market Trend",
-      "title": "Vegetables and calamansi: strong commodity-specific and seasonal price swings",
+      "title": "Cabbage jumped while red onion remained below 2025 price",
+      "date": "2026-09-30",
+      "subjects": [
+        "Crop Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "PSA national RETAIL cabbage rose to ₱143.85/kg September 15–17 from ₱125.29/kg September 1–5 and ₱111.26/kg a year earlier. Red onion was ₱144.86/kg, up slightly within September but below ₱180.41/kg a year earlier.",
+      "keyFacts": [
+        "Cabbage retail: ₱143.85/kg versus ₱111.26/kg year earlier",
+        "Red onion retail: ₱144.86/kg versus ₱180.41/kg year earlier",
+        "Price changes differ by commodity"
+      ],
+      "examAngle": "Connect perishability, weather, supply timing and import/storage cycles to commodity-specific price movements.",
+      "sourceLabel": "PSA Price Situationer, 30 September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
+    },
+    {
+      "id": "calamansi-price-sep26",
+      "kind": "Market Trend",
+      "title": "Calamansi retail fell short-term but exceeded 2025",
+      "date": "2026-09-30",
+      "subjects": [
+        "Crop Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "PSA national RETAIL calamansi averaged ₱89.90/kg on September 15–17, 2026, down from ₱93.48/kg earlier in September and ₱98.53/kg in late August, but above ₱82.25/kg a year earlier.",
+      "keyFacts": [
+        "Market level: national retail",
+        "September 15–17: ₱89.90/kg",
+        "September 1–5: ₱93.48/kg",
+        "September 15–17, 2025: ₱82.25/kg"
+      ],
+      "examAngle": "Interpret seasonal harvests, short shelf life, processing demand and retail-versus-farmgate differences.",
+      "sourceLabel": "PSA Price Situationer, 30 September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
+    },
+    {
+      "id": "cooking-oil-sep26",
+      "kind": "Market Trend",
+      "title": "Cooking oil retail remained above 2025 level",
       "date": "2026-09-30",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Crop Science"
       ],
-      "summary": "PSA data for the second phase of September 2026 showed sharply different price behavior across horticultural commodities: cabbage rose strongly from August, red onion was slightly higher month-to-month but below 2025 levels, while calamansi declined from August but remained above the same period a year earlier.",
+      "summary": "PSA national RETAIL cooking oil averaged ₱201.47/L on September 15–17, 2026, compared with ₱200.91/L earlier in September and ₱186.68/L in the same phase of 2025.",
       "keyFacts": [
-        "Cabbage averaged ₱143.85/kg, up from ₱100.11/kg in the second phase of August 2026.",
-        "Red onion averaged ₱144.86/kg, slightly above August 2026 but below ₱180.41/kg in the comparable September 2025 period.",
-        "Calamansi averaged ₱89.90/kg, down from ₱98.53/kg in the second phase of August 2026 but above ₱82.25/kg a year earlier.",
-        "Perishable commodities often show stronger short-run volatility because weather, harvest timing, storage and transport constraints quickly affect marketable supply."
+        "Market level: national retail per liter",
+        "September 15–17: ₱201.47/L",
+        "September 15–17, 2025: ₱186.68/L",
+        "Edible oil prices reflect feedstock, processing, energy and trade costs"
       ],
-      "examAngle": "Practice explaining price volatility using seasonality, perishability, supply elasticity, weather shocks, postharvest losses, storage, transport and market arrivals rather than assuming one cause for all commodities.",
-      "sourceLabel": "Philippine Statistics Authority — Price Situationer, Second Phase of September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
-      "imageUrl": "https://psa.gov.ph/system/files/inline-images/6.gif",
-      "imageAlt": "PSA chart showing the recent national retail price movement of calamansi.",
-      "photoCredit": "Official PSA price-situationer chart."
+      "examAngle": "Separate retail oil prices from copra farmgate prices and explain processing and import-cost transmission.",
+      "sourceLabel": "PSA Price Situationer, 30 September 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
     },
     {
-      "id": "market-agri-trade-jul-2026",
+      "id": "ube-export-sep26",
       "kind": "Market Trend",
-      "title": "Agricultural trade: imports remained much larger than exports; cereals led imports",
-      "date": "2026-09-03",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Crop Science"
-      ],
-      "summary": "In July 2026, Philippine agricultural imports reached USD 1.90 billion while exports were USD 705.23 million, producing a USD 1.19 billion agricultural trade deficit. Cereals were the largest agricultural import group, while fats and oils were the largest export group.",
-      "keyFacts": [
-        "July 2026 total agricultural trade was USD 2.60 billion.",
-        "Imports were USD 1.90 billion (72.9% of agricultural trade) and exports were USD 705.23 million (27.1%).",
-        "The agricultural trade deficit was USD 1.19 billion.",
-        "Cereals accounted for USD 513.90 million or 27.1% of agricultural imports.",
-        "Animal/vegetable fats and oils accounted for USD 241.13 million or 34.2% of agricultural exports."
-      ],
-      "examAngle": "Relate trade data to comparative advantage, import dependence, domestic supply gaps, exchange-rate exposure, food security, tariff/non-tariff policy, and how imports or exports can influence domestic farm and consumer prices.",
-      "sourceLabel": "Philippine Statistics Authority — Agricultural Trade, July 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/agricultural-export-import/monthly/node/1684084133"
-    },
-    {
-      "id": "market-ube-supply-sep-2026",
-      "kind": "Market Trend",
-      "title": "Ube demand is expanding faster than planting-material supply",
+      "title": "Raw ube export suspension targets planting-material shortage",
       "date": "2026-09-14",
       "subjects": [
-        "Agricultural Economics & Marketing",
-        "Crop Science"
+        "Crop Science",
+        "Agricultural Economics & Marketing"
       ],
-      "summary": "The Department of Agriculture indefinitely suspended exports of fresh ube and propagative planting materials as the country tries to keep scarce planting stock at home, expand production, and capture growing demand for fresh and processed ube in domestic and overseas markets.",
+      "summary": "DA announced an indefinite suspension of fresh purple-yam exports to protect scarce planting material while domestic cultivation expands. This is a policy announcement as of September 14, not a claim about future permanence.",
       "keyFacts": [
-        "The suspension covers fresh purple yam and propagative planting materials.",
-        "DA said planting material is a major production bottleneck while demand for ube and value-added products is growing.",
-        "The policy aims to build domestic production capacity before pushing exports further.",
-        "This is a supply-side market story: strong demand alone cannot expand output when quality planting materials are scarce."
+        "Fresh ube exports were suspended by BPI as reported 14 September 2026",
+        "Planting-material supply can constrain crop expansion",
+        "Processed products and raw propagules involve different value chains"
       ],
-      "examAngle": "Connect the story to supply constraints, derived demand for planting materials, export restrictions, value-chain development, production capacity, and how limited supply can keep commodity prices firm even when market opportunities are strong.",
-      "sourceLabel": "Department of Agriculture — 14 September 2026",
+      "examAngle": "Analyze propagation bottlenecks, opportunity costs and how export restrictions can alter domestic availability.",
+      "sourceLabel": "Department of Agriculture, 14 September 2026",
       "sourceUrl": "https://www.da.gov.ph/da-indefinitely-suspends-raw-ube-exports-to-secure-planting-materials/",
       "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/06/ube-photo-by-BPI.jpg",
-      "imageAlt": "Official Bureau of Plant Industry photo of Philippine ube used in a Department of Agriculture ube-industry report.",
-      "photoCredit": "Official DA/BPI ube photo."
+      "imageAlt": "Official BPI ube commodity photo accompanying DA export story",
+      "photoCredit": "Bureau of Plant Industry / Department of Agriculture"
     },
     {
-      "id": "market-pork-imports-sep-2026",
+      "id": "agri-trade-aug26",
       "kind": "Market Trend",
-      "title": "Pork imports and recovering local supply are pressuring farmgate hog prices",
-      "date": "2026-09-25",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Animal Science"
-      ],
-      "summary": "The Department of Agriculture reported that local hog production was recovering while pork imports and inventories remained high. DA said live-hog farmgate prices had fallen sharply, prompting discussions on restoring higher pork tariffs to give domestic raisers more room to recover while still protecting consumer supply.",
-      "keyFacts": [
-        "DA reported local hog production rose 6% in the first semester of 2026.",
-        "DA said farmgate hog prices fell from about ₱215/kg in June 2025 to about ₱150/kg in August 2026.",
-        "DA proposed raising 2027 pork tariffs by 10 percentage points from the current 15% in-quota and 25% out-quota rates.",
-        "Earlier in 2026, EO 116 expanded pork import access as a supply-and-price safeguard amid ASF and inflation risks."
-      ],
-      "examAngle": "This is a useful policy trade-off: imports can improve consumer supply and price stability, but heavy import competition can depress domestic farmgate prices. Relate it to tariffs, MAV, producer surplus, consumer surplus, supply shocks, ASF, and long-run domestic industry competitiveness.",
-      "sourceLabel": "Department of Agriculture — 25 September 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-hog-industry-eye-pork-tariff-hike-to-boost-pork-prices/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2019/10/LIVESTOCK-DA-AFID-FOTOBANK-15.jpg",
-      "imageAlt": "Official Department of Agriculture livestock file photo accompanying pork-market policy coverage.",
-      "photoCredit": "Official DA-AFID livestock file photo."
-    },
-    {
-      "id": "market-calamansi-sep-2026",
-      "kind": "Market Trend",
-      "title": "Calamansi: retail price eased, while Northern Mindanao output also weakened in Q2",
-      "date": "2026-09-30",
+      "title": "August agricultural trade: exports fell, imports dominated",
+      "date": "2026-10-06",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Crop Science"
       ],
-      "summary": "PSA reported a national average retail price of ₱89.90/kg for calamansi in the second phase of September 2026, lower than August but still above the comparable 2025 level. Separately, PSA Region X reported Northern Mindanao calamansi production fell 10.4% year-on-year in Q2 2026, showing how price and production movements must be interpreted by place, period, and market level.",
+      "summary": "PSA preliminary AUGUST 2026 agricultural trade totaled USD2.22 billion, down 8.5% year-on-year. Exports were USD554.70 million (−26.1% y/y), imports USD1.67 billion and the trade balance about −USD1.11 billion.",
       "keyFacts": [
-        "National retail calamansi price: ₱89.90/kg in 15–17 September 2026.",
-        "This was below ₱98.53/kg in the second phase of August 2026, but above ₱82.25/kg in the comparable September 2025 period.",
-        "Northern Mindanao Q2 2026 calamansi production was 388.4 MT, down 10.4% from 433.4 MT in Q2 2025.",
-        "Retail price and regional production are different measures and should not be treated as a one-to-one relationship."
+        "Reference period: August 2026 preliminary",
+        "Exports: USD554.70 million, imports: USD1.67 billion",
+        "Trade balance: approximately −USD1.11 billion",
+        "Fruit and nut commodities were the largest export group by value"
       ],
-      "examAngle": "Use this for seasonality, perishability, regional supply, market arrivals, short-run price movements, and the distinction between production statistics and retail-price statistics.",
-      "sourceLabel": "PSA national price situationer and PSA Region X crop production, September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities",
-      "imageUrl": "https://psa.gov.ph/system/files/inline-images/6.gif",
-      "imageAlt": "Official PSA chart of calamansi retail-price movement.",
-      "photoCredit": "Official PSA price-situationer chart."
+      "examAngle": "Calculate trade balance and interpret why export weakness and import dependence matter for domestic producers.",
+      "sourceLabel": "PSA Agricultural Merchandise Trade, 6 October 2026",
+      "sourceUrl": "https://psa.gov.ph/statistics/agricultural-export-import/monthly/node/1684084285"
     }
-  ],
-  "photoNote": "Official event photos or official statistical charts are shown when an exact, verified government-hosted image URL is available. Images link to the source article.",
-  "marketNote": "Market Trend notes prioritize Philippine commodities with recent official PSA/DA data. Prices are reference-period averages and should be interpreted by time period, location and market level (farmgate/wholesale/retail)."
+  ]
 }

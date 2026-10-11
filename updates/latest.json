@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "appMinVersion": "2.0.0",
-  "bankVersion": "2.2.1",
-  "bankUrl": "../question-bank-v2.2.1.json",
-  "released": "2026-10-08",
-  "questionCount": 720,
+  "bankVersion": "2.3.0",
+  "bankUrl": "../question-bank-v2.3.0.json",
+  "released": "2026-10-11",
+  "questionCount": 1020,
   "releaseNotes": [
-    "Added 60 original source-informed questions based on themes found across the uploaded Green Empire, VSU, UPLB/ACAP, and DOSCST reviewer collections.",
-    "10 new questions per ALE subject; emphasis on enduring concepts, situational application, calculations, diagnosis, and best-action reasoning.",
-    "Legacy material was treated as reference only: wording was rewritten and older/time-sensitive facts were not copied blindly.",
-    "Existing 660 question IDs and order are preserved."
+    "Added exactly 300 independent original TOS-prioritized practice questions: 50 per ALE subject.",
+    "No Sir Brian mock-derived questions were merged; Sir Brian bank and mock-focus remain separate.",
+    "All 720 previous questions, IDs and ordering preserved; visuals appear only after checking answers.",
+    "Current official PRC enhanced TOS (Resolution 04 s. 2024) checked October 11, 2026."
   ],
   "verifiedAgainst": [
-    "Current ALE six-subject structure and existing app schema",
-    "Uploaded legacy reviewer collections used as concept/question-pattern references"
+    "PRC Board of Agriculture Resolution No. 04 s. 2024 enhanced TOS",
+    "PRC 2026 Agriculturists Licensure Examination official schedule and October 8 additional testing-center advisory",
+    "Independent high-yield competency concepts; no Sir Brian mock-derived content"
   ]
 }
