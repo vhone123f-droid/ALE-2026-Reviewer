@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-18",
   "title": "Current Agriculture Trends & Government Programs",
-  "disclaimer": "TOS-prioritized official-source study notes, not leaked or guaranteed future PRC exam questions. Market prices are dated and level-specific; verify current values before decisions.",
+  "disclaimer": "Official-source, PRC TOS-prioritized study notes, not leaked or guaranteed future examination questions. Market figures are dated and explicitly labeled by market level; verify current data before transactions.",
   "updateCadence": "Weekly",
   "items": [
     {
       "id": "prc-tos-2026",
       "kind": "Exam Scope",
       "title": "PRC enhanced ALE TOS remains the study weighting framework",
-      "date": "2026-10-08",
+      "date": "2026-10-18",
       "subjects": [
         "Crop Science",
         "Crop Protection",
@@ -18,62 +18,104 @@
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "The Board of Agriculture's 2024 enhanced Tables of Specifications remain the official competency and cognitive-level framework located in the current check. The 2026 AgLE is scheduled for December 1–3; PRC designated Santiago City an additional testing center on October 8.",
+      "summary": "Official PRC Board of Agriculture Resolution No. 04 (s. 2024) remains the enhanced ALE Tables of Specifications identified in the October 18, 2026 check. The 2026 Agriculturists Licensure Examination is scheduled December 1–3; PRC designated Santiago City an additional testing center on October 8.",
       "keyFacts": [
         "TOS specifies competencies and item distribution across six subjects",
         "Application and analysis receive substantial weight",
         "Santiago City added as a testing center on 8 October 2026"
       ],
-      "examAngle": "Study topic weights and applied decision questions; this is TOS-prioritized practice, not leaked or guaranteed PRC questions.",
-      "sourceLabel": "PRC Resolution No. 04 s. 2024 and PRC October 8 advisory",
+      "examAngle": "Prioritize weighted competencies and application/analysis. These are independently written practice questions, not leaked or guaranteed exam items.",
+      "sourceLabel": "PRC Resolution No. 04 s. 2024; PRC advisory 8 October 2026",
       "sourceUrl": "https://www.prc.gov.ph/sites/default/files/2024-04%20published%20with%20annexes_Agriculture_0.pdf",
       "additionalSourceUrl": "https://prc.gov.ph/article/designating-santiago-city-additional-testing-center-december-2026-agriculturists-licensure"
     },
     {
-      "id": "psat-2026",
-      "kind": "Government Program",
-      "title": "PSAT and TASAT: results-based modernization",
-      "date": "2026-05-15",
+      "id": "wfd-2026-oct",
+      "kind": "Current Trend",
+      "title": "World Food Day 2026: innovation plus inclusive extension",
+      "date": "2026-10-16",
       "subjects": [
-        "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication",
-        "Crop Science"
+        "Crop Science",
+        "Agricultural Economics & Marketing"
       ],
-      "summary": "DA launched the Philippine Sustainable Agriculture Transformation program with USD1 billion World Bank financing; technical assistance complements results-based disbursement and value-chain strengthening.",
+      "summary": "DA and FAO marked World Food Day with the theme 'Innovate today. Nourish tomorrow.' Their October 15 activities stressed climate resilience, nutrition, food-loss reduction and rural women's contributions; innovation includes improving existing local practices.",
       "keyFacts": [
-        "PSAT uses Program-for-Results and disbursement-linked indicators",
-        "Targets rice-based output, resilient value chains and institutional performance",
-        "TASAT supports capacity building"
+        "World Food Day is observed on October 16",
+        "The 2026 DA–FAO event highlighted science, traditional knowledge and inclusive food systems",
+        "Food security includes availability, access, utilization and stability"
       ],
-      "examAngle": "Connect program financing to measurable outputs, climate resilience, value-chain coordination and accountability.",
-      "sourceLabel": "Department of Agriculture, 15 May 2026",
-      "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/05/Philippines-World-Bank-UK-launch-1B-agriculture-transformation-scaled.jpg",
-      "imageAlt": "DA launch event with development partners",
-      "photoCredit": "DA-OSEC Comms / Darrel Gultia"
+      "examAngle": "Link innovation diffusion, farmer participation, food security dimensions and sustainable value chains.",
+      "sourceLabel": "Department of Agriculture, 16 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-fao-call-for-innovation-action-for-future-proof-agrifood-systems-during-wfd-celebration/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/10/wfd26-221-scaled.jpg",
+      "imageAlt": "Participants hold candles at the official World Food Day 2026 event in Quezon City",
+      "photoCredit": "DA-AFID / Department of Agriculture"
     },
     {
-      "id": "rcef-2031",
+      "id": "asean-mentorship-oct26",
       "kind": "Government Program",
-      "title": "Rice competitiveness fund extended through 2031",
-      "date": "2024-12-09",
+      "title": "Cooperative mentorship and ASEAN food-security market links",
+      "date": "2026-10-12",
       "subjects": [
-        "Crop Science",
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "Republic Act 12078 extended the Rice Competitiveness Enhancement Fund through 2031 and expanded annual support to ₱30 billion to improve rice productivity and competitiveness.",
+      "summary": "DA highlighted regional trade cooperation and the Adapt-A-Coop mentoring approach pairing agricultural cooperatives with private-sector expertise in cost accounting, packaging and marketing. Market access needs both producer organization and business capability.",
       "keyFacts": [
-        "RCEF supports seed, mechanization, extension and other productivity measures",
-        "Annual fund allocation expanded to ₱30 billion",
-        "Extension runs through 2031"
+        "DA described mentoring in financial literacy, operations and market readiness",
+        "Regional trade can buffer supply gaps but creates competitive pressure",
+        "Producer aggregation does not remove the need for quality and working capital"
       ],
-      "examAngle": "Distinguish productivity support from a guaranteed output price and connect public investment to lower unit costs.",
-      "sourceLabel": "Department of Agriculture, 9 December 2024",
-      "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2024/12/rtl_11-scaled.jpg",
-      "imageAlt": "Official event photo accompanying RCEF extension law",
-      "photoCredit": "Department of Agriculture"
+      "examAngle": "Apply cooperative enterprise development, transaction costs, extension partnerships and comparative advantage.",
+      "sourceLabel": "Department of Agriculture, 12 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-chief-pushes-asean-integration-highlights-big-brother-mentorship-to-empower-farmers/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/10/DA-chief-pushes-ASEAN-Integration-highlights-Big-Brother-mentorship-to-empower-farmers.jpg",
+      "imageAlt": "Agriculture secretary speaking at the ASEAN Food Security and Agribusiness Summit",
+      "photoCredit": "Department of Agriculture / OSEC Communications"
+    },
+    {
+      "id": "pork-safeguard-investigation-oct26",
+      "kind": "Market Trend",
+      "title": "DA begins preliminary safeguard investigation on pork imports",
+      "date": "2026-10-15",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Animal Science"
+      ],
+      "summary": "DA announced a preliminary investigation initiated October 9 into whether increased pork imports threaten serious injury to the domestic hog sector under Republic Act 8800. An investigation is not a final safeguard tariff decision.",
+      "keyFacts": [
+        "Notice released by DA on 15 October 2026",
+        "Scope: preliminary investigation of pork imports and possible injury",
+        "Any final remedy depends on legal findings and procedure"
+      ],
+      "examAngle": "Distinguish safeguards from ordinary tariffs and evaluate consumer-price versus producer-income effects.",
+      "sourceLabel": "Department of Agriculture Trade Remedies Office, 15 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/announcements/the-secretary-of-agricultures-initiation-of-preliminary-safeguard-measures-investigation-on-pork-imports-from-various-countries-and-customs-territories/"
+    },
+    {
+      "id": "el-nino-response-2026",
+      "kind": "Current Trend",
+      "title": "El Niño risk and food inflation response",
+      "date": "2026-10-06",
+      "subjects": [
+        "Crop Science",
+        "Soil Science",
+        "Animal Science",
+        "Agricultural Economics & Marketing"
+      ],
+      "summary": "DA reported preparation for projected late-2026 to early-2027 El Niño-related supply disruption while September inflation rose amid weather and logistics pressures. Forecasts are risks, not guaranteed outcomes.",
+      "keyFacts": [
+        "DA cited a ₱45 billion El Niño response allocation with ₱6.2 billion released",
+        "Dry spells can affect irrigation, forage and fish production",
+        "Fuel and transport costs amplify retail price pressure"
+      ],
+      "examAngle": "Select adaptation measures and explain how supply shocks and logistics costs shift market prices.",
+      "sourceLabel": "Department of Agriculture, 6 October 2026",
+      "sourceUrl": "https://www.da.gov.ph/da-moves-to-curb-food-prices-after-september-surge/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/09/vegetables-photo-by-AFID.jpg",
+      "imageAlt": "Official DA vegetable photo accompanying October food-price response story",
+      "photoCredit": "DA-AFID"
     },
     {
       "id": "philrice-pagasa-2026",
@@ -122,23 +164,50 @@
       "photoCredit": "Department of Agriculture"
     },
     {
-      "id": "paffp-2026",
+      "id": "psat-2026",
       "kind": "Government Program",
-      "title": "PAFFP: targeted assistance against input-cost pressures",
-      "date": "2026-04-15",
+      "title": "PSAT and TASAT: results-based modernization",
+      "date": "2026-05-15",
       "subjects": [
+        "Agricultural Economics & Marketing",
+        "Agricultural Extension & Communication",
+        "Crop Science"
+      ],
+      "summary": "DA launched the Philippine Sustainable Agriculture Transformation program with USD1 billion World Bank financing; technical assistance complements results-based disbursement and value-chain strengthening.",
+      "keyFacts": [
+        "PSAT uses Program-for-Results and disbursement-linked indicators",
+        "Targets rice-based output, resilient value chains and institutional performance",
+        "TASAT supports capacity building"
+      ],
+      "examAngle": "Connect program financing to measurable outputs, climate resilience, value-chain coordination and accountability.",
+      "sourceLabel": "Department of Agriculture, 15 May 2026",
+      "sourceUrl": "https://www.da.gov.ph/philippines-world-bank-uk-launch-1b-agriculture-transformation/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/05/Philippines-World-Bank-UK-launch-1B-agriculture-transformation-scaled.jpg",
+      "imageAlt": "DA launch event with development partners",
+      "photoCredit": "DA-OSEC Comms / Darrel Gultia"
+    },
+    {
+      "id": "rcef-2031",
+      "kind": "Government Program",
+      "title": "Rice competitiveness fund extended through 2031",
+      "date": "2024-12-09",
+      "subjects": [
+        "Crop Science",
         "Agricultural Economics & Marketing",
         "Agricultural Extension & Communication"
       ],
-      "summary": "DA announced a ₱10 billion Presidential Assistance for Farmers and Fisherfolk Program rollout in April 2026 to cushion selected registered producers against higher fuel and production costs.",
+      "summary": "Republic Act 12078 extended the Rice Competitiveness Enhancement Fund through 2031 and expanded annual support to ₱30 billion to improve rice productivity and competitiveness.",
       "keyFacts": [
-        "Announcement cited ₱2,325 per targeted beneficiary",
-        "Eligibility depends on applicable registration and program rules",
-        "Input inflation compresses farm margins"
+        "RCEF supports seed, mechanization, extension and other productivity measures",
+        "Annual fund allocation expanded to ₱30 billion",
+        "Extension runs through 2031"
       ],
-      "examAngle": "Link transfers to input-cost shocks and distinguish assistance eligibility from universal entitlements.",
-      "sourceLabel": "Department of Agriculture, 15 April 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-rolls-out-p10b-paffp-nationwide-distribution/"
+      "examAngle": "Distinguish productivity support from a guaranteed output price and connect public investment to lower unit costs.",
+      "sourceLabel": "Department of Agriculture, 9 December 2024",
+      "sourceUrl": "https://www.da.gov.ph/new-law-extends-rcef-until-2031-triples-budget-to-boost-rice-industry-modernization/",
+      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2024/12/rtl_11-scaled.jpg",
+      "imageAlt": "Official event photo accompanying RCEF extension law",
+      "photoCredit": "Department of Agriculture"
     },
     {
       "id": "kadiwa-expo-oct",
@@ -163,156 +232,136 @@
       "photoCredit": "DA-OSEC Comms / Darrel Gultia"
     },
     {
-      "id": "hvc-climate-2026",
-      "kind": "Government Program",
-      "title": "Protected cultivation for climate-smart vegetables",
-      "date": "2026-02-06",
-      "subjects": [
-        "Crop Science",
-        "Crop Protection",
-        "Agricultural Economics & Marketing"
-      ],
-      "summary": "DA announced around ₱300 million in 2026 support for climate-smart high-value crops, including protected cultivation for tomatoes and peppers.",
-      "keyFacts": [
-        "Protected cultivation can reduce weather exposure",
-        "Drainage and ventilation remain critical",
-        "High initial costs require market and return analysis"
-      ],
-      "examAngle": "Choose protected-cropping technologies based on weather risk, yield quality, cost and site suitability.",
-      "sourceLabel": "Department of Agriculture, 6 February 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-sets-aside-p300m-for-climate-smart-high-value-crops/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/01/sili.jpg",
-      "imageAlt": "Official chili crop photo accompanying DA high-value-crops story",
-      "photoCredit": "Department of Agriculture"
-    },
-    {
-      "id": "f2c2-2026",
-      "kind": "Government Program",
-      "title": "F2C2: cluster-based farmer enterprise development",
-      "date": "2026-09-28",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Agricultural Extension & Communication"
-      ],
-      "summary": "DA described efforts to strengthen farmer and fisherfolk clusters, cooperatives and investible enterprises through governance, aggregation and market readiness.",
-      "keyFacts": [
-        "Aggregation can improve market volume and bargaining",
-        "Cooperative governance and financial capacity matter",
-        "Enterprise support should respond to market demand"
-      ],
-      "examAngle": "Distinguish organizing farmers from building financially viable and accountable producer enterprises.",
-      "sourceLabel": "Department of Agriculture, 28 September 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-convenes-stakeholders-for-healthy-clusters-strong-cooperatives-investible-agri-fisheries-enterprises/"
-    },
-    {
-      "id": "el-nino-response-2026",
-      "kind": "Current Trend",
-      "title": "El Niño risk and food inflation response",
-      "date": "2026-10-06",
-      "subjects": [
-        "Crop Science",
-        "Soil Science",
-        "Animal Science",
-        "Agricultural Economics & Marketing"
-      ],
-      "summary": "DA reported preparation for projected late-2026 to early-2027 El Niño-related supply disruption while September inflation rose amid weather and logistics pressures. Forecasts are risks, not guaranteed outcomes.",
-      "keyFacts": [
-        "DA cited a ₱45 billion El Niño response allocation with ₱6.2 billion released",
-        "Dry spells can affect irrigation, forage and fish production",
-        "Fuel and transport costs amplify retail price pressure"
-      ],
-      "examAngle": "Select adaptation measures and explain how supply shocks and logistics costs shift market prices.",
-      "sourceLabel": "Department of Agriculture, 6 October 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-moves-to-curb-food-prices-after-september-surge/",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2026/09/vegetables-photo-by-AFID.jpg",
-      "imageAlt": "Official DA vegetable photo accompanying October food-price response story",
-      "photoCredit": "DA-AFID"
-    },
-    {
-      "id": "rice-price-sep26",
+      "id": "rice-price-oct26",
       "kind": "Market Trend",
-      "title": "Well-milled rice retail: short-run easing, higher year-on-year",
-      "date": "2026-09-30",
+      "title": "Regular-milled rice retail: down month-on-month, up year-on-year",
+      "date": "2026-10-16",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Crop Science"
       ],
-      "summary": "PSA national average RETAIL well-milled rice was ₱56.07/kg on September 15–17, 2026, down from ₱56.48/kg on September 1–5 but above ₱47.22/kg a year earlier. The short-run decline does not negate annual inflation.",
+      "summary": "PSA national RETAIL regular-milled rice averaged ₱49.79/kg during October 1–5, 2026, slightly below ₱49.97/kg on September 15–17 and above ₱40.20/kg in October 1–5, 2025. Short-run easing can coexist with annual inflation.",
       "keyFacts": [
-        "Market level: national retail, not palay farmgate",
-        "September 15–17: ₱56.07/kg",
-        "September 1–5: ₱56.48/kg",
-        "September 15–17, 2025: ₱47.22/kg",
-        "PSA September 2026 CPI report: rice index +20.3% and corn index +17.3% year-on-year; CPI change is not the same as peso retail price change."
+        "National retail, regular-milled rice, 1–5 October 2026: ₱49.79/kg",
+        "15–17 September 2026: ₱49.97/kg",
+        "1–5 October 2025: ₱40.20/kg"
       ],
-      "examAngle": "Compare like-for-like grades and market levels; explain harvest, logistics, imports and retail margins.",
-      "sourceLabel": "PSA Price Situationer, 30 September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
-      "additionalSourceUrl": "https://psa.gov.ph/price-indices/cpi-ir"
+      "examAngle": "Compare the same grade and market level; connect harvests, transport, imports and retail margins.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit01_0.gif",
+      "imageAlt": "Official PSA price-situationer chart for Regular-milled rice retail: down month-on-month, up year-on-year",
+      "photoCredit": "Philippine Statistics Authority"
     },
     {
-      "id": "pork-price-sep26",
+      "id": "pork-price-oct26",
       "kind": "Market Trend",
-      "title": "Pork retail eased while hog farmgate prices faced import pressure",
-      "date": "2026-09-30",
+      "title": "Fresh pork retail declines while trade safeguards are reviewed",
+      "date": "2026-10-16",
       "subjects": [
         "Animal Science",
         "Agricultural Economics & Marketing"
       ],
-      "summary": "PSA national RETAIL fresh pork with bones averaged ₱295.58/kg on September 15–17, down from ₱297.78/kg earlier in September and ₱327.03/kg a year earlier. DA separately reported hog FARMGATE prices dropping from ₱215/kg June 2025 to ₱150/kg August 2026; these are different market levels.",
+      "summary": "PSA national RETAIL fresh pork with bones averaged ₱290.85/kg during October 1–5, 2026, below ₱295.58/kg on September 15–17 and ₱323.58/kg during October 1–5, 2025. This is retail cut-pork, not live-hog farmgate.",
       "keyFacts": [
-        "PSA pork retail: ₱295.58/kg, September 15–17",
-        "Year-earlier same grade: ₱327.03/kg",
-        "DA hog farmgate report: ₱150/kg, August 2026"
+        "National retail fresh pork with bones: ₱290.85/kg, 1–5 October 2026",
+        "15–17 September 2026: ₱295.58/kg",
+        "1–5 October 2025: ₱323.58/kg"
       ],
-      "examAngle": "Distinguish live-hog farmgate and cut-pork retail; analyze supply recovery, imports, ASF and market margins.",
-      "sourceLabel": "DA hog industry report, 25 September 2026; PSA price situationer, 30 September 2026",
-      "sourceUrl": "https://www.da.gov.ph/da-hog-industry-eye-pork-tariff-hike-to-boost-pork-prices/",
-      "additionalSourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
-      "imageUrl": "https://www.da.gov.ph/wp-content/uploads/2019/10/LIVESTOCK-DA-AFID-FOTOBANK-15.jpg",
-      "imageAlt": "Official DA file photo of livestock accompanying September 2026 hog-market report",
-      "photoCredit": "Department of Agriculture / AFID file photo"
+      "examAngle": "Separate live-hog farmgate from retail meat; assess supply, imports, animal health and processing margins.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit02.gif",
+      "imageAlt": "Official PSA price-situationer chart for Fresh pork retail declines while trade safeguards are reviewed",
+      "photoCredit": "Philippine Statistics Authority"
     },
     {
-      "id": "fish-price-sep26",
+      "id": "tilapia-price-oct26",
       "kind": "Market Trend",
-      "title": "Fish and egg retail: short-run and annual trends differ",
-      "date": "2026-09-30",
+      "title": "Tilapia retail eases slightly but remains above 2025",
+      "date": "2026-10-16",
       "subjects": [
         "Agricultural Economics & Marketing",
         "Animal Science"
       ],
-      "summary": "PSA national RETAIL galunggong averaged ₱242.77/kg on September 15–17, 2026, down from ₱248.54/kg on September 1–5 but above ₱232.37/kg on September 15–17, 2025. In a separate PSA first-phase September survey, national RETAIL chicken eggs averaged ₱9.26 per piece, up from ₱9.16 in late August but below ₱9.40 in the comparable September 2025 phase.",
+      "summary": "PSA national RETAIL tilapia averaged ₱185.27/kg during October 1–5, 2026, below ₱186.65/kg on September 15–17 and above ₱182.60/kg during October 1–5, 2025.",
       "keyFacts": [
-        "Market level: national retail",
-        "Second phase September 2026: ₱242.77/kg",
-        "First phase September 2026: ₱248.54/kg",
-        "Second phase September 2025: ₱232.37/kg",
-        "Chicken egg retail, September 1–5: ₱9.26/piece; August 15–17: ₱9.16; September 15–17, 2025: ₱9.40."
+        "National retail tilapia: ₱185.27/kg, 1–5 October 2026",
+        "15–17 September 2026: ₱186.65/kg",
+        "1–5 October 2025: ₱182.60/kg"
       ],
-      "examAngle": "Explain fish supply seasonality, landing conditions, cold chain and how short-run declines can coexist with annual increases.",
-      "sourceLabel": "PSA Price Situationer, 30 September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237",
-      "additionalSourceUrl": "https://psa.gov.ph/content/price-situationer-selected-agricultural-commodities-first-phase-september-2026"
+      "examAngle": "Interpret aquaculture production cycles, feed costs, weather, fish transport and perishability.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit03.gif",
+      "imageAlt": "Official PSA price-situationer chart for Tilapia retail eases slightly but remains above 2025",
+      "photoCredit": "Philippine Statistics Authority"
     },
     {
-      "id": "vegetable-price-sep26",
+      "id": "eggplant-price-oct26",
       "kind": "Market Trend",
-      "title": "Cabbage jumped while red onion remained below 2025 price",
-      "date": "2026-09-30",
+      "title": "Eggplant retail falls sharply from September",
+      "date": "2026-10-16",
       "subjects": [
-        "Crop Science",
-        "Agricultural Economics & Marketing"
+        "Agricultural Economics & Marketing",
+        "Crop Science"
       ],
-      "summary": "PSA national RETAIL cabbage rose to ₱143.85/kg September 15–17 from ₱125.29/kg September 1–5 and ₱111.26/kg a year earlier. Red onion was ₱144.86/kg, up slightly within September but below ₱180.41/kg a year earlier.",
+      "summary": "PSA national RETAIL eggplant averaged ₱104.41/kg during October 1–5, 2026, below ₱111.83/kg on September 15–17, but above ₱98.33/kg during October 1–5, 2025. Perishability can magnify local supply swings.",
       "keyFacts": [
-        "Cabbage retail: ₱143.85/kg versus ₱111.26/kg year earlier",
-        "Red onion retail: ₱144.86/kg versus ₱180.41/kg year earlier",
-        "Price changes differ by commodity"
+        "National retail eggplant: ₱104.41/kg, 1–5 October 2026",
+        "15–17 September 2026: ₱111.83/kg",
+        "1–5 October 2025: ₱98.33/kg"
       ],
-      "examAngle": "Connect perishability, weather, supply timing and import/storage cycles to commodity-specific price movements.",
-      "sourceLabel": "PSA Price Situationer, 30 September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
+      "examAngle": "Explain perishability, harvest arrivals, rainfall disruptions and why wholesale/farmgate may move differently.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit04.gif",
+      "imageAlt": "Official PSA price-situationer chart for Eggplant retail falls sharply from September",
+      "photoCredit": "Philippine Statistics Authority"
+    },
+    {
+      "id": "mango-price-oct26",
+      "kind": "Market Trend",
+      "title": "Carabao mango retail rises both short-run and annually",
+      "date": "2026-10-16",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "PSA national RETAIL carabao mango averaged ₱198.97/kg during October 1–5, 2026, up from ₱189.41/kg on September 15–17 and ₱176.79/kg in October 1–5, 2025.",
+      "keyFacts": [
+        "National retail carabao mango: ₱198.97/kg, 1–5 October 2026",
+        "15–17 September 2026: ₱189.41/kg",
+        "1–5 October 2025: ₱176.79/kg"
+      ],
+      "examAngle": "Link fruit seasonality, weather, grading and handling losses to retail price changes.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit06.gif",
+      "imageAlt": "Official PSA price-situationer chart for Carabao mango retail rises both short-run and annually",
+      "photoCredit": "Philippine Statistics Authority"
+    },
+    {
+      "id": "sugar-price-oct26",
+      "kind": "Market Trend",
+      "title": "Refined sugar retail eases compared with September and 2025",
+      "date": "2026-10-16",
+      "subjects": [
+        "Agricultural Economics & Marketing",
+        "Crop Science"
+      ],
+      "summary": "PSA national RETAIL refined sugar averaged ₱82.29/kg during October 1–5, 2026, down from ₱82.60/kg on September 15–17 and ₱83.37/kg in October 1–5, 2025.",
+      "keyFacts": [
+        "National retail refined sugar: ₱82.29/kg, 1–5 October 2026",
+        "15–17 September 2026: ₱82.60/kg",
+        "1–5 October 2025: ₱83.37/kg"
+      ],
+      "examAngle": "Relate processing, inventory, production season and trade to prices; avoid equating refined sugar retail with cane farmgate.",
+      "sourceLabel": "PSA national retail Price Situationer, released 16 October 2026 (survey 1–5 October)",
+      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084359",
+      "imageUrl": "https://psa.gov.ph/system/files/inline-images/PriSit07.gif",
+      "imageAlt": "Official PSA price-situationer chart for Refined sugar retail eases compared with September and 2025",
+      "photoCredit": "Philippine Statistics Authority"
     },
     {
       "id": "calamansi-price-sep26",
@@ -331,26 +380,6 @@
         "September 15–17, 2025: ₱82.25/kg"
       ],
       "examAngle": "Interpret seasonal harvests, short shelf life, processing demand and retail-versus-farmgate differences.",
-      "sourceLabel": "PSA Price Situationer, 30 September 2026",
-      "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
-    },
-    {
-      "id": "cooking-oil-sep26",
-      "kind": "Market Trend",
-      "title": "Cooking oil retail remained above 2025 level",
-      "date": "2026-09-30",
-      "subjects": [
-        "Agricultural Economics & Marketing",
-        "Crop Science"
-      ],
-      "summary": "PSA national RETAIL cooking oil averaged ₱201.47/L on September 15–17, 2026, compared with ₱200.91/L earlier in September and ₱186.68/L in the same phase of 2025.",
-      "keyFacts": [
-        "Market level: national retail per liter",
-        "September 15–17: ₱201.47/L",
-        "September 15–17, 2025: ₱186.68/L",
-        "Edible oil prices reflect feedstock, processing, energy and trade costs"
-      ],
-      "examAngle": "Separate retail oil prices from copra farmgate prices and explain processing and import-cost transmission.",
       "sourceLabel": "PSA Price Situationer, 30 September 2026",
       "sourceUrl": "https://psa.gov.ph/statistics/price-situationer/selected-agri-commodities/node/1684084237"
     },

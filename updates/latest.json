@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
   "appMinVersion": "2.0.0",
-  "bankVersion": "2.3.0",
-  "bankUrl": "../question-bank-v2.3.0.json",
-  "released": "2026-10-11",
-  "questionCount": 1020,
+  "bankVersion": "2.4.0",
+  "bankUrl": "../question-bank-v2.4.0.json",
+  "released": "2026-10-18",
+  "questionCount": 1320,
   "releaseNotes": [
-    "Added exactly 300 independent original TOS-prioritized practice questions: 50 per ALE subject.",
-    "No Sir Brian mock-derived questions were merged; Sir Brian bank and mock-focus remain separate.",
-    "All 720 previous questions, IDs and ordering preserved; visuals appear only after checking answers.",
-    "Current official PRC enhanced TOS (Resolution 04 s. 2024) checked October 11, 2026."
+    "Added exactly 300 original independent high-yield ALE practice questions: 50 in each of six subjects.",
+    "Every new item has four choices, rationale for each choice, and post-answer visualSpec; questions remain text-only until checked.",
+    "All 1,020 previous questions, IDs, ordering and existing progress compatibility preserved.",
+    "Refreshed Current Agriculture Trends with PSA October 2026 national retail price situationer and DA updates; no separate mock-review content changed."
   ],
   "verifiedAgainst": [
-    "PRC Board of Agriculture Resolution No. 04 s. 2024 enhanced TOS",
-    "PRC 2026 Agriculturists Licensure Examination official schedule and October 8 additional testing-center advisory",
-    "Independent high-yield competency concepts; no Sir Brian mock-derived content"
+    "PRC Board of Agriculture Resolution No. 04 s. 2024 enhanced Tables of Specifications, checked 2026-10-18",
+    "PRC December 1–3, 2026 Agriculturists Licensure Examination schedule and October 8 additional testing-center advisory",
+    "PSA 16 October 2026 Price Situationer, first phase of October 2026",
+    "DA 12–16 October 2026 agriculture and program advisories"
   ]
 }
